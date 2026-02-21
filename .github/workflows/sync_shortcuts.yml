@@ -1,42 +1,68 @@
-          python3 -c "
-          import json, sys, re
+name: Sync iOS Shortcuts Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Fetch and Transform Data
+        run: |
+          # Download der Quelldaten
+          curl -H "User-Agent: Mozilla/5.0" -L -s https://raw.githubusercontent.com > raw_data.json
+          
+          # Start des Python-Blocks (Das '|' ist entscheidend für mehrzeiligen Code!)
+          python3 << 'EOF'
+          import json
+          import sys
+          import re
+
           try:
               with open('raw_data.json', 'r', encoding='utf-8') as f:
                   content = f.read()
               
-              # Wir suchen den ersten '[' und den letzten ']', um nur das JSON-Array zu extrahieren
+              # Extrahiere nur das JSON-Array (falls Text drumherum ist)
               match = re.search(r'\[.*\]', content, re.DOTALL)
               if not match:
-                  raise ValueError('Kein gültiges JSON-Array in der Datei gefunden.')
+                  raise ValueError("Kein JSON-Array gefunden.")
               
               data = json.loads(match.group())
-              
               transformed = []
-              for item in data:
-                  if not isinstance(item, dict): continue
-                  name = item.get('title') or item.get('name') or 'Unbekannt'
-                  url = item.get('url', '')
-                  
-                  # Wir filtern nur die echten Einstellungen-Links
-                  if 'prefs:' in url:
-                      # Vereinheitlichung auf App-prefs:
-                      final_url = url if 'App-prefs:' in url else url.replace('prefs:', 'App-prefs:')
-                      transformed.append({
-                          'name': name,
-                          'urlScheme': final_url,
-                          'category': 'System',
-                          'iconName': 'gearshape.fill',
-                          'description': f'Direktzugriff auf {name}',
-                          'keywords': [name.lower(), 'einstellungen', 'ios']
-                      })
               
-              if len(transformed) > 0:
-                  with open('ecehub_master.json', 'w', encoding='utf-8') as f:
-                      json.dump(transformed, f, indent=2, ensure_ascii=False)
-                  print(f'Erfolg: {len(transformed)} Einträge extrahiert.')
-              else:
-                  sys.exit('Keine passenden URLs gefunden.')
+              for item in data:
+                  if isinstance(item, dict):
+                      name = item.get('title') or item.get('name') or 'Unbekannt'
+                      url = item.get('url', '')
+                      if 'prefs:' in url:
+                          # Vereinheitlichung auf App-prefs:
+                          final_url = url if 'App-prefs:' in url else url.replace('prefs:', 'App-prefs:')
+                          transformed.append({
+                              "name": name,
+                              "urlScheme": final_url,
+                              "category": "System",
+                              "iconName": "gearshape.fill",
+                              "description": f"Direktzugriff auf {name}",
+                              "keywords": [name.lower(), "ios", "einstellungen"]
+                          })
+              
+              with open('ecehub_master.json', 'w', encoding='utf-8') as f:
+                  json.dump(transformed, f, indent=2, ensure_ascii=False)
+              print(f"Erfolg: {len(transformed)} Einträge gespeichert.")
+
           except Exception as e:
-              print(f'Fehler: {e}')
+              print(f"Fehler: {e}")
               sys.exit(1)
-          "
+          EOF
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'ECEHub-Bot'
+          git config --global user.email 'bot@ecehub.app'
+          git add ecehub_master.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-Update iOS Data" && git push)
