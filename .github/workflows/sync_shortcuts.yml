@@ -3,64 +3,65 @@ name: Sync iOS Shortcuts Data
 on:
   schedule:
     - cron: '0 0 * * 0' # Läuft jeden Sonntag um 00:00 Uhr
-  workflow_dispatch: # Erlaubt manuelles Starten zum Testen
+  workflow_dispatch: # Erlaubt manuelles Starten zum Testen (Button in GitHub Actions)
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-            - name: Fetch and Transform Data
+      - name: Checkout ECEHub Repo
+        uses: actions/checkout@v3
+
+      - name: Fetch and Transform Data
         run: |
-          # Download der Rohdaten
+          # 1. Daten von der Quelle laden (Wesley de Groot)
           curl -s https://raw.githubusercontent.com > raw_data.json
           
+          # 2. Python-Skript zur Transformation
           python3 -c "
           import json, os
           try:
+              # Datei laden
               with open('raw_data.json', 'r', encoding='utf-8') as f:
-                  content = f.read()
-                  if not content:
-                      raise ValueError('Die heruntergeladene Datei ist leer.')
-                  data = json.loads(content)
+                  raw_json = json.load(f)
               
-              # Falls Wesley ein Dictionary mit einem Key wie 'settings' nutzt:
-              if isinstance(data, dict):
-                  # Wir suchen nach der Liste im Dictionary, falls vorhanden
-                  data = data.get('settings', list(data.values())[0] if data.values() else [])
+              # Falls die Quelle ein Dictionary ist, die Liste extrahieren
+              items = raw_json if isinstance(raw_json, list) else raw_json.get('settings', [])
               
               transformed = []
-              for item in data:
-                  if not isinstance(item, dict): continue
-                  
+              for item in items:
                   name = item.get('title') or item.get('name') or 'Unbekannt'
                   url = item.get('url') or ''
                   
-                  # Wir nehmen nur valide iOS-Pfade
+                  # Nur valide iOS-Pfade verarbeiten
                   if url.startswith('App-prefs:') or url.startswith('prefs:'):
+                      # Wir vereinheitlichen alle auf App-prefs: für die App
+                      final_url = url if url.startswith('App-prefs:') else url.replace('prefs:', 'App-prefs:')
+                      
                       transformed.append({
                           'name': name,
-                          'urlScheme': url.replace('prefs:', 'App-prefs:'), # Vereinheitlichen
                           'category': 'System',
                           'iconName': 'gearshape.fill',
                           'description': f'Direktzugriff auf {name}',
-                          'keywords': [name.lower(), 'einstellungen', 'setup']
+                          'urlScheme': final_url,
+                          'keywords': [name.lower(), 'einstellungen', 'ios']
                       })
               
-              if not transformed:
-                  print('Warnung: Keine passenden Shortcuts gefunden.')
-              
+              # Ergebnis speichern
               with open('ecehub_master.json', 'w', encoding='utf-8') as f:
                   json.dump(transformed, f, indent=2, ensure_ascii=False)
-              print(f'Erfolg: {len(transformed)} Shortcuts verarbeitet.')
+              
+              print(f'Erfolg: {len(transformed)} Shortcuts in ecehub_master.json gespeichert.')
               
           except Exception as e:
-              print(f'KRITISCHER FEHLER: {e}')
+              print(f'Fehler bei der Verarbeitung: {e}')
               exit(1)
           "
+
       - name: Commit and Push changes
         run: |
           git config --global user.name 'ECEHub-Bot'
           git config --global user.email 'bot@ecehub.app'
+          # Prüfen, ob sich überhaupt etwas geändert hat, um leere Commits zu vermeiden
           git add ecehub_master.json
-          git commit -m "Automatisches Update der iOS-Pfade" || exit 0
-          git push
+          git diff --quiet && git diff --staged --quiet || (git commit -m \"Automatisches Update der iOS-Pfade\" && git push)
