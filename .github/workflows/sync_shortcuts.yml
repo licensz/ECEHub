@@ -2,66 +2,58 @@ name: Sync iOS Shortcuts Data
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Läuft jeden Sonntag um 00:00 Uhr
-  workflow_dispatch: # Erlaubt manuelles Starten zum Testen (Button in GitHub Actions)
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout ECEHub Repo
+      - name: Checkout Repo
         uses: actions/checkout@v3
 
       - name: Fetch and Transform Data
         run: |
-          # 1. Daten von der Quelle laden (Wesley de Groot)
-          curl -s https://raw.githubusercontent.com > raw_data.json
+          # Download mit Fehlerprüfung
+          curl -f -s https://raw.githubusercontent.com > raw_data.json || exit 1
           
-          # 2. Python-Skript zur Transformation
           python3 -c "
-          import json, os
+          import json, sys
           try:
-              # Datei laden
               with open('raw_data.json', 'r', encoding='utf-8') as f:
-                  raw_json = json.load(f)
+                  data = json.load(f)
               
-              # Falls die Quelle ein Dictionary ist, die Liste extrahieren
-              items = raw_json if isinstance(raw_json, list) else raw_json.get('settings', [])
+              # Falls die Daten in einem 'settings' Key verschachtelt sind
+              items = data if isinstance(data, list) else data.get('settings', [])
               
               transformed = []
               for item in items:
+                  if not isinstance(item, dict): continue
                   name = item.get('title') or item.get('name') or 'Unbekannt'
-                  url = item.get('url') or ''
+                  url = item.get('url', '')
                   
-                  # Nur valide iOS-Pfade verarbeiten
                   if url.startswith('App-prefs:') or url.startswith('prefs:'):
-                      # Wir vereinheitlichen alle auf App-prefs: für die App
                       final_url = url if url.startswith('App-prefs:') else url.replace('prefs:', 'App-prefs:')
-                      
                       transformed.append({
                           'name': name,
+                          'urlScheme': final_url,
                           'category': 'System',
                           'iconName': 'gearshape.fill',
                           'description': f'Direktzugriff auf {name}',
-                          'urlScheme': final_url,
-                          'keywords': [name.lower(), 'einstellungen', 'ios']
+                          'keywords': [name.lower(), 'ios', 'einstellungen']
                       })
               
-              # Ergebnis speichern
               with open('ecehub_master.json', 'w', encoding='utf-8') as f:
                   json.dump(transformed, f, indent=2, ensure_ascii=False)
-              
-              print(f'Erfolg: {len(transformed)} Shortcuts in ecehub_master.json gespeichert.')
-              
+              print(f'Erfolg: {len(transformed)} Einträge gespeichert.')
           except Exception as e:
-              print(f'Fehler bei der Verarbeitung: {e}')
-              exit(1)
+              print(f'Fehler: {e}')
+              sys.exit(1)
           "
 
-      - name: Commit and Push changes
+      - name: Commit and Push
         run: |
           git config --global user.name 'ECEHub-Bot'
           git config --global user.email 'bot@ecehub.app'
-          # Prüfen, ob sich überhaupt etwas geändert hat, um leere Commits zu vermeiden
           git add ecehub_master.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m \"Automatisches Update der iOS-Pfade\" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m \"Update iOS Data\" && git push)
