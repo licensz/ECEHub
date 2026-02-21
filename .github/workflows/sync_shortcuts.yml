@@ -20,51 +20,63 @@ jobs:
           python3 << 'EOF'
           import json
           import sys
-          import re
 
-          try:
-              with open('raw_data.json', 'r', encoding='utf-8') as f:
-                  content = f.read().strip()
-              
-              # TRICK: Wir suchen den Index der ERSTEN '[' und der LETZTEN ']'
-              start_index = content.find('[')
-              end_index = content.rfind(']')
-              
-              if start_index == -1 or end_index == -1:
-                  raise ValueError("Kein JSON-Array (Klammern [ ]) in der Datei gefunden.")
-              
-              # Wir schneiden ALLES vor dem ersten [ und nach dem letzten ] weg
-              clean_json_str = content[start_index:end_index+1]
-              
-              # Jetzt laden wir das bereinigte JSON
-              data = json.loads(clean_json_str)
-              
+          def extract_first_json_array():
+              try:
+                  with open('raw_data.json', 'r', encoding='utf-8') as f:
+                      content = f.read().strip()
+                  
+                  # Wir finden den Anfang des ersten Arrays
+                  start = content.find('[')
+                  if start == -1:
+                      raise ValueError("Kein '[' gefunden.")
+                  
+                  # Wir tasten uns Klammer für Klammer vor, bis das erste Array schließt
+                  count = 0
+                  end = -1
+                  for i in range(start, len(content)):
+                      if content[i] == '[':
+                          count += 1
+                      elif content[i] == ']':
+                          count -= 1
+                          if count == 0:
+                              end = i + 1
+                              break
+                  
+                  if end == -1:
+                      raise ValueError("Kein schließendes ']' gefunden.")
+                  
+                  # Nur diesen exakten Teil extrahieren
+                  clean_json = content[start:end]
+                  return json.loads(clean_json)
+              except Exception as e:
+                  print(f"Detail-Fehler: {e}")
+                  return None
+
+          data = extract_first_json_array()
+
+          if data and isinstance(data, list):
               transformed = []
-              if isinstance(data, list):
-                  for item in data:
-                      if isinstance(item, dict):
-                          name = item.get('title') or item.get('name') or 'Unbekannt'
-                          url = item.get('url', '')
-                          if 'prefs:' in url:
-                              # Vereinheitlichung auf App-prefs:
-                              final_url = url if 'App-prefs:' in url else url.replace('prefs:', 'App-prefs:')
-                              transformed.append({
-                                  "name": name,
-                                  "urlScheme": final_url,
-                                  "category": "System",
-                                  "iconName": "gearshape.fill",
-                                  "description": f"Direktzugriff auf {name}",
-                                  "keywords": [name.lower(), "ios", "einstellungen"]
-                              })
+              for item in data:
+                  if isinstance(item, dict):
+                      name = item.get('title') or item.get('name') or 'Unbekannt'
+                      url = item.get('url', '')
+                      if 'prefs:' in url:
+                          final_url = url if 'App-prefs:' in url else url.replace('prefs:', 'App-prefs:')
+                          transformed.append({
+                              "name": name,
+                              "urlScheme": final_url,
+                              "category": "System",
+                              "iconName": "gearshape.fill",
+                              "description": f"Direktzugriff auf {name}",
+                              "keywords": [name.lower(), "ios", "einstellungen"]
+                          })
               
-              # Speichern der bereinigten Datei
               with open('ecehub_master.json', 'w', encoding='utf-8') as f:
                   json.dump(transformed, f, indent=2, ensure_ascii=False)
-              
-              print(f"ERFOLG: {len(transformed)} Einträge in ecehub_master.json gespeichert.")
-
-          except Exception as e:
-              print(f"FEHLER BEIM PARSING: {e}")
+              print(f"ERFOLG: {len(transformed)} Einträge gespeichert.")
+          else:
+              print("FEHLER: Konnte kein valides Array extrahieren.")
               sys.exit(1)
           EOF
 
@@ -73,5 +85,4 @@ jobs:
           git config --global user.name 'ECEHub-Bot'
           git config --global user.email 'bot@ecehub.app'
           git add ecehub_master.json
-          # Nur pushen, wenn sich wirklich etwas geändert hat
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-Update iOS Data" && git push)
