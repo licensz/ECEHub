@@ -1,0 +1,55 @@
+name: Sync iOS Shortcuts Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Läuft jeden Sonntag um 00:00 Uhr
+  workflow_dispatch: # Erlaubt manuelles Starten zum Testen
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ECEHub Repo
+        uses: actions/checkout@v3
+
+      - name: Fetch and Transform Data
+        run: |
+          # Wir laden die aktuelle Liste von Wesley de Groot
+          curl -s https://raw.githubusercontent.com > raw_data.json
+          
+          # Hier nutzen wir ein kleines Python-Skript (Inline), um die Daten zu transformieren
+          python3 -c "
+          import json
+          try:
+              with open('raw_data.json', 'r') as f:
+                  data = json.load(f)
+              
+              transformed = []
+              # Wir filtern nur die wichtigsten Felder für ECEHub
+              for item in data:
+                  name = item.get('title', 'Unbekannt')
+                  url = item.get('url', '')
+                  # Nur Pfade nehmen, die mit App-prefs beginnen
+                  if url.startswith('App-prefs:'):
+                      transformed.append({
+                          'name': name,
+                          'urlScheme': url,
+                          'category': 'System',
+                          'iconName': 'gear', # Standard-Icon, KI kann das später verfeinern
+                          'description': f'Direktzugriff auf {name}',
+                          'keywords': [name.lower()]
+                      })
+              
+              with open('ecehub_master.json', 'w') as f:
+                  json.dump(transformed, f, indent=2, ensure-ascii=False)
+          except Exception as e:
+              print(f'Fehler: {e}')
+          "
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'ECEHub-Bot'
+          git config --global user.email 'bot@ecehub.app'
+          git add ecehub_master.json
+          git commit -m "Automatisches Update der iOS-Pfade" || exit 0
+          git push
