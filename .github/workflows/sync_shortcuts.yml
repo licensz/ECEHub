@@ -17,7 +17,6 @@ jobs:
           # Download der Quelldaten
           curl -H "User-Agent: Mozilla/5.0" -L -s https://raw.githubusercontent.com > raw_data.json
           
-          # Start des Python-Blocks (Das '|' ist entscheidend für mehrzeiligen Code!)
           python3 << 'EOF'
           import json
           import sys
@@ -27,20 +26,28 @@ jobs:
               with open('raw_data.json', 'r', encoding='utf-8') as f:
                   content = f.read()
               
-              # Extrahiere nur das JSON-Array (falls Text drumherum ist)
-              match = re.search(r'\[.*\]', content, re.DOTALL)
+              # Wir suchen den Text zwischen dem ERSTEN '[' und dem LETZTEN ']'
+              # Dies ignoriert "Extra Data" vor oder nach dem Array
+              match = re.search(r'(\[.*\])', content, re.DOTALL)
               if not match:
-                  raise ValueError("Kein JSON-Array gefunden.")
+                  raise ValueError("Kein gültiges JSON-Array gefunden.")
               
-              data = json.loads(match.group())
+              clean_json = match.group(1)
+              
+              # Falls immer noch 'Extra Data' Fehler kommen, nehmen wir nur bis zum ersten passenden Abschluss
+              # Wir versuchen das JSON zu laden
+              try:
+                  data = json.loads(clean_json)
+              except json.JSONDecodeError:
+                  # Plan B: Wir versuchen das Array manuell zu reparieren, falls am Ende Müll steht
+                  data = json.loads(clean_json[:clean_json.rfind(']')+1])
+              
               transformed = []
-              
               for item in data:
                   if isinstance(item, dict):
                       name = item.get('title') or item.get('name') or 'Unbekannt'
                       url = item.get('url', '')
                       if 'prefs:' in url:
-                          # Vereinheitlichung auf App-prefs:
                           final_url = url if 'App-prefs:' in url else url.replace('prefs:', 'App-prefs:')
                           transformed.append({
                               "name": name,
