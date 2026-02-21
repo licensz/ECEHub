@@ -14,21 +14,26 @@ jobs:
 
       - name: Fetch and Transform Data
         run: |
-          # Download mit Fehlerprüfung
-          curl -f -s https://raw.githubusercontent.com > raw_data.json || exit 1
+          # 1. Download mit User-Agent (verhindert Blockaden durch GitHub)
+          curl -H "User-Agent: Mozilla/5.0" -L -s https://raw.githubusercontent.com > raw_data.json
           
+          # 2. Prüfen ob Datei existiert und nicht leer ist
+          if [ ! -s raw_data.json ]; then
+            echo "Fehler: Download fehlgeschlagen oder Datei leer."
+            exit 1
+          fi
+
           python3 -c "
           import json, sys
           try:
               with open('raw_data.json', 'r', encoding='utf-8') as f:
                   data = json.load(f)
               
-              # Falls die Daten in einem 'settings' Key verschachtelt sind
+              # Wesley nutzt oft ein Dictionary mit 'settings' Key
               items = data if isinstance(data, list) else data.get('settings', [])
               
               transformed = []
               for item in items:
-                  if not isinstance(item, dict): continue
                   name = item.get('title') or item.get('name') or 'Unbekannt'
                   url = item.get('url', '')
                   
@@ -43,11 +48,16 @@ jobs:
                           'keywords': [name.lower(), 'ios', 'einstellungen']
                       })
               
-              with open('ecehub_master.json', 'w', encoding='utf-8') as f:
-                  json.dump(transformed, f, indent=2, ensure_ascii=False)
-              print(f'Erfolg: {len(transformed)} Einträge gespeichert.')
+              # Nur speichern, wenn wir wirklich Daten haben
+              if len(transformed) > 0:
+                  with open('ecehub_master.json', 'w', encoding='utf-8') as f:
+                      json.dump(transformed, f, indent=2, ensure_ascii=False)
+                  print(f'Erfolg: {len(transformed)} Einträge gespeichert.')
+              else:
+                  print('Fehler: Keine passenden URLs gefunden.')
+                  sys.exit(1)
           except Exception as e:
-              print(f'Fehler: {e}')
+              print(f'Python-Fehler: {e}')
               sys.exit(1)
           "
 
@@ -56,4 +66,4 @@ jobs:
           git config --global user.name 'ECEHub-Bot'
           git config --global user.email 'bot@ecehub.app'
           git add ecehub_master.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m \"Update iOS Data\" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m \"Auto-Update iOS Data\" && git push)
