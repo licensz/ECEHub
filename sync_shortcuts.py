@@ -1,61 +1,59 @@
 import json
 import requests
-import os
+import sys
 
-# Die Quelle von Wesley de Groot (JSON-Format)
-SOURCE_URL = "https://raw.githubusercontent.com"
+# Wir probieren nacheinander zwei verschiedene Quellen, falls eine offline ist
+SOURCES = [
+    "https://raw.githubusercontent.com",
+    "https://raw.githubusercontent.com"
+]
 
-def transform_data():
-    try:
-        response = requests.get(SOURCE_URL)
-        response.raise_for_status()
-        raw_data = response.json()
-        
-        transformed = []
-        
-        # Rekursive Funktion, um durch die verschachtelte Struktur zu wandern
-        def parse_item(name, value, category="Allgemein"):
-            if isinstance(value, str):
-                # Wir nehmen nur funktionierende Pfade (prefs: oder App-prefs:)
-                if "prefs:" in value:
+def transform():
+    raw_data = None
+    for url in SOURCES:
+        try:
+            print(f"Versuche Quelle: {url}")
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            raw_data = response.json()
+            print("Quelle erfolgreich geladen.")
+            break 
+        except Exception as e:
+            print(f"Fehler bei dieser Quelle: {e}")
+
+    if not raw_data:
+        print("KRITISCH: Keine Datenquelle erreichbar oder kein JSON.")
+        sys.exit(1)
+
+    transformed = []
+
+    def walk(data, category="System"):
+        if isinstance(data, dict):
+            for key, value in data.items():
+                if isinstance(value, str) and "prefs:" in value:
                     transformed.append({
-                        "name": name,
+                        "name": key,
                         "category": category,
-                        "iconName": get_icon(name, category),
-                        "description": f"Direktzugriff auf {name}",
+                        "iconName": "gearshape.fill",
+                        "description": f"Direktzugriff auf {key}",
                         "urlScheme": value.replace("prefs:", "App-prefs:"),
-                        "keywords": [name.lower(), category.lower(), "ios", "settings"]
+                        "keywords": [key.lower(), category.lower(), "ios"]
                     })
-            elif isinstance(value, dict):
-                # Wenn es ein Untermenü ist, tiefer graben
-                new_cat = name if name != "(root)" else category
-                for sub_name, sub_value in value.items():
-                    parse_item(sub_name, sub_value, new_cat)
+                else:
+                    walk(value, category=key)
+        elif isinstance(data, list):
+            for item in data:
+                walk(item, category)
 
-        for key, val in raw_data.items():
-            parse_item(key, val)
+    walk(raw_data)
 
-        # Ergebnis speichern
+    if transformed:
         with open('ecehub_master.json', 'w', encoding='utf-8') as f:
             json.dump(transformed, f, indent=2, ensure_ascii=False)
-        
-        print(f"Erfolg: {len(transformed)} Einträge synchronisiert.")
-
-    except Exception as e:
-        print(f"Fehler: {e}")
-        exit(1)
-
-def get_icon(name, category):
-    # Logik für automatische Icon-Zuweisung (SF Symbols)
-    mapping = {
-        "Batterie": "battery.100",
-        "WLAN": "wifi",
-        "Bluetooth": "bolt.horizontal.fill",
-        "Hintergrundgeräusche": "ear.and.waveform",
-        "Display": "sun.max",
-        "Audio": "speaker.wave.2"
-    }
-    return mapping.get(name, mapping.get(category, "gearshape.fill"))
+        print(f"ERFOLG: {len(transformed)} Shortcuts gespeichert.")
+    else:
+        print("Fehler: Keine Shortcuts extrahiert.")
+        sys.exit(1)
 
 if __name__ == "__main__":
-    transform_data()
+    transform()
