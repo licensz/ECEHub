@@ -165,68 +165,68 @@
     ]
   },
   {
-    "name": "Keyboards Übersicht",
-    "category": "Keyboards",
+    "name": "Tastatur Übersicht",
+    "category": "Tastatur",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf Keyboards Übersicht",
+    "description": "Direktzugriff auf Tastatur Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS",
     "keywords": [
-      "keyboards übersicht",
-      "keyboards"
+      "tastatur übersicht",
+      "tastatur"
     ]
   },
   {
     "name": "Full Keyboard Access",
-    "category": "Keyboards",
+    "category": "Tastatur",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Full Keyboard Access",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/Full%20Keyboard%20Access",
     "keywords": [
       "full keyboard access",
-      "keyboards"
+      "tastatur"
     ]
   },
   {
     "name": "Key Repeat",
-    "category": "Keyboards",
+    "category": "Tastatur",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Key Repeat",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT",
     "keywords": [
       "key repeat",
-      "keyboards"
+      "tastatur"
     ]
   },
   {
     "name": "Slow Keys",
-    "category": "Keyboards",
+    "category": "Tastatur",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Slow Keys",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS",
     "keywords": [
       "slow keys",
-      "keyboards"
+      "tastatur"
     ]
   },
   {
     "name": "Sticky Keys",
-    "category": "Keyboards",
+    "category": "Tastatur",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Sticky Keys",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS",
     "keywords": [
       "sticky keys",
-      "keyboards"
+      "tastatur"
     ]
   },
   {
-    "name": "Lupe",
+    "name": "Magnifier",
     "category": "Bedienungshilfen",
     "iconName": "accessibility",
-    "description": "Direktzugriff auf Lupe",
+    "description": "Direktzugriff auf Magnifier",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=MAGNIFIER_TITLE",
     "keywords": [
-      "lupe",
+      "magnifier",
       "bedienungshilfen"
     ]
   },
@@ -616,14 +616,14 @@
     ]
   },
   {
-    "name": "Tippen & Berühren Übersicht",
-    "category": "Tippen & Berühren",
+    "name": "Touch Übersicht",
+    "category": "Touch",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf Tippen & Berühren Übersicht",
+    "description": "Direktzugriff auf Touch Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
     "keywords": [
-      "tippen & berühren übersicht",
-      "tippen & berühren"
+      "touch übersicht",
+      "touch"
     ]
   },
   {
@@ -760,13 +760,13 @@
   },
   {
     "name": "Back Tap",
-    "category": "Tippen & Berühren",
+    "category": "Touch",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Back Tap",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Back%20Tap",
     "keywords": [
       "back tap",
-      "tippen & berühren"
+      "touch"
     ]
   },
   {
@@ -793,24 +793,24 @@
   },
   {
     "name": "Force/Haptic Touch",
-    "category": "Tippen & Berühren",
+    "category": "Touch",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Force/Haptic Touch",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch",
     "keywords": [
       "force/haptic touch",
-      "tippen & berühren"
+      "touch"
     ]
   },
   {
     "name": "Touch Accommodations",
-    "category": "Tippen & Berühren",
+    "category": "Touch",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Touch Accommodations",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Touch%20Accommodations",
     "keywords": [
       "touch accommodations",
-      "tippen & berühren"
+      "touch"
     ]
   },
   {
@@ -1320,13 +1320,13 @@
     ]
   },
   {
-    "name": "Battery Health",
+    "name": "Batteriezustand",
     "category": "Batterie",
     "iconName": "battery.100",
-    "description": "Direktzugriff auf Battery Health",
+    "description": "Direktzugriff auf Batteriezustand",
     "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
     "keywords": [
-      "battery health",
+      "batteriezustand",
       "batterie"
     ]
   },
@@ -2167,58 +2167,58 @@
     ]
   },
   {
-    "name": "Tastatur Übersicht",
-    "category": "Tastatur",
+    "name": "Keyboard Übersicht",
+    "category": "Keyboard",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf Tastatur Übersicht",
+    "description": "Direktzugriff auf Keyboard Übersicht",
     "urlScheme": "App-prefs:root=General&path=Keyboard",
     "keywords": [
-      "tastatur übersicht",
-      "tastatur"
+      "keyboard übersicht",
+      "keyboard"
     ]
   },
   {
     "name": "Hardware Keyboard",
-    "category": "Tastatur",
+    "category": "Keyboard",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Hardware Keyboard",
     "urlScheme": "App-prefs:root=General&path=Keyboard/Hardware%20Keyboard",
     "keywords": [
       "hardware keyboard",
-      "tastatur"
+      "keyboard"
     ]
   },
   {
-    "name": "Keyboards",
-    "category": "Tastatur",
+    "name": "Tastatur",
+    "category": "Keyboard",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf Keyboards",
-    "urlScheme": "App-prefs:root=General&path=Keyboard/KEYBOARDS",
+    "description": "Direktzugriff auf Tastatur",
+    "urlScheme": "App-prefs:root=General&path=Keyboard",
     "keywords": [
-      "keyboards",
-      "tastatur"
+      "tastatur",
+      "keyboard"
     ]
   },
   {
     "name": "One Handed Keyboard",
-    "category": "Tastatur",
+    "category": "Keyboard",
     "iconName": "gearshape",
     "description": "Direktzugriff auf One Handed Keyboard",
     "urlScheme": "App-prefs:root=General&path=Keyboard/ReachableKeyboard",
     "keywords": [
       "one handed keyboard",
-      "tastatur"
+      "keyboard"
     ]
   },
   {
     "name": "Text Replacement",
-    "category": "Tastatur",
+    "category": "Keyboard",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Text Replacement",
     "urlScheme": "App-prefs:root=General&path=Keyboard/USER_DICTIONARY",
     "keywords": [
       "text replacement",
-      "tastatur"
+      "keyboard"
     ]
   },
   {
@@ -2398,25 +2398,25 @@
     ]
   },
   {
-    "name": "Gesundheit Übersicht",
-    "category": "Gesundheit",
+    "name": "Health Übersicht",
+    "category": "Health",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf Gesundheit Übersicht",
+    "description": "Direktzugriff auf Health Übersicht",
     "urlScheme": "App-prefs:root=HEALTH",
     "keywords": [
-      "gesundheit übersicht",
-      "gesundheit"
+      "health übersicht",
+      "health"
     ]
   },
   {
     "name": "Siri & Suche",
-    "category": "Gesundheit",
+    "category": "Health",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=HEALTH&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "gesundheit"
+      "health"
     ]
   },
   {
@@ -3344,13 +3344,13 @@
     ]
   },
   {
-    "name": "Gesundheit",
+    "name": "Health",
     "category": "Datenschutz & Sicherheit",
     "iconName": "hand.raised.fill",
-    "description": "Direktzugriff auf Gesundheit",
+    "description": "Direktzugriff auf Health",
     "urlScheme": "App-prefs:root=Privacy&path=HEALTH",
     "keywords": [
-      "gesundheit",
+      "health",
       "datenschutz & sicherheit"
     ]
   },
