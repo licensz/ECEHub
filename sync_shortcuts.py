@@ -6,7 +6,7 @@ def transform():
     # 1. Pfad zur Datei im "ausgeliehenen" Fifi-Ordner
     path = "fifi_repo/settings-urls-sorted.json"
     
-    # Mapping für die automatische Übersetzung der Kategorien und Namen
+    # Mapping für die automatische Übersetzung (Deutsch-Korrektur)
     translations = {
         "Accessibility": "Bedienungshilfen",
         "Battery": "Batterie",
@@ -21,7 +21,9 @@ def transform():
         "Siri & Search": "Siri & Suche",
         "Emergency SOS": "Notruf SOS",
         "App Store": "App Store",
-        "Wallet & Apple Pay": "Wallet & Apple Pay"
+        "Wallet & Apple Pay": "Wallet & Apple Pay",
+        "Background Sounds": "Hintergrundgeräusche",
+        "Audio/Visual": "Audio & Visuell"
     }
 
     if not os.path.exists(path):
@@ -42,23 +44,31 @@ def transform():
     def walk(data, category="System"):
         if isinstance(data, dict):
             for key, value in data.items():
-                if isinstance(value, str) and "prefs:" in value:
-                    # Übersetzung anwenden oder Original behalten
-                    display_name = translations.get(key, key)
-                    display_cat = translations.get(category, category)
-                    
-                    # Wichtig für iOS 18: Wir erzwingen 'App-prefs:'
-                    clean_url = value.replace("prefs:", "App-prefs:")
-                    
-                    transformed.append({
-                        "name": display_name,
-                        "category": display_cat,
-                        "iconName": get_icon(display_cat),
-                        "description": f"Direktzugriff auf {display_name}",
-                        "urlScheme": clean_url,
-                        "keywords": [display_name.lower(), display_cat.lower(), "einstellungen"]
-                    })
+                # Übersetzte Kategorie bestimmen
+                current_cat = translations.get(category, category)
+                
+                if isinstance(value, str):
+                    if "prefs:" in value:
+                        # FALLUNTERSCHEIDUNG FÜR (root)
+                        # Wenn der Name (key) "(root)" ist, nutzen wir den Kategorienamen + "Übersicht"
+                        if key == "(root)":
+                            display_name = f"{current_cat} Übersicht"
+                        else:
+                            display_name = translations.get(key, key)
+                        
+                        # Wichtig für iOS 18: Wir erzwingen 'App-prefs:'
+                        clean_url = value.replace("prefs:", "App-prefs:")
+                        
+                        transformed.append({
+                            "name": display_name,
+                            "category": current_cat,
+                            "iconName": get_icon(current_cat),
+                            "description": f"Direktzugriff auf {display_name}",
+                            "urlScheme": clean_url,
+                            "keywords": [display_name.lower(), current_cat.lower(), "einstellungen"]
+                        })
                 else:
+                    # Es ist ein Untermenü, wir gehen tiefer
                     walk(value, category=key)
 
     def get_icon(cat):
@@ -68,7 +78,10 @@ def transform():
             "Anzeige & Helligkeit": "sun.max.fill",
             "Allgemein": "gearshape.fill",
             "Datenschutz & Sicherheit": "hand.raised.fill",
-            "Töne & Haptik": "speaker.wave.3.fill"
+            "Töne & Haptik": "speaker.wave.3.fill",
+            "Fokus": "moon.fill",
+            "Bildschirmzeit": "hourglass",
+            "Siri & Suche": "waveform.and.mic"
         }
         return icons.get(cat, "gearshape")
 
