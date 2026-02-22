@@ -5,7 +5,7 @@ import sys
 def transform():
     path = "fifi_repo/settings-urls-sorted.json"
     
-    # 1. VERIFIZIERTE IOS 18 PFADE (PascalCase Korrektur)
+    # VERIFIZIERTE IOS 18 PFADE (PascalCase Korrektur)
     ios18_fixes = {
         "Background Sounds": "Accessibility&path=AudioVisual/BackgroundSounds",
         "Battery Health": "Battery&path=BATTERY_HEALTH",
@@ -37,14 +37,15 @@ def transform():
                     if display_name == "(root)": display_name = f"{display_cat} Übersicht"
                     
                     # PFAD-LOGIK: Wir korrigieren GROSSBUCHSTABEN zu PascalCase
+                    url = value.replace("prefs:", "App-prefs:")
+                    
                     if key in ios18_fixes:
                         url = f"App-prefs:root={ios18_fixes[key]}"
                     else:
-                        url = value.replace("prefs:", "App-prefs:")
                         # WICHTIG: Korrektur der Hauptkategorien für iOS 18
                         url = url.replace("root=ACCESSIBILITY", "root=Accessibility")
                         url = url.replace("root=DISPLAY", "root=Display")
-                        url = url.replace("root=WIFI", "root=WIFI") # WIFI bleibt oft groß
+                        url = url.replace("root=BATTERY_USAGE", "root=Battery")
                     
                     if url in seen_urls: continue
                     seen_urls.add(url)
