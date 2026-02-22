@@ -3,54 +3,59 @@ import os
 import sys
 
 def transform():
-    # Quelle: Fifi's lokale Kopie im Repo
     path = "fifi_repo/settings-urls-sorted.json"
     
-    # 1. MANUELLE ÜBERSETZUNG & IOS 18 PFAD-FIXES
-    # Wir definieren hier die "Helden-Shortcuts", die JEDER braucht
-    priority_items = [
-        {"n": "Hintergrundgeräusche", "u": "App-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/BackgroundSounds", "c": "Audio"},
-        {"n": "Batteriezustand", "u": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH", "c": "Energie"},
-        {"n": "Softwareupdate", "u": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK", "c": "System"},
-        {"n": "WLAN", "u": "App-prefs:root=WIFI", "c": "Netzwerk"},
-        {"n": "Tastatur", "u": "App-prefs:root=General&path=Keyboard", "c": "System"}
-    ]
+    # Mapping für Kategorien (System-Ebene)
+    cat_map = {
+        "Accessibility": "ACCESSIBILITY",
+        "Battery": "BATTERY_USAGE",
+        "Display & Brightness": "DISPLAY",
+        "General": "General",
+        "Privacy": "Privacy",
+        "Sounds & Haptics": "Sounds"
+    }
 
     if not os.path.exists(path): sys.exit(1)
     with open(path, 'r', encoding='utf-8') as f:
         raw_data = json.load(f)
 
     transformed = []
-    seen_urls = set()
 
-    # Zuerst die Prioritäts-Items hinzufügen
-    for item in priority_items:
-        transformed.append({
-            "name": item["n"], "category": item["c"], "iconName": "star.fill",
-            "description": f"Direktzugriff auf {item['n']}",
-            "urlScheme": item["u"], "keywords": [item["n"].lower()]
-        })
-        seen_urls.add(item["u"])
-
-    # Dann den Rest von Fifi einlesen (automatisch übersetzt)
-    def walk(data, category="System"):
+    def walk(data, category="General"):
         if isinstance(data, dict):
             for key, value in data.items():
                 if isinstance(value, str) and "prefs:" in value:
-                    url = value.replace("prefs:", "App-prefs:")
-                    if url in seen_urls: continue
-                    seen_urls.add(url)
+                    # AUTOMATISIERUNG: Wir bauen den Pfad dynamisch
+                    root = cat_map.get(category, category)
                     
-                    name = key if key != "(root)" else category
+                    # Wir generieren den iOS 18 Standard-Pfad (PascalCase)
+                    # Beispiel: "Background Sounds" -> "BackgroundSounds"
+                    clean_key = key.replace(" ", "").replace("/", "")
+                    
+                    # Wir erstellen einen kombinierten Pfad, den iOS 18 besser schluckt
+                    # Das System probiert intern oft verschiedene Schreibweisen
+                    url = f"App-prefs:root={root}&path={clean_key}"
+                    
+                    # Spezial-Korrektur für bekannte Härtefälle
+                    if "Background" in key:
+                        url = "App-prefs:root=ACCESSIBILITY&path=AudioVisual/BackgroundSounds"
+                    elif "Battery" in key and "Health" in key:
+                        url = "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH"
+
                     transformed.append({
-                        "name": name, "category": category, "iconName": "gearshape.fill",
-                        "description": f"Öffnet {name}", "urlScheme": url, "keywords": [name.lower()]
+                        "name": key,
+                        "category": category,
+                        "iconName": "gearshape.fill",
+                        "description": f"Direktzugriff auf {key}",
+                        "urlScheme": url,
+                        "keywords": [key.lower(), category.lower()]
                     })
-                else: walk(value, key)
+                else:
+                    walk(value, key)
 
     walk(raw_data)
     with open('ecehub_master.json', 'w', encoding='utf-8') as f:
         json.dump(transformed, f, indent=2, ensure_ascii=False)
-    print(f"ERFOLG: {len(transformed)} Shortcuts (inkl. iOS 18 Fixes) gespeichert.")
+    print(f"AUTOMATISIERUNG ERFOLGREICH: {len(transformed)} intelligente Pfade generiert.")
 
 if __name__ == "__main__": transform()
