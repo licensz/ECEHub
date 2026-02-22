@@ -2189,6 +2189,17 @@
     ]
   },
   {
+    "name": "Keyboards",
+    "category": "Keyboard",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Keyboards",
+    "urlScheme": "App-prefs:root=General&path=Keyboard/KEYBOARDS",
+    "keywords": [
+      "keyboards",
+      "keyboard"
+    ]
+  },
+  {
     "name": "One Handed Keyboard",
     "category": "Keyboard",
     "iconName": "gearshape.fill",
@@ -2332,14 +2343,14 @@
     ]
   },
   {
-    "name": "VPN & Netzwerk",
-    "category": "VPN & Netzwerk",
+    "name": "VPN",
+    "category": "VPN",
     "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf VPN & Netzwerk",
+    "description": "Direktzugriff auf VPN",
     "urlScheme": "App-prefs:root=General&path=VPN",
     "keywords": [
-      "vpn & netzwerk",
-      "vpn & netzwerk"
+      "vpn",
+      "vpn"
     ]
   },
   {
@@ -2366,24 +2377,24 @@
   },
   {
     "name": "Add VPN Configuration…",
-    "category": "VPN & Netzwerk",
+    "category": "VPN",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Add VPN Configuration…",
     "urlScheme": "App-prefs:root=General&path=VPN/Add%20VPN%20Configuration%E2%80%A6",
     "keywords": [
       "add vpn configuration…",
-      "vpn & netzwerk"
+      "vpn"
     ]
   },
   {
     "name": "DNS",
-    "category": "VPN & Netzwerk",
+    "category": "VPN",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf DNS",
     "urlScheme": "App-prefs:root=General&path=VPN/DNS",
     "keywords": [
       "dns",
-      "vpn & netzwerk"
+      "vpn"
     ]
   },
   {
@@ -4114,14 +4125,14 @@
     ]
   },
   {
-    "name": "VPN & Netzwerk",
-    "category": "VPN & Netzwerk",
+    "name": "VPN",
+    "category": "VPN",
     "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf VPN & Netzwerk",
+    "description": "Direktzugriff auf VPN",
     "urlScheme": "App-prefs:root=VPN",
     "keywords": [
-      "vpn & netzwerk",
-      "vpn & netzwerk"
+      "vpn",
+      "vpn"
     ]
   },
   {
@@ -4148,13 +4159,13 @@
   },
   {
     "name": "Add VPN Configuration…",
-    "category": "VPN & Netzwerk",
+    "category": "VPN",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Add VPN Configuration…",
     "urlScheme": "App-prefs:root=VPN&path=Add%20VPN%20Configuration%E2%80%A6",
     "keywords": [
       "add vpn configuration…",
-      "vpn & netzwerk"
+      "vpn"
     ]
   },
   {
