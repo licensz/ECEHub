@@ -5,10 +5,10 @@ import sys
 def transform():
     path = "fifi_repo/settings-urls-sorted.json"
     
-    # VERIFIZIERTE IOS 18 PFADE (PascalCase Korrektur)
+    # 1. VERIFIZIERTE IOS 18 PFADE (PascalCase Korrektur)
     ios18_fixes = {
         "Background Sounds": "Accessibility&path=AudioVisual/BackgroundSounds",
-        "Battery Health": "BATTERY_USAGE&path=BATTERY_HEALTH",
+        "Battery Health": "Battery&path=BATTERY_HEALTH",
         "Keyboards": "General&path=Keyboard",
         "Software Update": "General&path=SOFTWARE_UPDATE_LINK",
         "VoiceOver": "Accessibility&path=VoiceOver"
@@ -36,14 +36,15 @@ def transform():
                     display_name = translations.get(key, key)
                     if display_name == "(root)": display_name = f"{display_cat} Übersicht"
                     
-                    # PFAD-LOGIK: Wir erzwingen PascalCase für die Hauptkategorien
+                    # PFAD-LOGIK: Wir korrigieren GROSSBUCHSTABEN zu PascalCase
                     if key in ios18_fixes:
                         url = f"App-prefs:root={ios18_fixes[key]}"
                     else:
                         url = value.replace("prefs:", "App-prefs:")
-                        # Fix: ACCESSIBILITY -> Accessibility (Wichtig für iOS 18!)
+                        # WICHTIG: Korrektur der Hauptkategorien für iOS 18
                         url = url.replace("root=ACCESSIBILITY", "root=Accessibility")
                         url = url.replace("root=DISPLAY", "root=Display")
+                        url = url.replace("root=WIFI", "root=WIFI") # WIFI bleibt oft groß
                     
                     if url in seen_urls: continue
                     seen_urls.add(url)
