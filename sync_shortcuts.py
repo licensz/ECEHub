@@ -1,52 +1,60 @@
 import json
-import sys
+import requests
 
-# Wir betten die stabilsten Pfade direkt ein, um 404-Fehler zu vermeiden
-RAW_DATA = {
-    "Bedienungshilfen": {
-        "Hintergrundgeräusche": "App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds",
-        "Hörhilfen": "App-prefs:root=Accessibility&path=HEARING_AID_TITLE",
-        "Untertitel": "App-prefs:root=Accessibility&path=SUBTITLES_CAPTIONING",
-        "Lupe": "App-prefs:root=Magnifier"
-    },
-    "Batterie": {
-        "Batteriezustand": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
-        "Stromsparmodus": "App-prefs:root=BATTERY_USAGE"
-    },
-    "Anzeige": {
-        "Helligkeit": "App-prefs:root=DISPLAY",
-        "Auto-Sperre": "App-prefs:root=DISPLAY&path=AUTOLOCK",
-        "Textgröße": "App-prefs:root=DISPLAY&path=TEXT_SIZE"
-    },
-    "System": {
-        "Softwareupdate": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
-        "Speicher": "App-prefs:root=General&path=STORAGE_MGMT",
-        "Info": "App-prefs:root=General&path=About",
-        "VPN": "App-prefs:root=General&path=VPN",
-        "WLAN": "App-prefs:root=WIFI",
-        "Bluetooth": "App-prefs:root=Bluetooth"
-    }
-}
+# Die direkte RAW-URL zur sortierten JSON von FifiTheBulldog
+FIFI_RAW_URL = "https://raw.githubusercontent.com"
 
 def transform():
-    transformed = []
-    
-    for category, items in RAW_DATA.items():
-        for name, url in items.items():
-            transformed.append({
-                "name": name,
-                "category": category,
-                "iconName": "gearshape.fill",
-                "description": f"Direktzugriff auf {name}",
-                "urlScheme": url,
-                "keywords": [name.lower(), category.lower(), "ios"]
-            })
-    
-    # Hier könntest du später weitere Pfade per Skript hinzufügen
-    with open('ecehub_master.json', 'w', encoding='utf-8') as f:
-        json.dump(transformed, f, indent=2, ensure_ascii=False)
-    
-    print(f"ERFOLG: {len(transformed)} Shortcuts in ecehub_master.json gespeichert.")
+    try:
+        response = requests.get(FIFI_RAW_URL, timeout=15)
+        response.raise_for_status()
+        raw_data = response.json()
+        
+        transformed = []
+
+        # Rekursive Funktion, um durch die Baumstruktur zu wandern
+        def walk(data, category="Allgemein"):
+            if isinstance(data, dict):
+                for key, value in data.items():
+                    # Wenn der Wert ein String ist, ist es ein Endpunkt (URL)
+                    if isinstance(value, str):
+                        if "prefs:" in value:
+                            # Vereinheitlichung für Apps (App-prefs:)
+                            clean_url = value.replace("prefs:", "App-prefs:")
+                            transformed.append({
+                                "name": key,
+                                "category": category,
+                                "iconName": get_icon_for_category(category),
+                                "description": f"iOS Menü: {key}",
+                                "urlScheme": clean_url,
+                                "keywords": [key.lower(), category.lower()]
+                            })
+                    else:
+                        # Es ist ein Unterordner, wir gehen tiefer
+                        new_cat = key if key != "(root)" else category
+                        walk(value, category=new_cat)
+
+        walk(raw_data)
+
+        with open('ecehub_master.json', 'w', encoding='utf-8') as f:
+            json.dump(transformed, f, indent=2, ensure_ascii=False)
+        
+        print(f"ERFOLG: {len(transformed)} Shortcuts aus Fifi's Liste extrahiert.")
+
+    except Exception as e:
+        print(f"Fehler: {e}")
+
+def get_icon_for_category(cat):
+    # Einfaches Mapping für SF Symbols
+    mapping = {
+        "Accessibility": "accessibility",
+        "Battery": "battery.100",
+        "Display & Brightness": "sun.max.fill",
+        "General": "gearshape.fill",
+        "Wi-Fi": "wifi",
+        "Privacy": "hand.raised.fill"
+    }
+    return mapping.get(cat, "gearshape")
 
 if __name__ == "__main__":
     transform()
