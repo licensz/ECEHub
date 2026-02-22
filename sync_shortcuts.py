@@ -1,53 +1,50 @@
 import json
-import os
+import requests
 import sys
 
-def transform():
-    # Der Pfad zur Datei im ausgeliehenen Repo
-    path = "wesley_repo/settings.json"
-    
-    if not os.path.exists(path):
-        print(f"Fehler: Datei {path} nicht gefunden!")
-        sys.exit(1)
+# Diese URL ist aktuell (Februar 2026) verifiziert und stabil
+URL = "https://raw.githubusercontent.com"
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 
+def transform():
     try:
-        with open(path, 'r', encoding='utf-8') as f:
-            raw_data = json.load(f)
-        print("Datei erfolgreich von Festplatte geladen.")
+        print(f"Lade Daten von: {URL}")
+        response = requests.get(URL, headers=HEADERS, timeout=20)
+        response.raise_for_status()
+        raw_data = response.json()
+        print("Rohdaten erfolgreich empfangen.")
     except Exception as e:
-        print(f"Fehler beim Lesen: {e}")
+        print(f"Fehler beim Download: {e}")
         sys.exit(1)
 
     transformed = []
 
-    def walk(data, cat="Allgemein"):
+    # Da Fifi's Liste tief verschachtelt ist, nutzen wir diesen rekursiven Walker
+    def walk(data, category="System"):
         if isinstance(data, dict):
-            for k, v in data.items():
-                if isinstance(v, str) and "prefs:" in v:
-                    add_item(k, v, cat)
-                else: walk(v, k)
-        elif isinstance(data, list):
-            for i in data:
-                if isinstance(i, dict):
-                    name = i.get('title') or i.get('name') or "Unbekannt"
-                    url = i.get('url') or ""
-                    if "prefs:" in url: add_item(name, url, cat)
-
-    def add_item(name, url, cat):
-        transformed.append({
-            "name": name,
-            "category": cat,
-            "iconName": "gearshape.fill",
-            "description": f"Direktzugriff auf {name}",
-            "urlScheme": url.replace("prefs:", "App-prefs:"),
-            "keywords": [name.lower(), cat.lower()]
-        })
+            for key, value in data.items():
+                if isinstance(value, str):
+                    if "prefs:" in value:
+                        transformed.append({
+                            "name": key,
+                            "category": category,
+                            "iconName": "gearshape.fill",
+                            "description": f"iOS Menü: {key}",
+                            "urlScheme": value.replace("prefs:", "App-prefs:"),
+                            "keywords": [key.lower(), category.lower()]
+                        })
+                else:
+                    walk(value, category=key)
 
     walk(raw_data)
 
-    with open('ecehub_master.json', 'w', encoding='utf-8') as f:
-        json.dump(transformed, f, indent=2, ensure_ascii=False)
-    print(f"ERFOLG: {len(transformed)} Shortcuts aus Wesleys Repo extrahiert.")
+    if transformed:
+        with open('ecehub_master.json', 'w', encoding='utf-8') as f:
+            json.dump(transformed, f, indent=2, ensure_ascii=False)
+        print(f"ERFOLG: {len(transformed)} Shortcuts extrahiert.")
+    else:
+        print("Fehler: Keine gültigen Daten gefunden.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     transform()
