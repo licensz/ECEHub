@@ -7,8 +7,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY",
     "keywords": [
       "bedienungshilfen übersicht",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -19,8 +18,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
     "keywords": [
       "accessibility shortcut",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -31,8 +29,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=Apple%20TV%20Remote",
     "keywords": [
       "apple tv remote",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -43,8 +40,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
     "keywords": [
       "audio descriptions",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -55,8 +51,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
     "keywords": [
       "audio & visuell",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -67,8 +62,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
     "keywords": [
       "display & text size übersicht",
-      "display & text size",
-      "einstellungen"
+      "display & text size"
     ]
   },
   {
@@ -79,8 +73,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
     "keywords": [
       "color filters",
-      "display & text size",
-      "einstellungen"
+      "display & text size"
     ]
   },
   {
@@ -91,8 +84,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Larger%20Text",
     "keywords": [
       "larger text",
-      "display & text size",
-      "einstellungen"
+      "display & text size"
     ]
   },
   {
@@ -103,8 +95,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
     "keywords": [
       "guided access übersicht",
-      "guided access",
-      "einstellungen"
+      "guided access"
     ]
   },
   {
@@ -115,8 +106,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime",
     "keywords": [
       "display auto-lock",
-      "guided access",
-      "einstellungen"
+      "guided access"
     ]
   },
   {
@@ -127,8 +117,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList",
     "keywords": [
       "passcode settings",
-      "guided access",
-      "einstellungen"
+      "guided access"
     ]
   },
   {
@@ -139,8 +128,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList",
     "keywords": [
       "time limits übersicht",
-      "time limits",
-      "einstellungen"
+      "time limits"
     ]
   },
   {
@@ -151,8 +139,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
     "keywords": [
       "sound",
-      "time limits",
-      "einstellungen"
+      "time limits"
     ]
   },
   {
@@ -163,8 +150,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
     "keywords": [
       "hearing devices",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -175,8 +161,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
     "keywords": [
       "home button",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -187,8 +172,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS",
     "keywords": [
       "keyboards übersicht",
-      "keyboards",
-      "einstellungen"
+      "keyboards"
     ]
   },
   {
@@ -199,8 +183,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/Full%20Keyboard%20Access",
     "keywords": [
       "full keyboard access",
-      "keyboards",
-      "einstellungen"
+      "keyboards"
     ]
   },
   {
@@ -211,8 +194,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT",
     "keywords": [
       "key repeat",
-      "keyboards",
-      "einstellungen"
+      "keyboards"
     ]
   },
   {
@@ -223,8 +205,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS",
     "keywords": [
       "slow keys",
-      "keyboards",
-      "einstellungen"
+      "keyboards"
     ]
   },
   {
@@ -235,20 +216,18 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS",
     "keywords": [
       "sticky keys",
-      "keyboards",
-      "einstellungen"
+      "keyboards"
     ]
   },
   {
-    "name": "Magnifier",
+    "name": "Lupe",
     "category": "Bedienungshilfen",
     "iconName": "accessibility",
-    "description": "Direktzugriff auf Magnifier",
+    "description": "Direktzugriff auf Lupe",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=MAGNIFIER_TITLE",
     "keywords": [
-      "magnifier",
-      "bedienungshilfen",
-      "einstellungen"
+      "lupe",
+      "bedienungshilfen"
     ]
   },
   {
@@ -259,8 +238,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
     "keywords": [
       "motion",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -271,8 +249,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=RTT",
     "keywords": [
       "rtt",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -283,8 +260,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
     "keywords": [
       "siri",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -295,8 +271,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
     "keywords": [
       "sound recognition übersicht",
-      "sound recognition",
-      "einstellungen"
+      "sound recognition"
     ]
   },
   {
@@ -307,8 +282,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds",
     "keywords": [
       "sounds",
-      "sound recognition",
-      "einstellungen"
+      "sound recognition"
     ]
   },
   {
@@ -319,8 +293,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
     "keywords": [
       "spoken content übersicht",
-      "spoken content",
-      "einstellungen"
+      "spoken content"
     ]
   },
   {
@@ -331,8 +304,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/CustomizeMouseButtons",
     "keywords": [
       "customize mouse buttons",
-      "spoken content",
-      "einstellungen"
+      "spoken content"
     ]
   },
   {
@@ -343,8 +315,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight",
     "keywords": [
       "highlight content",
-      "spoken content",
-      "einstellungen"
+      "spoken content"
     ]
   },
   {
@@ -355,8 +326,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
     "keywords": [
       "speech controller",
-      "spoken content",
-      "einstellungen"
+      "spoken content"
     ]
   },
   {
@@ -367,8 +337,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
     "keywords": [
       "typing feedback",
-      "spoken content",
-      "einstellungen"
+      "spoken content"
     ]
   },
   {
@@ -379,8 +348,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents",
     "keywords": [
       "voices",
-      "spoken content",
-      "einstellungen"
+      "spoken content"
     ]
   },
   {
@@ -391,8 +359,7 @@
     "urlScheme": "App-prefs:root=AMBIENT",
     "keywords": [
       "standby",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -403,8 +370,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
     "keywords": [
       "subtitles & captioning",
-      "bedienungshilfen",
-      "einstellungen"
+      "bedienungshilfen"
     ]
   },
   {
@@ -415,8 +381,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
     "keywords": [
       "switch control übersicht",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -427,8 +392,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Focused%20Item%20After%20Tap",
     "keywords": [
       "focused item after tap",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -439,8 +403,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Gliding%20Cursor",
     "keywords": [
       "gliding cursor",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -451,8 +414,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch",
     "keywords": [
       "head tracking",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -463,8 +425,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Hold%20Duration",
     "keywords": [
       "hold duration",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -475,8 +436,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Ignore%20Repeat",
     "keywords": [
       "ignore repeat",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -487,8 +447,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Long%20Press",
     "keywords": [
       "long press",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -499,8 +458,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier",
     "keywords": [
       "menu items übersicht",
-      "menu items",
-      "einstellungen"
+      "menu items"
     ]
   },
   {
@@ -511,8 +469,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device",
     "keywords": [
       "device",
-      "menu items",
-      "einstellungen"
+      "menu items"
     ]
   },
   {
@@ -523,8 +480,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures",
     "keywords": [
       "gestures",
-      "menu items",
-      "einstellungen"
+      "menu items"
     ]
   },
   {
@@ -535,8 +491,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Media%20Controls",
     "keywords": [
       "media controls",
-      "menu items",
-      "einstellungen"
+      "menu items"
     ]
   },
   {
@@ -547,8 +502,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings",
     "keywords": [
       "settings",
-      "menu items",
-      "einstellungen"
+      "menu items"
     ]
   },
   {
@@ -559,8 +513,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Top%20Level",
     "keywords": [
       "top level",
-      "menu items",
-      "einstellungen"
+      "menu items"
     ]
   },
   {
@@ -571,8 +524,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Move%20Repeat",
     "keywords": [
       "move repeat",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -583,8 +535,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Pause%20on%20First%20Item",
     "keywords": [
       "pause on first item",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -595,8 +546,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier",
     "keywords": [
       "saved gestures",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -607,8 +557,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Scanning%20Style",
     "keywords": [
       "scanning style",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
@@ -619,8 +568,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier",
     "keywords": [
       "speech übersicht",
-      "speech",
-      "einstellungen"
+      "speech"
     ]
   },
   {
@@ -631,8 +579,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier/VoicesIdentifier",
     "keywords": [
       "voices",
-      "speech",
-      "einstellungen"
+      "speech"
     ]
   },
   {
@@ -643,8 +590,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier",
     "keywords": [
       "switches übersicht",
-      "switches",
-      "einstellungen"
+      "switches"
     ]
   },
   {
@@ -655,8 +601,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier",
     "keywords": [
       "bluetooth devices…",
-      "switches",
-      "einstellungen"
+      "switches"
     ]
   },
   {
@@ -667,20 +612,18 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Tap%20Behavior",
     "keywords": [
       "tap behavior",
-      "switch control",
-      "einstellungen"
+      "switch control"
     ]
   },
   {
-    "name": "Touch Übersicht",
-    "category": "Touch",
+    "name": "Tippen & Berühren Übersicht",
+    "category": "Tippen & Berühren",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf Touch Übersicht",
+    "description": "Direktzugriff auf Tippen & Berühren Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
     "keywords": [
-      "touch übersicht",
-      "touch",
-      "einstellungen"
+      "tippen & berühren übersicht",
+      "tippen & berühren"
     ]
   },
   {
@@ -691,8 +634,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
     "keywords": [
       "assistivetouch übersicht",
-      "assistivetouch",
-      "einstellungen"
+      "assistivetouch"
     ]
   },
   {
@@ -703,8 +645,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
     "keywords": [
       "customize top level menu",
-      "assistivetouch",
-      "einstellungen"
+      "assistivetouch"
     ]
   },
   {
@@ -715,8 +656,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
     "keywords": [
       "devices übersicht",
-      "devices",
-      "einstellungen"
+      "devices"
     ]
   },
   {
@@ -727,8 +667,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/Bluetooth%20Devices%E2%80%A6",
     "keywords": [
       "bluetooth devices…",
-      "devices",
-      "einstellungen"
+      "devices"
     ]
   },
   {
@@ -739,8 +678,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity",
     "keywords": [
       "idle opacity",
-      "assistivetouch",
-      "einstellungen"
+      "assistivetouch"
     ]
   },
   {
@@ -751,8 +689,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys",
     "keywords": [
       "mouse keys",
-      "assistivetouch",
-      "einstellungen"
+      "assistivetouch"
     ]
   },
   {
@@ -763,8 +700,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Movement%20Tolerance",
     "keywords": [
       "movement tolerance",
-      "assistivetouch",
-      "einstellungen"
+      "assistivetouch"
     ]
   },
   {
@@ -775,8 +711,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
     "keywords": [
       "pointer style übersicht",
-      "pointer style",
-      "einstellungen"
+      "pointer style"
     ]
   },
   {
@@ -787,8 +722,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Auto-Hide",
     "keywords": [
       "auto-hide",
-      "pointer style",
-      "einstellungen"
+      "pointer style"
     ]
   },
   {
@@ -799,8 +733,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color",
     "keywords": [
       "color übersicht",
-      "color",
-      "einstellungen"
+      "color"
     ]
   },
   {
@@ -811,8 +744,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color/CustomizeMouseButtons",
     "keywords": [
       "customize mouse buttons",
-      "color",
-      "einstellungen"
+      "color"
     ]
   },
   {
@@ -823,20 +755,18 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Single-Tap",
     "keywords": [
       "single-tap",
-      "assistivetouch",
-      "einstellungen"
+      "assistivetouch"
     ]
   },
   {
     "name": "Back Tap",
-    "category": "Touch",
+    "category": "Tippen & Berühren",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Back Tap",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Back%20Tap",
     "keywords": [
       "back tap",
-      "touch",
-      "einstellungen"
+      "tippen & berühren"
     ]
   },
   {
@@ -847,8 +777,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING",
     "keywords": [
       "call audio routing übersicht",
-      "call audio routing",
-      "einstellungen"
+      "call audio routing"
     ]
   },
   {
@@ -859,32 +788,29 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer",
     "keywords": [
       "auto-answer calls",
-      "call audio routing",
-      "einstellungen"
+      "call audio routing"
     ]
   },
   {
     "name": "Force/Haptic Touch",
-    "category": "Touch",
+    "category": "Tippen & Berühren",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Force/Haptic Touch",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch",
     "keywords": [
       "force/haptic touch",
-      "touch",
-      "einstellungen"
+      "tippen & berühren"
     ]
   },
   {
     "name": "Touch Accommodations",
-    "category": "Touch",
+    "category": "Tippen & Berühren",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Touch Accommodations",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Touch%20Accommodations",
     "keywords": [
       "touch accommodations",
-      "touch",
-      "einstellungen"
+      "tippen & berühren"
     ]
   },
   {
@@ -895,8 +821,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
     "keywords": [
       "voice control übersicht",
-      "voice control",
-      "einstellungen"
+      "voice control"
     ]
   },
   {
@@ -907,8 +832,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/CUSTOMIZE_COMMANDS",
     "keywords": [
       "customize commands",
-      "voice control",
-      "einstellungen"
+      "voice control"
     ]
   },
   {
@@ -919,8 +843,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/LANGUAGE",
     "keywords": [
       "language",
-      "voice control",
-      "einstellungen"
+      "voice control"
     ]
   },
   {
@@ -931,8 +854,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY",
     "keywords": [
       "overlay",
-      "voice control",
-      "einstellungen"
+      "voice control"
     ]
   },
   {
@@ -943,8 +865,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/VOCABULARY",
     "keywords": [
       "vocabulary",
-      "voice control",
-      "einstellungen"
+      "voice control"
     ]
   },
   {
@@ -955,8 +876,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
     "keywords": [
       "voiceover übersicht",
-      "voiceover",
-      "einstellungen"
+      "voiceover"
     ]
   },
   {
@@ -967,8 +887,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES",
     "keywords": [
       "activities übersicht",
-      "activities",
-      "einstellungen"
+      "activities"
     ]
   },
   {
@@ -979,8 +898,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES/New",
     "keywords": [
       "add activity…",
-      "activities",
-      "einstellungen"
+      "activities"
     ]
   },
   {
@@ -991,8 +909,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES/Programming",
     "keywords": [
       "programming",
-      "activities",
-      "einstellungen"
+      "activities"
     ]
   },
   {
@@ -1003,8 +920,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/AUDIO_TITLE",
     "keywords": [
       "audio",
-      "voiceover",
-      "einstellungen"
+      "voiceover"
     ]
   },
   {
@@ -1015,8 +931,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE",
     "keywords": [
       "braille übersicht",
-      "braille",
-      "einstellungen"
+      "braille"
     ]
   },
   {
@@ -1027,8 +942,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleGesturesInput",
     "keywords": [
       "braille screen input",
-      "braille",
-      "einstellungen"
+      "braille"
     ]
   },
   {
@@ -1039,8 +953,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier",
     "keywords": [
       "braille tables übersicht",
-      "braille tables",
-      "einstellungen"
+      "braille tables"
     ]
   },
   {
@@ -1051,8 +964,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier/DefaultLanguage",
     "keywords": [
       "language",
-      "braille tables",
-      "einstellungen"
+      "braille tables"
     ]
   },
   {
@@ -1063,8 +975,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayInput",
     "keywords": [
       "input",
-      "braille",
-      "einstellungen"
+      "braille"
     ]
   },
   {
@@ -1075,8 +986,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayOutput",
     "keywords": [
       "output",
-      "braille",
-      "einstellungen"
+      "braille"
     ]
   },
   {
@@ -1087,8 +997,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/STATUS_CELL",
     "keywords": [
       "status cells",
-      "braille",
-      "einstellungen"
+      "braille"
     ]
   },
   {
@@ -1099,8 +1008,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY",
     "keywords": [
       "verbosity übersicht",
-      "verbosity",
-      "einstellungen"
+      "verbosity"
     ]
   },
   {
@@ -1111,8 +1019,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY/voiceOverPunctuationGroup",
     "keywords": [
       "punctuation übersicht",
-      "punctuation",
-      "einstellungen"
+      "punctuation"
     ]
   },
   {
@@ -1123,8 +1030,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY/voiceOverMediaDescriptions",
     "keywords": [
       "media descriptions",
-      "punctuation",
-      "einstellungen"
+      "punctuation"
     ]
   },
   {
@@ -1135,8 +1041,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CUSTOMIZE_COMMANDS",
     "keywords": [
       "commands",
-      "voiceover",
-      "einstellungen"
+      "voiceover"
     ]
   },
   {
@@ -1147,8 +1052,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
     "keywords": [
       "double-tap timeout",
-      "voiceover",
-      "einstellungen"
+      "voiceover"
     ]
   },
   {
@@ -1159,8 +1063,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/INCLUDE_UNLABELED_IMAGES_TITLE",
     "keywords": [
       "navigate images",
-      "voiceover",
-      "einstellungen"
+      "voiceover"
     ]
   },
   {
@@ -1171,8 +1074,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/WEB_ROTOR",
     "keywords": [
       "rotor",
-      "voiceover",
-      "einstellungen"
+      "voiceover"
     ]
   },
   {
@@ -1183,8 +1085,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ROTOR_ACTIONS",
     "keywords": [
       "rotor actions",
-      "voiceover",
-      "einstellungen"
+      "voiceover"
     ]
   },
   {
@@ -1195,8 +1096,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/SPEECH_TITLE",
     "keywords": [
       "speech",
-      "voiceover",
-      "einstellungen"
+      "voiceover"
     ]
   },
   {
@@ -1207,8 +1107,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS",
     "keywords": [
       "typing übersicht",
-      "typing",
-      "einstellungen"
+      "typing"
     ]
   },
   {
@@ -1219,8 +1118,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Keyboard%20Interaction%20Time",
     "keywords": [
       "keyboard interaction time",
-      "typing",
-      "einstellungen"
+      "typing"
     ]
   },
   {
@@ -1231,8 +1129,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Modifier%20Keys",
     "keywords": [
       "modifier keys",
-      "typing",
-      "einstellungen"
+      "typing"
     ]
   },
   {
@@ -1243,8 +1140,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Phonetic%20Feedback",
     "keywords": [
       "phonetic feedback",
-      "typing",
-      "einstellungen"
+      "typing"
     ]
   },
   {
@@ -1255,8 +1151,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Typing%20Style",
     "keywords": [
       "typing style",
-      "typing",
-      "einstellungen"
+      "typing"
     ]
   },
   {
@@ -1267,8 +1162,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
     "keywords": [
       "zoom übersicht",
-      "zoom",
-      "einstellungen"
+      "zoom"
     ]
   },
   {
@@ -1279,8 +1173,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
     "keywords": [
       "keyboard shortcuts",
-      "zoom",
-      "einstellungen"
+      "zoom"
     ]
   },
   {
@@ -1291,8 +1184,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug",
     "keywords": [
       "zoom controller",
-      "zoom",
-      "einstellungen"
+      "zoom"
     ]
   },
   {
@@ -1303,8 +1195,7 @@
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter",
     "keywords": [
       "zoom filter",
-      "zoom",
-      "einstellungen"
+      "zoom"
     ]
   },
   {
@@ -1315,8 +1206,7 @@
     "urlScheme": "App-prefs:root=ACTION_BUTTON",
     "keywords": [
       "action button",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -1327,8 +1217,7 @@
     "urlScheme": "App-prefs:root=STORE",
     "keywords": [
       "app store übersicht",
-      "app store",
-      "einstellungen"
+      "app store"
     ]
   },
   {
@@ -1339,8 +1228,7 @@
     "urlScheme": "App-prefs:root=STORE&path=App%20Downloads",
     "keywords": [
       "app downloads",
-      "app store",
-      "einstellungen"
+      "app store"
     ]
   },
   {
@@ -1351,8 +1239,7 @@
     "urlScheme": "App-prefs:root=STORE&path=Video%20Autoplay",
     "keywords": [
       "video autoplay",
-      "app store",
-      "einstellungen"
+      "app store"
     ]
   },
   {
@@ -1363,8 +1250,7 @@
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT",
     "keywords": [
       "apple id übersicht",
-      "apple id",
-      "einstellungen"
+      "apple id"
     ]
   },
   {
@@ -1375,8 +1261,7 @@
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
     "keywords": [
       "name, phone numbers, email",
-      "apple id",
-      "einstellungen"
+      "apple id"
     ]
   },
   {
@@ -1387,8 +1272,7 @@
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
     "keywords": [
       "password & security",
-      "apple id",
-      "einstellungen"
+      "apple id"
     ]
   },
   {
@@ -1399,8 +1283,7 @@
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
     "keywords": [
       "payment & shipping",
-      "apple id",
-      "einstellungen"
+      "apple id"
     ]
   },
   {
@@ -1411,8 +1294,7 @@
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
     "keywords": [
       "subscriptions",
-      "apple id",
-      "einstellungen"
+      "apple id"
     ]
   },
   {
@@ -1423,8 +1305,7 @@
     "urlScheme": "App-prefs:root=Pencil",
     "keywords": [
       "apple pencil",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -1435,8 +1316,7 @@
     "urlScheme": "App-prefs:root=BATTERY_USAGE",
     "keywords": [
       "batterie übersicht",
-      "batterie",
-      "einstellungen"
+      "batterie"
     ]
   },
   {
@@ -1447,8 +1327,7 @@
     "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
     "keywords": [
       "battery health",
-      "batterie",
-      "einstellungen"
+      "batterie"
     ]
   },
   {
@@ -1459,8 +1338,7 @@
     "urlScheme": "App-prefs:root=Bluetooth",
     "keywords": [
       "bluetooth",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -1471,8 +1349,7 @@
     "urlScheme": "App-prefs:root=IBOOKS",
     "keywords": [
       "books übersicht",
-      "books",
-      "einstellungen"
+      "books"
     ]
   },
   {
@@ -1483,8 +1360,7 @@
     "urlScheme": "App-prefs:root=IBOOKS&path=Acknowledgements",
     "keywords": [
       "acknowledgements",
-      "books",
-      "einstellungen"
+      "books"
     ]
   },
   {
@@ -1495,8 +1371,7 @@
     "urlScheme": "App-prefs:root=IBOOKS&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "books",
-      "einstellungen"
+      "books"
     ]
   },
   {
@@ -1507,8 +1382,7 @@
     "urlScheme": "App-prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
     "keywords": [
       "skip back",
-      "books",
-      "einstellungen"
+      "books"
     ]
   },
   {
@@ -1519,8 +1393,7 @@
     "urlScheme": "App-prefs:root=IBOOKS&path=BKAudioBookSkipForward",
     "keywords": [
       "skip forward",
-      "books",
-      "einstellungen"
+      "books"
     ]
   },
   {
@@ -1531,8 +1404,7 @@
     "urlScheme": "App-prefs:root=CALENDAR",
     "keywords": [
       "calendar übersicht",
-      "calendar",
-      "einstellungen"
+      "calendar"
     ]
   },
   {
@@ -1543,8 +1415,7 @@
     "urlScheme": "App-prefs:root=CALENDAR&path=Alternate%20Calendars",
     "keywords": [
       "alternate calendars",
-      "calendar",
-      "einstellungen"
+      "calendar"
     ]
   },
   {
@@ -1555,8 +1426,7 @@
     "urlScheme": "App-prefs:root=CALENDAR&path=Default%20Alert%20Times",
     "keywords": [
       "default alert times",
-      "calendar",
-      "einstellungen"
+      "calendar"
     ]
   },
   {
@@ -1567,8 +1437,7 @@
     "urlScheme": "App-prefs:root=CALENDAR&path=Default%20Calendar",
     "keywords": [
       "default calendar",
-      "calendar",
-      "einstellungen"
+      "calendar"
     ]
   },
   {
@@ -1579,8 +1448,7 @@
     "urlScheme": "App-prefs:root=CALENDAR&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "calendar",
-      "einstellungen"
+      "calendar"
     ]
   },
   {
@@ -1591,8 +1459,7 @@
     "urlScheme": "App-prefs:root=CALENDAR&path=com.apple.mobilecal",
     "keywords": [
       "start week on",
-      "calendar",
-      "einstellungen"
+      "calendar"
     ]
   },
   {
@@ -1603,8 +1470,7 @@
     "urlScheme": "App-prefs:root=CALENDAR&path=Sync",
     "keywords": [
       "sync",
-      "calendar",
-      "einstellungen"
+      "calendar"
     ]
   },
   {
@@ -1615,8 +1481,7 @@
     "urlScheme": "App-prefs:root=CALENDAR&path=TimeZoneCityArray",
     "keywords": [
       "time zone override",
-      "calendar",
-      "einstellungen"
+      "calendar"
     ]
   },
   {
@@ -1627,8 +1492,7 @@
     "urlScheme": "App-prefs:root=CAMERA",
     "keywords": [
       "camera übersicht",
-      "camera",
-      "einstellungen"
+      "camera"
     ]
   },
   {
@@ -1639,8 +1503,7 @@
     "urlScheme": "App-prefs:root=CAMERA&path=CameraFormatsSettingsList",
     "keywords": [
       "formats",
-      "camera",
-      "einstellungen"
+      "camera"
     ]
   },
   {
@@ -1651,8 +1514,7 @@
     "urlScheme": "App-prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
     "keywords": [
       "preserve settings",
-      "camera",
-      "einstellungen"
+      "camera"
     ]
   },
   {
@@ -1663,8 +1525,7 @@
     "urlScheme": "App-prefs:root=CAMERA&path=Record%20Slo-mo",
     "keywords": [
       "record slo-mo",
-      "camera",
-      "einstellungen"
+      "camera"
     ]
   },
   {
@@ -1675,8 +1536,7 @@
     "urlScheme": "App-prefs:root=CAMERA&path=Record%20Video",
     "keywords": [
       "record video",
-      "camera",
-      "einstellungen"
+      "camera"
     ]
   },
   {
@@ -1687,8 +1547,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID",
     "keywords": [
       "cellular übersicht",
-      "cellular",
-      "einstellungen"
+      "cellular"
     ]
   },
   {
@@ -1699,8 +1558,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=[plan name]",
     "keywords": [
       "[plan name]",
-      "cellular",
-      "einstellungen"
+      "cellular"
     ]
   },
   {
@@ -1711,8 +1569,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=MOBILE_DATA_SETTINGS",
     "keywords": [
       "cellular data (for devices with two sims)",
-      "cellular",
-      "einstellungen"
+      "cellular"
     ]
   },
   {
@@ -1723,8 +1580,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
     "keywords": [
       "cellular data options",
-      "cellular",
-      "einstellungen"
+      "cellular"
     ]
   },
   {
@@ -1735,8 +1591,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING",
     "keywords": [
       "personal hotspot übersicht",
-      "personal hotspot",
-      "einstellungen"
+      "personal hotspot"
     ]
   },
   {
@@ -1747,8 +1602,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing",
     "keywords": [
       "family sharing übersicht",
-      "family sharing",
-      "einstellungen"
+      "family sharing"
     ]
   },
   {
@@ -1759,8 +1613,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing/[URL-encoded Family Member Name]",
     "keywords": [
       "[family member name]",
-      "family sharing",
-      "einstellungen"
+      "family sharing"
     ]
   },
   {
@@ -1771,8 +1624,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Wi-Fi%20Password",
     "keywords": [
       "wi-fi password",
-      "personal hotspot",
-      "einstellungen"
+      "personal hotspot"
     ]
   },
   {
@@ -1783,8 +1635,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID#Reset Statistics",
     "keywords": [
       "reset statistics",
-      "cellular",
-      "einstellungen"
+      "cellular"
     ]
   },
   {
@@ -1795,8 +1646,7 @@
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=System%20Services",
     "keywords": [
       "system services",
-      "cellular",
-      "einstellungen"
+      "cellular"
     ]
   },
   {
@@ -1807,8 +1657,7 @@
     "urlScheme": "App-prefs:root=COMPASS",
     "keywords": [
       "compass",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -1819,8 +1668,7 @@
     "urlScheme": "App-prefs:root=CONTACTS",
     "keywords": [
       "contacts übersicht",
-      "contacts",
-      "einstellungen"
+      "contacts"
     ]
   },
   {
@@ -1831,8 +1679,7 @@
     "urlScheme": "App-prefs:root=CONTACTS&path=PersonNameOrder",
     "keywords": [
       "display order",
-      "contacts",
-      "einstellungen"
+      "contacts"
     ]
   },
   {
@@ -1843,8 +1690,7 @@
     "urlScheme": "App-prefs:root=CONTACTS&path=MeCard",
     "keywords": [
       "my info",
-      "contacts",
-      "einstellungen"
+      "contacts"
     ]
   },
   {
@@ -1855,8 +1701,7 @@
     "urlScheme": "App-prefs:root=CONTACTS&path=PersonShortName",
     "keywords": [
       "short name",
-      "contacts",
-      "einstellungen"
+      "contacts"
     ]
   },
   {
@@ -1867,8 +1712,7 @@
     "urlScheme": "App-prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "contacts",
-      "einstellungen"
+      "contacts"
     ]
   },
   {
@@ -1879,8 +1723,7 @@
     "urlScheme": "App-prefs:root=CONTACTS&path=ContactsSortOrder",
     "keywords": [
       "sort order",
-      "contacts",
-      "einstellungen"
+      "contacts"
     ]
   },
   {
@@ -1891,8 +1734,7 @@
     "urlScheme": "App-prefs:root=ControlCenter",
     "keywords": [
       "kontrollzentrum übersicht",
-      "kontrollzentrum",
-      "einstellungen"
+      "kontrollzentrum"
     ]
   },
   {
@@ -1903,8 +1745,7 @@
     "urlScheme": "App-prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS",
     "keywords": [
       "customize controls",
-      "kontrollzentrum",
-      "einstellungen"
+      "kontrollzentrum"
     ]
   },
   {
@@ -1915,8 +1756,7 @@
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS",
     "keywords": [
       "developer übersicht",
-      "developer",
-      "einstellungen"
+      "developer"
     ]
   },
   {
@@ -1927,8 +1767,7 @@
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=AD_REFRESH_RATE",
     "keywords": [
       "ad refresh rate",
-      "developer",
-      "einstellungen"
+      "developer"
     ]
   },
   {
@@ -1939,8 +1778,7 @@
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
     "keywords": [
       "fill rate",
-      "developer",
-      "einstellungen"
+      "developer"
     ]
   },
   {
@@ -1951,8 +1789,7 @@
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
     "keywords": [
       "instruments/logging",
-      "developer",
-      "einstellungen"
+      "developer"
     ]
   },
   {
@@ -1963,8 +1800,7 @@
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
     "keywords": [
       "multipath networking",
-      "developer",
-      "einstellungen"
+      "developer"
     ]
   },
   {
@@ -1975,8 +1811,7 @@
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=NLC",
     "keywords": [
       "network link conditioner",
-      "developer",
-      "einstellungen"
+      "developer"
     ]
   },
   {
@@ -1987,8 +1822,7 @@
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
     "keywords": [
       "tv provider",
-      "developer",
-      "einstellungen"
+      "developer"
     ]
   },
   {
@@ -1999,8 +1833,7 @@
     "urlScheme": "App-prefs:root=DISPLAY",
     "keywords": [
       "display übersicht",
-      "display",
-      "einstellungen"
+      "display"
     ]
   },
   {
@@ -2011,8 +1844,7 @@
     "urlScheme": "App-prefs:root=DISPLAY&path=AUTOLOCK",
     "keywords": [
       "auto lock",
-      "display",
-      "einstellungen"
+      "display"
     ]
   },
   {
@@ -2023,8 +1855,7 @@
     "urlScheme": "App-prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
     "keywords": [
       "night shift",
-      "display",
-      "einstellungen"
+      "display"
     ]
   },
   {
@@ -2035,8 +1866,7 @@
     "urlScheme": "App-prefs:root=DISPLAY&path=APPEARANCE_OPTIONS",
     "keywords": [
       "options",
-      "display",
-      "einstellungen"
+      "display"
     ]
   },
   {
@@ -2047,8 +1877,7 @@
     "urlScheme": "App-prefs:root=DISPLAY&path=TEXT_SIZE",
     "keywords": [
       "text size",
-      "display",
-      "einstellungen"
+      "display"
     ]
   },
   {
@@ -2059,8 +1888,7 @@
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB",
     "keywords": [
       "do not disturb übersicht",
-      "do not disturb",
-      "einstellungen"
+      "do not disturb"
     ]
   },
   {
@@ -2071,8 +1899,7 @@
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB&path=Allow%20Calls%20From",
     "keywords": [
       "allow calls from",
-      "do not disturb",
-      "einstellungen"
+      "do not disturb"
     ]
   },
   {
@@ -2083,8 +1910,7 @@
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY_MESSAGE",
     "keywords": [
       "auto-reply",
-      "do not disturb",
-      "einstellungen"
+      "do not disturb"
     ]
   },
   {
@@ -2095,8 +1921,7 @@
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY",
     "keywords": [
       "auto-reply to",
-      "do not disturb",
-      "einstellungen"
+      "do not disturb"
     ]
   },
   {
@@ -2107,8 +1932,7 @@
     "urlScheme": "App-prefs:root=EMERGENCY_SOS",
     "keywords": [
       "notruf sos",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -2119,8 +1943,7 @@
     "urlScheme": "App-prefs:root=EXPOSURE_NOTIFICATION",
     "keywords": [
       "exposure notifications",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -2131,8 +1954,7 @@
     "urlScheme": "App-prefs:root=PASSCODE",
     "keywords": [
       "face/touch id & passcode übersicht",
-      "face/touch id & passcode",
-      "einstellungen"
+      "face/touch id & passcode"
     ]
   },
   {
@@ -2143,8 +1965,7 @@
     "urlScheme": "App-prefs:root=PASSCODE&path=PASSCODE_REQ",
     "keywords": [
       "require passcode",
-      "face/touch id & passcode",
-      "einstellungen"
+      "face/touch id & passcode"
     ]
   },
   {
@@ -2155,8 +1976,7 @@
     "urlScheme": "App-prefs:root=FACETIME",
     "keywords": [
       "facetime übersicht",
-      "facetime",
-      "einstellungen"
+      "facetime"
     ]
   },
   {
@@ -2167,8 +1987,7 @@
     "urlScheme": "App-prefs:root=FACETIME&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "facetime",
-      "einstellungen"
+      "facetime"
     ]
   },
   {
@@ -2179,8 +1998,7 @@
     "urlScheme": "App-prefs:root=GAMECENTER",
     "keywords": [
       "game center übersicht",
-      "game center",
-      "einstellungen"
+      "game center"
     ]
   },
   {
@@ -2191,8 +2009,7 @@
     "urlScheme": "App-prefs:root=GAMECENTER&path=Add%20Friends",
     "keywords": [
       "add friends",
-      "game center",
-      "einstellungen"
+      "game center"
     ]
   },
   {
@@ -2203,8 +2020,7 @@
     "urlScheme": "App-prefs:root=GAMECENTER&path=Terms%20and%20Conditions",
     "keywords": [
       "terms and conditions",
-      "game center",
-      "einstellungen"
+      "game center"
     ]
   },
   {
@@ -2215,44 +2031,40 @@
     "urlScheme": "App-prefs:root=General",
     "keywords": [
       "allgemein übersicht",
-      "allgemein",
-      "einstellungen"
+      "allgemein"
     ]
   },
   {
-    "name": "About Übersicht",
-    "category": "About",
+    "name": "Info Übersicht",
+    "category": "Info",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf About Übersicht",
+    "description": "Direktzugriff auf Info Übersicht",
     "urlScheme": "App-prefs:root=General&path=About",
     "keywords": [
-      "about übersicht",
-      "about",
-      "einstellungen"
+      "info übersicht",
+      "info"
     ]
   },
   {
     "name": "Certificate Trust Settings",
-    "category": "About",
+    "category": "Info",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Certificate Trust Settings",
     "urlScheme": "App-prefs:root=General&path=About/CERT_TRUST_SETTINGS",
     "keywords": [
       "certificate trust settings",
-      "about",
-      "einstellungen"
+      "info"
     ]
   },
   {
     "name": "SEID",
-    "category": "About",
+    "category": "Info",
     "iconName": "gearshape",
     "description": "Direktzugriff auf SEID",
     "urlScheme": "App-prefs:root=General&path=About/SEID",
     "keywords": [
       "seid",
-      "about",
-      "einstellungen"
+      "info"
     ]
   },
   {
@@ -2263,8 +2075,7 @@
     "urlScheme": "App-prefs:root=General&path=AIRDROP_LINK",
     "keywords": [
       "airdrop",
-      "allgemein",
-      "einstellungen"
+      "allgemein"
     ]
   },
   {
@@ -2275,8 +2086,7 @@
     "urlScheme": "App-prefs:root=General&path=CONTINUITY_SPEC",
     "keywords": [
       "airplay & handoff",
-      "allgemein",
-      "einstellungen"
+      "allgemein"
     ]
   },
   {
@@ -2287,8 +2097,7 @@
     "urlScheme": "App-prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
     "keywords": [
       "background app refresh übersicht",
-      "background app refresh",
-      "einstellungen"
+      "background app refresh"
     ]
   },
   {
@@ -2299,8 +2108,7 @@
     "urlScheme": "App-prefs:root=General&path=AUTO_CONTENT_DOWNLOAD/AUTO_CONTENT_DOWNLOAD",
     "keywords": [
       "background app refresh",
-      "background app refresh",
-      "einstellungen"
+      "background app refresh"
     ]
   },
   {
@@ -2311,20 +2119,18 @@
     "urlScheme": "App-prefs:root=General&path=CARPLAY",
     "keywords": [
       "carplay",
-      "allgemein",
-      "einstellungen"
+      "allgemein"
     ]
   },
   {
-    "name": "Date & Time",
+    "name": "Datum & Uhrzeit",
     "category": "Allgemein",
     "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Date & Time",
+    "description": "Direktzugriff auf Datum & Uhrzeit",
     "urlScheme": "App-prefs:root=General&path=DATE_AND_TIME",
     "keywords": [
-      "date & time",
-      "allgemein",
-      "einstellungen"
+      "datum & uhrzeit",
+      "allgemein"
     ]
   },
   {
@@ -2335,8 +2141,7 @@
     "urlScheme": "App-prefs:root=General&path=DICTIONARY",
     "keywords": [
       "dictionary",
-      "allgemein",
-      "einstellungen"
+      "allgemein"
     ]
   },
   {
@@ -2347,8 +2152,7 @@
     "urlScheme": "App-prefs:root=General&path=STORAGE_MGMT",
     "keywords": [
       "iphone/ipad storage übersicht",
-      "iphone/ipad storage",
-      "einstellungen"
+      "iphone/ipad storage"
     ]
   },
   {
@@ -2359,140 +2163,128 @@
     "urlScheme": "App-prefs:root=General&path=STORAGE_MGMT/[App Bundle ID]",
     "keywords": [
       "[app name]",
-      "iphone/ipad storage",
-      "einstellungen"
+      "iphone/ipad storage"
     ]
   },
   {
-    "name": "Keyboard Übersicht",
-    "category": "Keyboard",
+    "name": "Tastatur Übersicht",
+    "category": "Tastatur",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf Keyboard Übersicht",
+    "description": "Direktzugriff auf Tastatur Übersicht",
     "urlScheme": "App-prefs:root=General&path=Keyboard",
     "keywords": [
-      "keyboard übersicht",
-      "keyboard",
-      "einstellungen"
+      "tastatur übersicht",
+      "tastatur"
     ]
   },
   {
     "name": "Hardware Keyboard",
-    "category": "Keyboard",
+    "category": "Tastatur",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Hardware Keyboard",
     "urlScheme": "App-prefs:root=General&path=Keyboard/Hardware%20Keyboard",
     "keywords": [
       "hardware keyboard",
-      "keyboard",
-      "einstellungen"
+      "tastatur"
     ]
   },
   {
     "name": "Keyboards",
-    "category": "Keyboard",
+    "category": "Tastatur",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Keyboards",
     "urlScheme": "App-prefs:root=General&path=Keyboard/KEYBOARDS",
     "keywords": [
       "keyboards",
-      "keyboard",
-      "einstellungen"
+      "tastatur"
     ]
   },
   {
     "name": "One Handed Keyboard",
-    "category": "Keyboard",
+    "category": "Tastatur",
     "iconName": "gearshape",
     "description": "Direktzugriff auf One Handed Keyboard",
     "urlScheme": "App-prefs:root=General&path=Keyboard/ReachableKeyboard",
     "keywords": [
       "one handed keyboard",
-      "keyboard",
-      "einstellungen"
+      "tastatur"
     ]
   },
   {
     "name": "Text Replacement",
-    "category": "Keyboard",
+    "category": "Tastatur",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Text Replacement",
     "urlScheme": "App-prefs:root=General&path=Keyboard/USER_DICTIONARY",
     "keywords": [
       "text replacement",
-      "keyboard",
-      "einstellungen"
+      "tastatur"
     ]
   },
   {
-    "name": "Language & Region Übersicht",
-    "category": "Language & Region",
+    "name": "Sprache & Region Übersicht",
+    "category": "Sprache & Region",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf Language & Region Übersicht",
+    "description": "Direktzugriff auf Sprache & Region Übersicht",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL",
     "keywords": [
-      "language & region übersicht",
-      "language & region",
-      "einstellungen"
+      "sprache & region übersicht",
+      "sprache & region"
     ]
   },
   {
     "name": "Calendar",
-    "category": "Language & Region",
+    "category": "Sprache & Region",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Calendar",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/CALENDAR",
     "keywords": [
       "calendar",
-      "language & region",
-      "einstellungen"
+      "sprache & region"
     ]
   },
   {
     "name": "Device Language",
-    "category": "Language & Region",
+    "category": "Sprache & Region",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Device Language",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/DEVICE_LANGUAGE",
     "keywords": [
       "device language",
-      "language & region",
-      "einstellungen"
+      "sprache & region"
     ]
   },
   {
     "name": "Numbers",
-    "category": "Language & Region",
+    "category": "Sprache & Region",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Numbers",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
     "keywords": [
       "numbers",
-      "language & region",
-      "einstellungen"
+      "sprache & region"
     ]
   },
   {
     "name": "Region",
-    "category": "Language & Region",
+    "category": "Sprache & Region",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Region",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/LOCALE",
     "keywords": [
       "region",
-      "language & region",
-      "einstellungen"
+      "sprache & region"
     ]
   },
   {
     "name": "Temperature Unit",
-    "category": "Language & Region",
+    "category": "Sprache & Region",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Temperature Unit",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT",
     "keywords": [
       "temperature unit",
-      "language & region",
-      "einstellungen"
+      "sprache & region"
     ]
   },
   {
@@ -2503,8 +2295,7 @@
     "urlScheme": "App-prefs:root=General&path=LEGAL_AND_REGULATORY",
     "keywords": [
       "legal & regulatory",
-      "allgemein",
-      "einstellungen"
+      "allgemein"
     ]
   },
   {
@@ -2515,8 +2306,7 @@
     "urlScheme": "App-prefs:root=General&path=ManagedConfigurationList",
     "keywords": [
       "profiles übersicht",
-      "profiles",
-      "einstellungen"
+      "profiles"
     ]
   },
   {
@@ -2527,8 +2317,7 @@
     "urlScheme": "App-prefs:root=General&path=ManagedConfigurationList/PurgatoryInstallRequested",
     "keywords": [
       "install profile",
-      "profiles",
-      "einstellungen"
+      "profiles"
     ]
   },
   {
@@ -2539,20 +2328,18 @@
     "urlScheme": "App-prefs:root=General&path=Reset",
     "keywords": [
       "reset",
-      "allgemein",
-      "einstellungen"
+      "allgemein"
     ]
   },
   {
-    "name": "Software Update",
+    "name": "Softwareupdate",
     "category": "Allgemein",
     "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Software Update",
+    "description": "Direktzugriff auf Softwareupdate",
     "urlScheme": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
     "keywords": [
-      "software update",
-      "allgemein",
-      "einstellungen"
+      "softwareupdate",
+      "allgemein"
     ]
   },
   {
@@ -2563,8 +2350,7 @@
     "urlScheme": "App-prefs:root=General&path=VPN",
     "keywords": [
       "vpn übersicht",
-      "vpn",
-      "einstellungen"
+      "vpn"
     ]
   },
   {
@@ -2575,8 +2361,7 @@
     "urlScheme": "App-prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]",
     "keywords": [
       "[vpn configuration name] übersicht",
-      "[vpn configuration name]",
-      "einstellungen"
+      "[vpn configuration name]"
     ]
   },
   {
@@ -2587,8 +2372,7 @@
     "urlScheme": "App-prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]/Delete%20VPN",
     "keywords": [
       "delete vpn",
-      "[vpn configuration name]",
-      "einstellungen"
+      "[vpn configuration name]"
     ]
   },
   {
@@ -2599,8 +2383,7 @@
     "urlScheme": "App-prefs:root=General&path=VPN/Add%20VPN%20Configuration%E2%80%A6",
     "keywords": [
       "add vpn configuration…",
-      "vpn",
-      "einstellungen"
+      "vpn"
     ]
   },
   {
@@ -2611,32 +2394,29 @@
     "urlScheme": "App-prefs:root=General&path=VPN/DNS",
     "keywords": [
       "dns",
-      "vpn",
-      "einstellungen"
+      "vpn"
     ]
   },
   {
-    "name": "Health Übersicht",
-    "category": "Health",
+    "name": "Gesundheit Übersicht",
+    "category": "Gesundheit",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf Health Übersicht",
+    "description": "Direktzugriff auf Gesundheit Übersicht",
     "urlScheme": "App-prefs:root=HEALTH",
     "keywords": [
-      "health übersicht",
-      "health",
-      "einstellungen"
+      "gesundheit übersicht",
+      "gesundheit"
     ]
   },
   {
     "name": "Siri & Suche",
-    "category": "Health",
+    "category": "Gesundheit",
     "iconName": "gearshape",
     "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=HEALTH&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "health",
-      "einstellungen"
+      "gesundheit"
     ]
   },
   {
@@ -2647,8 +2427,7 @@
     "urlScheme": "App-prefs:root=HOMEKIT",
     "keywords": [
       "home",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -2659,8 +2438,7 @@
     "urlScheme": "App-prefs:root=HOME_SCREEN",
     "keywords": [
       "home screen (iphone)",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -2671,8 +2449,7 @@
     "urlScheme": "App-prefs:root=HOME_SCREEN_DOCK",
     "keywords": [
       "home screen & dock (ipad) übersicht",
-      "home screen & dock (ipad)",
-      "einstellungen"
+      "home screen & dock (ipad)"
     ]
   },
   {
@@ -2683,8 +2460,7 @@
     "urlScheme": "App-prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING",
     "keywords": [
       "multitasking",
-      "home screen & dock (ipad)",
-      "einstellungen"
+      "home screen & dock (ipad)"
     ]
   },
   {
@@ -2695,8 +2471,7 @@
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=FAMILY",
     "keywords": [
       "family sharing",
-      "icloud",
-      "einstellungen"
+      "icloud"
     ]
   },
   {
@@ -2707,8 +2482,7 @@
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
     "keywords": [
       "find my",
-      "icloud",
-      "einstellungen"
+      "icloud"
     ]
   },
   {
@@ -2719,8 +2493,7 @@
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE",
     "keywords": [
       "hide my email",
-      "icloud",
-      "einstellungen"
+      "icloud"
     ]
   },
   {
@@ -2731,8 +2504,7 @@
     "urlScheme": "App-prefs:root=MAIL",
     "keywords": [
       "mail übersicht",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2743,8 +2515,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Blocked",
     "keywords": [
       "blocked",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2755,8 +2526,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Blocked%20Sender%20Options",
     "keywords": [
       "blocked sender options",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2767,8 +2537,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Default%20Account",
     "keywords": [
       "default account",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2779,8 +2548,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
     "keywords": [
       "include attachments with replies",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2791,8 +2559,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Increase%20Quote%20Level",
     "keywords": [
       "increase quote level",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2803,8 +2570,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Mark%20Addresses",
     "keywords": [
       "mark addresses",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2815,8 +2581,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Muted%20Thread%20Action",
     "keywords": [
       "muted thread action",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2827,8 +2592,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=NOTIFICATIONS",
     "keywords": [
       "notifications",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2839,8 +2603,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Preview",
     "keywords": [
       "preview",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2851,8 +2614,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Signature",
     "keywords": [
       "signature",
-      "mail",
-      "einstellungen"
+      "mail"
     ]
   },
   {
@@ -2863,8 +2625,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Swipe%20Options",
     "keywords": [
       "swipe options übersicht",
-      "swipe options",
-      "einstellungen"
+      "swipe options"
     ]
   },
   {
@@ -2875,8 +2636,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Swipe%20Options/Swipe%20Left",
     "keywords": [
       "swipe left",
-      "swipe options",
-      "einstellungen"
+      "swipe options"
     ]
   },
   {
@@ -2887,8 +2647,7 @@
     "urlScheme": "App-prefs:root=MAIL&path=Swipe%20Options/Swipe%20Right",
     "keywords": [
       "swipe right",
-      "swipe options",
-      "einstellungen"
+      "swipe options"
     ]
   },
   {
@@ -2899,8 +2658,7 @@
     "urlScheme": "App-prefs:root=MAPS",
     "keywords": [
       "maps übersicht",
-      "maps",
-      "einstellungen"
+      "maps"
     ]
   },
   {
@@ -2911,8 +2669,7 @@
     "urlScheme": "App-prefs:root=MAPS&path=Cycling",
     "keywords": [
       "cycling",
-      "maps",
-      "einstellungen"
+      "maps"
     ]
   },
   {
@@ -2923,8 +2680,7 @@
     "urlScheme": "App-prefs:root=MAPS&path=Driving",
     "keywords": [
       "driving",
-      "maps",
-      "einstellungen"
+      "maps"
     ]
   },
   {
@@ -2935,8 +2691,7 @@
     "urlScheme": "App-prefs:root=MAPS&path=Transit",
     "keywords": [
       "transit",
-      "maps",
-      "einstellungen"
+      "maps"
     ]
   },
   {
@@ -2947,8 +2702,7 @@
     "urlScheme": "App-prefs:root=MAPS&path=Walking",
     "keywords": [
       "walking (iphone)",
-      "maps",
-      "einstellungen"
+      "maps"
     ]
   },
   {
@@ -2959,8 +2713,7 @@
     "urlScheme": "App-prefs:root=MEASURE",
     "keywords": [
       "measure übersicht",
-      "measure",
-      "einstellungen"
+      "measure"
     ]
   },
   {
@@ -2971,8 +2724,7 @@
     "urlScheme": "App-prefs:root=MEASURE&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "measure",
-      "einstellungen"
+      "measure"
     ]
   },
   {
@@ -2983,8 +2735,7 @@
     "urlScheme": "App-prefs:root=MESSAGES",
     "keywords": [
       "messages",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -2995,8 +2746,7 @@
     "urlScheme": "App-prefs:root=MUSIC",
     "keywords": [
       "music übersicht",
-      "music",
-      "einstellungen"
+      "music"
     ]
   },
   {
@@ -3007,8 +2757,7 @@
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AAudioQuality",
     "keywords": [
       "audio quality",
-      "music",
-      "einstellungen"
+      "music"
     ]
   },
   {
@@ -3019,8 +2768,7 @@
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
     "keywords": [
       "cellular data",
-      "music",
-      "einstellungen"
+      "music"
     ]
   },
   {
@@ -3031,8 +2779,7 @@
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AAtmos",
     "keywords": [
       "dolby atmos",
-      "music",
-      "einstellungen"
+      "music"
     ]
   },
   {
@@ -3043,8 +2790,7 @@
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AEQ",
     "keywords": [
       "eq",
-      "music",
-      "einstellungen"
+      "music"
     ]
   },
   {
@@ -3055,8 +2801,7 @@
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
     "keywords": [
       "optimize storage",
-      "music",
-      "einstellungen"
+      "music"
     ]
   },
   {
@@ -3067,8 +2812,7 @@
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AVolumeLimit",
     "keywords": [
       "volume limit",
-      "music",
-      "einstellungen"
+      "music"
     ]
   },
   {
@@ -3079,8 +2823,7 @@
     "urlScheme": "App-prefs:root=NEWS",
     "keywords": [
       "news übersicht",
-      "news",
-      "einstellungen"
+      "news"
     ]
   },
   {
@@ -3091,8 +2834,7 @@
     "urlScheme": "App-prefs:root=NEWS&path=Acknowledgements",
     "keywords": [
       "acknowledgements",
-      "news",
-      "einstellungen"
+      "news"
     ]
   },
   {
@@ -3103,8 +2845,7 @@
     "urlScheme": "App-prefs:root=NOTES",
     "keywords": [
       "notes übersicht",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3115,8 +2856,7 @@
     "urlScheme": "App-prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen",
     "keywords": [
       "access notes from lock screen",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3127,8 +2867,7 @@
     "urlScheme": "App-prefs:root=NOTES&path=Default%20Account",
     "keywords": [
       "default account",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3139,8 +2878,7 @@
     "urlScheme": "App-prefs:root=NOTES&path=Lines%20%26%20Grids",
     "keywords": [
       "lines & grids",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3151,8 +2889,7 @@
     "urlScheme": "App-prefs:root=NOTES&path=New%20Notes%20Start%20With",
     "keywords": [
       "new notes start with",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3163,8 +2900,7 @@
     "urlScheme": "App-prefs:root=NOTES&path=Note%20Backgrounds",
     "keywords": [
       "note backgrounds",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3175,8 +2911,7 @@
     "urlScheme": "App-prefs:root=NOTES&path=Password",
     "keywords": [
       "password",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3187,8 +2922,7 @@
     "urlScheme": "App-prefs:root=NOTES&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3199,8 +2933,7 @@
     "urlScheme": "App-prefs:root=NOTES&path=Sort%20Checked%20Items",
     "keywords": [
       "sort checked items",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3211,8 +2944,7 @@
     "urlScheme": "App-prefs:root=NOTES&path=Sort%20Notes%20By",
     "keywords": [
       "sort notes by",
-      "notes",
-      "einstellungen"
+      "notes"
     ]
   },
   {
@@ -3223,8 +2955,7 @@
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID",
     "keywords": [
       "notifications übersicht",
-      "notifications",
-      "einstellungen"
+      "notifications"
     ]
   },
   {
@@ -3235,8 +2966,7 @@
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID&path=App%20Bundle%20ID",
     "keywords": [
       "app name",
-      "notifications",
-      "einstellungen"
+      "notifications"
     ]
   },
   {
@@ -3247,8 +2977,7 @@
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID&path=SHOW_PREVIEW_GROUP_ID",
     "keywords": [
       "show previews",
-      "notifications",
-      "einstellungen"
+      "notifications"
     ]
   },
   {
@@ -3259,8 +2988,7 @@
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions",
     "keywords": [
       "siri suggestions",
-      "notifications",
-      "einstellungen"
+      "notifications"
     ]
   },
   {
@@ -3271,8 +2999,7 @@
     "urlScheme": "App-prefs:root=PASSWORDS",
     "keywords": [
       "passwords übersicht",
-      "passwords",
-      "einstellungen"
+      "passwords"
     ]
   },
   {
@@ -3283,8 +3010,7 @@
     "urlScheme": "App-prefs:root=PASSWORDS&search=[Search Term]",
     "keywords": [
       "[search term]",
-      "passwords",
-      "einstellungen"
+      "passwords"
     ]
   },
   {
@@ -3295,8 +3021,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS",
     "keywords": [
       "passwords & accounts übersicht",
-      "passwords & accounts",
-      "einstellungen"
+      "passwords & accounts"
     ]
   },
   {
@@ -3307,8 +3032,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT",
     "keywords": [
       "add account übersicht",
-      "add account",
-      "einstellungen"
+      "add account"
     ]
   },
   {
@@ -3319,8 +3043,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/AOL",
     "keywords": [
       "aol",
-      "add account",
-      "einstellungen"
+      "add account"
     ]
   },
   {
@@ -3331,8 +3054,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/Gmail",
     "keywords": [
       "google",
-      "add account",
-      "einstellungen"
+      "add account"
     ]
   },
   {
@@ -3343,8 +3065,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/iCloud",
     "keywords": [
       "icloud",
-      "add account",
-      "einstellungen"
+      "add account"
     ]
   },
   {
@@ -3355,8 +3076,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER",
     "keywords": [
       "other übersicht",
-      "other",
-      "einstellungen"
+      "other"
     ]
   },
   {
@@ -3367,8 +3087,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20CalDAV%20Account",
     "keywords": [
       "add caldav account",
-      "other",
-      "einstellungen"
+      "other"
     ]
   },
   {
@@ -3379,8 +3098,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20CardDAV%20Account",
     "keywords": [
       "add carddav account",
-      "other",
-      "einstellungen"
+      "other"
     ]
   },
   {
@@ -3391,8 +3109,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20LDAP%20Account",
     "keywords": [
       "add ldap account",
-      "other",
-      "einstellungen"
+      "other"
     ]
   },
   {
@@ -3403,8 +3120,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20Mail%20Account",
     "keywords": [
       "add mail account",
-      "other",
-      "einstellungen"
+      "other"
     ]
   },
   {
@@ -3415,8 +3131,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20Subscribed%20Calendar",
     "keywords": [
       "add subscribed calendar",
-      "other",
-      "einstellungen"
+      "other"
     ]
   },
   {
@@ -3427,8 +3142,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/Outlook",
     "keywords": [
       "outlook",
-      "add account",
-      "einstellungen"
+      "add account"
     ]
   },
   {
@@ -3439,8 +3153,7 @@
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=FETCH_NEW_DATA",
     "keywords": [
       "fetch new data",
-      "passwords & accounts",
-      "einstellungen"
+      "passwords & accounts"
     ]
   },
   {
@@ -3451,8 +3164,7 @@
     "urlScheme": "App-prefs:root=INTERNET_TETHERING",
     "keywords": [
       "personal hotspot übersicht",
-      "personal hotspot",
-      "einstellungen"
+      "personal hotspot"
     ]
   },
   {
@@ -3463,8 +3175,7 @@
     "urlScheme": "App-prefs:root=INTERNET_TETHERING&path=Family%20Sharing",
     "keywords": [
       "family sharing übersicht",
-      "family sharing",
-      "einstellungen"
+      "family sharing"
     ]
   },
   {
@@ -3475,8 +3186,7 @@
     "urlScheme": "App-prefs:root=INTERNET_TETHERING&path=Family%20Sharing/[URL-encoded Family Member Name]",
     "keywords": [
       "[family member name]",
-      "family sharing",
-      "einstellungen"
+      "family sharing"
     ]
   },
   {
@@ -3487,8 +3197,7 @@
     "urlScheme": "App-prefs:root=INTERNET_TETHERING&path=Wi-Fi%20Password",
     "keywords": [
       "wi-fi password",
-      "personal hotspot",
-      "einstellungen"
+      "personal hotspot"
     ]
   },
   {
@@ -3499,8 +3208,7 @@
     "urlScheme": "App-prefs:root=Phone",
     "keywords": [
       "phone übersicht",
-      "phone",
-      "einstellungen"
+      "phone"
     ]
   },
   {
@@ -3511,8 +3219,7 @@
     "urlScheme": "App-prefs:root=Phone&path=Respond%20with%20Text",
     "keywords": [
       "respond with text",
-      "phone",
-      "einstellungen"
+      "phone"
     ]
   },
   {
@@ -3523,8 +3230,7 @@
     "urlScheme": "App-prefs:root=Phone&path=SILENCE_CALLS",
     "keywords": [
       "silence unknown callers",
-      "phone",
-      "einstellungen"
+      "phone"
     ]
   },
   {
@@ -3535,8 +3241,7 @@
     "urlScheme": "App-prefs:root=Photos",
     "keywords": [
       "photos übersicht",
-      "photos",
-      "einstellungen"
+      "photos"
     ]
   },
   {
@@ -3547,8 +3252,7 @@
     "urlScheme": "App-prefs:root=Photos&path=CellularDataLinkList",
     "keywords": [
       "cellular data",
-      "photos",
-      "einstellungen"
+      "photos"
     ]
   },
   {
@@ -3559,8 +3263,7 @@
     "urlScheme": "App-prefs:root=com.apple.podcasts",
     "keywords": [
       "podcasts",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -3571,8 +3274,7 @@
     "urlScheme": "App-prefs:root=Privacy",
     "keywords": [
       "datenschutz & sicherheit übersicht",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3583,8 +3285,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=ADVERTISING",
     "keywords": [
       "advertising",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3595,8 +3296,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=PROBLEM_REPORTING",
     "keywords": [
       "analytics & improvements",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3607,8 +3307,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=BT_PERIPHERAL",
     "keywords": [
       "bluetooth",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3619,8 +3318,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=CALENDARS",
     "keywords": [
       "calendars",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3631,8 +3329,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=CAMERA",
     "keywords": [
       "camera",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3643,20 +3340,18 @@
     "urlScheme": "App-prefs:root=Privacy&path=CONTACTS",
     "keywords": [
       "contacts",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
-    "name": "Health",
+    "name": "Gesundheit",
     "category": "Datenschutz & Sicherheit",
     "iconName": "hand.raised.fill",
-    "description": "Direktzugriff auf Health",
+    "description": "Direktzugriff auf Gesundheit",
     "urlScheme": "App-prefs:root=Privacy&path=HEALTH",
     "keywords": [
-      "health",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "gesundheit",
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3667,8 +3362,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=WILLOW",
     "keywords": [
       "homekit",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3679,8 +3373,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=LOCAL_NETWORK",
     "keywords": [
       "local network",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3691,8 +3384,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION",
     "keywords": [
       "location services übersicht",
-      "location services",
-      "einstellungen"
+      "location services"
     ]
   },
   {
@@ -3703,8 +3395,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/[App Bundle ID]",
     "keywords": [
       "[app name]",
-      "location services",
-      "einstellungen"
+      "location services"
     ]
   },
   {
@@ -3715,8 +3406,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/LOCATION_SHARING",
     "keywords": [
       "share my location übersicht",
-      "share my location",
-      "einstellungen"
+      "share my location"
     ]
   },
   {
@@ -3727,8 +3417,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/LOCATION_SHARING/[URL-encoded Family Member Name]",
     "keywords": [
       "[family member name]",
-      "share my location",
-      "einstellungen"
+      "share my location"
     ]
   },
   {
@@ -3739,8 +3428,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/SYSTEM_SERVICES",
     "keywords": [
       "system services",
-      "location services",
-      "einstellungen"
+      "location services"
     ]
   },
   {
@@ -3751,8 +3439,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=MEDIALIBRARY",
     "keywords": [
       "media & apple music",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3763,8 +3450,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=MICROPHONE",
     "keywords": [
       "microphone",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3775,8 +3461,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=MOTION",
     "keywords": [
       "motion & fitness",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3787,8 +3472,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=PHOTOS",
     "keywords": [
       "photos übersicht",
-      "photos",
-      "einstellungen"
+      "photos"
     ]
   },
   {
@@ -3799,8 +3483,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=PHOTOS/[App Bundle ID]",
     "keywords": [
       "[app name]",
-      "photos",
-      "einstellungen"
+      "photos"
     ]
   },
   {
@@ -3811,8 +3494,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=PRIVACY_REPORT",
     "keywords": [
       "record app activity",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3823,8 +3505,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=REMINDERS",
     "keywords": [
       "reminders",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3835,8 +3516,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=SPEECH_RECOGNITION",
     "keywords": [
       "speech recognition",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3847,8 +3527,7 @@
     "urlScheme": "App-prefs:root=Privacy&path=USER_TRACKING",
     "keywords": [
       "tracking",
-      "datenschutz & sicherheit",
-      "einstellungen"
+      "datenschutz & sicherheit"
     ]
   },
   {
@@ -3859,8 +3538,7 @@
     "urlScheme": "App-prefs:root=REMINDERS",
     "keywords": [
       "reminders übersicht",
-      "reminders",
-      "einstellungen"
+      "reminders"
     ]
   },
   {
@@ -3871,8 +3549,7 @@
     "urlScheme": "App-prefs:root=REMINDERS&path=DEFAULT_LIST",
     "keywords": [
       "default list",
-      "reminders",
-      "einstellungen"
+      "reminders"
     ]
   },
   {
@@ -3883,8 +3560,7 @@
     "urlScheme": "App-prefs:root=REMINDERS&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "reminders",
-      "einstellungen"
+      "reminders"
     ]
   },
   {
@@ -3895,8 +3571,7 @@
     "urlScheme": "App-prefs:root=SAFARI",
     "keywords": [
       "safari übersicht",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -3907,8 +3582,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=ADVANCED",
     "keywords": [
       "advanced",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -3919,8 +3593,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=AUTO_FILL",
     "keywords": [
       "autofill",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -3931,8 +3604,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=Camera",
     "keywords": [
       "camera",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -3943,8 +3615,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=CLEAR_HISTORY_AND_DATA",
     "keywords": [
       "clear history and website data",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -3955,8 +3626,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=Close%20Tabs",
     "keywords": [
       "close tabs",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -3967,8 +3637,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=CONTENT_BLOCKERS",
     "keywords": [
       "content blockers",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -3979,8 +3648,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=DOWNLOADS",
     "keywords": [
       "downloads",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -3991,8 +3659,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=Hide%20IP%20Address",
     "keywords": [
       "hide ip address",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -4003,8 +3670,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=Location",
     "keywords": [
       "location",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -4015,8 +3681,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=Microphone",
     "keywords": [
       "microphone",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -4027,8 +3692,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=Page%20Zoom",
     "keywords": [
       "page zoom",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -4039,8 +3703,7 @@
     "urlScheme": "App-prefs:root=SAFARI&path=Reader",
     "keywords": [
       "reader",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
@@ -4051,104 +3714,95 @@
     "urlScheme": "App-prefs:root=SAFARI&path=Request%20Desktop%20Website",
     "keywords": [
       "request desktop website",
-      "safari",
-      "einstellungen"
+      "safari"
     ]
   },
   {
     "name": "Bildschirmzeit Übersicht",
     "category": "Bildschirmzeit",
-    "iconName": "hourglass",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Bildschirmzeit Übersicht",
     "urlScheme": "App-prefs:root=SCREEN_TIME",
     "keywords": [
       "bildschirmzeit übersicht",
-      "bildschirmzeit",
-      "einstellungen"
+      "bildschirmzeit"
     ]
   },
   {
     "name": "Always Allowed",
     "category": "Bildschirmzeit",
-    "iconName": "hourglass",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Always Allowed",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
     "keywords": [
       "always allowed",
-      "bildschirmzeit",
-      "einstellungen"
+      "bildschirmzeit"
     ]
   },
   {
     "name": "App Limits",
     "category": "Bildschirmzeit",
-    "iconName": "hourglass",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf App Limits",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=APP_LIMITS",
     "keywords": [
       "app limits",
-      "bildschirmzeit",
-      "einstellungen"
+      "bildschirmzeit"
     ]
   },
   {
     "name": "Communication Limits",
     "category": "Bildschirmzeit",
-    "iconName": "hourglass",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Communication Limits",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
     "keywords": [
       "communication limits",
-      "bildschirmzeit",
-      "einstellungen"
+      "bildschirmzeit"
     ]
   },
   {
     "name": "Content & Privacy Restrictions",
     "category": "Bildschirmzeit",
-    "iconName": "hourglass",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Content & Privacy Restrictions",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
     "keywords": [
       "content & privacy restrictions",
-      "bildschirmzeit",
-      "einstellungen"
+      "bildschirmzeit"
     ]
   },
   {
     "name": "Downtime",
     "category": "Bildschirmzeit",
-    "iconName": "hourglass",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Downtime",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=DOWNTIME",
     "keywords": [
       "downtime",
-      "bildschirmzeit",
-      "einstellungen"
+      "bildschirmzeit"
     ]
   },
   {
     "name": "See All Activity",
     "category": "Bildschirmzeit",
-    "iconName": "hourglass",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf See All Activity",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
     "keywords": [
       "see all activity",
-      "bildschirmzeit",
-      "einstellungen"
+      "bildschirmzeit"
     ]
   },
   {
     "name": "Turn On Screen Time",
     "category": "Bildschirmzeit",
-    "iconName": "hourglass",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Turn On Screen Time",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=Turn%20On%20Screen%20Time",
     "keywords": [
       "turn on screen time",
-      "bildschirmzeit",
-      "einstellungen"
+      "bildschirmzeit"
     ]
   },
   {
@@ -4159,8 +3813,7 @@
     "urlScheme": "App-prefs:root=[App Bundle ID]",
     "keywords": [
       "settings for app…",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -4171,8 +3824,7 @@
     "urlScheme": "App-prefs:root=SHORTCUTS",
     "keywords": [
       "shortcuts übersicht",
-      "shortcuts",
-      "einstellungen"
+      "shortcuts"
     ]
   },
   {
@@ -4183,8 +3835,7 @@
     "urlScheme": "App-prefs:root=SHORTCUTS&path=Legal%20Notices",
     "keywords": [
       "legal notices",
-      "shortcuts",
-      "einstellungen"
+      "shortcuts"
     ]
   },
   {
@@ -4195,8 +3846,7 @@
     "urlScheme": "App-prefs:root=SIRI&path=[App Bundle ID]",
     "keywords": [
       "[app name]",
-      "siri",
-      "einstellungen"
+      "siri"
     ]
   },
   {
@@ -4207,8 +3857,7 @@
     "urlScheme": "App-prefs:root=SIRI&path=LANGUAGE_ID",
     "keywords": [
       "language",
-      "siri",
-      "einstellungen"
+      "siri"
     ]
   },
   {
@@ -4219,8 +3868,7 @@
     "urlScheme": "App-prefs:root=SIRI&path=HISTORY",
     "keywords": [
       "siri & dictation history",
-      "siri",
-      "einstellungen"
+      "siri"
     ]
   },
   {
@@ -4231,8 +3879,7 @@
     "urlScheme": "App-prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
     "keywords": [
       "siri responses",
-      "siri",
-      "einstellungen"
+      "siri"
     ]
   },
   {
@@ -4243,8 +3890,7 @@
     "urlScheme": "App-prefs:root=SIRI&path=VOICE_ID",
     "keywords": [
       "voice",
-      "siri",
-      "einstellungen"
+      "siri"
     ]
   },
   {
@@ -4255,8 +3901,7 @@
     "urlScheme": "App-prefs:root=Sounds",
     "keywords": [
       "sounds übersicht",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4267,8 +3912,7 @@
     "urlScheme": "App-prefs:root=Sounds&path=HAPTICS",
     "keywords": [
       "haptics",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4279,8 +3923,7 @@
     "urlScheme": "App-prefs:root=Sounds&path=AIRDROP",
     "keywords": [
       "airdrop",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4291,8 +3934,7 @@
     "urlScheme": "App-prefs:root=Sounds&path=Calendar%20Alarm",
     "keywords": [
       "calendar alerts",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4303,8 +3945,7 @@
     "urlScheme": "App-prefs:root=Sounds&path=NEW_MAIL",
     "keywords": [
       "new mail",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4315,8 +3956,7 @@
     "urlScheme": "App-prefs:root=Sounds&path=Voicemail",
     "keywords": [
       "new voicemail",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4327,8 +3967,7 @@
     "urlScheme": "App-prefs:root=Sounds&path=Reminder%20Alerts",
     "keywords": [
       "reminder alerts",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4339,8 +3978,7 @@
     "urlScheme": "App-prefs:root=Sounds&path=Ringtone",
     "keywords": [
       "ringtone",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4351,8 +3989,7 @@
     "urlScheme": "App-prefs:root=Sounds&path=SENT_MAIL",
     "keywords": [
       "sent mail",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4363,8 +4000,7 @@
     "urlScheme": "App-prefs:root=Sounds&path=Text_Messages",
     "keywords": [
       "text tone",
-      "sounds",
-      "einstellungen"
+      "sounds"
     ]
   },
   {
@@ -4375,8 +4011,7 @@
     "urlScheme": "App-prefs:root=TRANSLATE",
     "keywords": [
       "translate",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -4387,8 +4022,7 @@
     "urlScheme": "App-prefs:root=TVAPP",
     "keywords": [
       "tv übersicht",
-      "tv",
-      "einstellungen"
+      "tv"
     ]
   },
   {
@@ -4399,8 +4033,7 @@
     "urlScheme": "App-prefs:root=TVAPP&path=com.apple.videos%3AVideosPlaybackQualityCellularSetting",
     "keywords": [
       "cellular",
-      "tv",
-      "einstellungen"
+      "tv"
     ]
   },
   {
@@ -4411,8 +4044,7 @@
     "urlScheme": "App-prefs:root=TVAPP&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "tv",
-      "einstellungen"
+      "tv"
     ]
   },
   {
@@ -4423,8 +4055,7 @@
     "urlScheme": "App-prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
     "keywords": [
       "video definition",
-      "tv",
-      "einstellungen"
+      "tv"
     ]
   },
   {
@@ -4435,8 +4066,7 @@
     "urlScheme": "App-prefs:root=TVAPP&path=com.apple.videos%3AVideosPlaybackQualitySetting",
     "keywords": [
       "wi-fi",
-      "tv",
-      "einstellungen"
+      "tv"
     ]
   },
   {
@@ -4447,8 +4077,7 @@
     "urlScheme": "App-prefs:root=VIDEO_SUBSCRIBER",
     "keywords": [
       "tv provider",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -4459,8 +4088,7 @@
     "urlScheme": "App-prefs:root=VOICE_MEMOS",
     "keywords": [
       "voice memos übersicht",
-      "voice memos",
-      "einstellungen"
+      "voice memos"
     ]
   },
   {
@@ -4471,8 +4099,7 @@
     "urlScheme": "App-prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
     "keywords": [
       "audio quality",
-      "voice memos",
-      "einstellungen"
+      "voice memos"
     ]
   },
   {
@@ -4483,8 +4110,7 @@
     "urlScheme": "App-prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
     "keywords": [
       "clear deleted",
-      "voice memos",
-      "einstellungen"
+      "voice memos"
     ]
   },
   {
@@ -4495,8 +4121,7 @@
     "urlScheme": "App-prefs:root=VOICE_MEMOS&path=SIRI_AND_SEARCH",
     "keywords": [
       "siri & suche",
-      "voice memos",
-      "einstellungen"
+      "voice memos"
     ]
   },
   {
@@ -4507,8 +4132,7 @@
     "urlScheme": "App-prefs:root=VPN",
     "keywords": [
       "vpn übersicht",
-      "vpn",
-      "einstellungen"
+      "vpn"
     ]
   },
   {
@@ -4519,8 +4143,7 @@
     "urlScheme": "App-prefs:root=VPN&path=[URL-encoded VPN Configuration Name]",
     "keywords": [
       "[vpn configuration] übersicht",
-      "[vpn configuration]",
-      "einstellungen"
+      "[vpn configuration]"
     ]
   },
   {
@@ -4531,8 +4154,7 @@
     "urlScheme": "App-prefs:root=VPN&path=[URL-encoded VPN Configuration Name]/Delete%20VPN",
     "keywords": [
       "delete vpn",
-      "[vpn configuration]",
-      "einstellungen"
+      "[vpn configuration]"
     ]
   },
   {
@@ -4543,8 +4165,7 @@
     "urlScheme": "App-prefs:root=VPN&path=Add%20VPN%20Configuration%E2%80%A6",
     "keywords": [
       "add vpn configuration…",
-      "vpn",
-      "einstellungen"
+      "vpn"
     ]
   },
   {
@@ -4555,8 +4176,7 @@
     "urlScheme": "App-prefs:root=PASSBOOK",
     "keywords": [
       "wallet übersicht",
-      "wallet",
-      "einstellungen"
+      "wallet"
     ]
   },
   {
@@ -4567,8 +4187,7 @@
     "urlScheme": "App-prefs:root=PASSBOOK&path=Add%20Card",
     "keywords": [
       "add card",
-      "wallet",
-      "einstellungen"
+      "wallet"
     ]
   },
   {
@@ -4579,8 +4198,7 @@
     "urlScheme": "App-prefs:root=Wallpaper",
     "keywords": [
       "hintergrundbild",
-      "system",
-      "einstellungen"
+      "system"
     ]
   },
   {
@@ -4591,8 +4209,7 @@
     "urlScheme": "App-prefs:root=WIFI",
     "keywords": [
       "wi-fi",
-      "system",
-      "einstellungen"
+      "system"
     ]
   }
 ]
