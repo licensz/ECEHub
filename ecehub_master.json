@@ -1,5 +1,55 @@
 [
   {
+    "name": "Hintergrundgeräusche",
+    "category": "Audio",
+    "iconName": "star.fill",
+    "description": "Direktzugriff auf Hintergrundgeräusche",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=AudioVisual/BackgroundSounds",
+    "keywords": [
+      "hintergrundgeräusche"
+    ]
+  },
+  {
+    "name": "Batteriezustand",
+    "category": "Energie",
+    "iconName": "star.fill",
+    "description": "Direktzugriff auf Batteriezustand",
+    "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
+    "keywords": [
+      "batteriezustand"
+    ]
+  },
+  {
+    "name": "Softwareupdate",
+    "category": "System",
+    "iconName": "star.fill",
+    "description": "Direktzugriff auf Softwareupdate",
+    "urlScheme": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "keywords": [
+      "softwareupdate"
+    ]
+  },
+  {
+    "name": "WLAN",
+    "category": "Netzwerk",
+    "iconName": "star.fill",
+    "description": "Direktzugriff auf WLAN",
+    "urlScheme": "App-prefs:root=WIFI",
+    "keywords": [
+      "wlan"
+    ]
+  },
+  {
+    "name": "Tastatur",
+    "category": "System",
+    "iconName": "star.fill",
+    "description": "Direktzugriff auf Tastatur",
+    "urlScheme": "App-prefs:root=General&path=Keyboard",
+    "keywords": [
+      "tastatur"
+    ]
+  },
+  {
     "name": "Accessibility",
     "category": "Accessibility",
     "iconName": "gearshape.fill",
@@ -234,7 +284,7 @@
     "category": "Accessibility",
     "iconName": "gearshape.fill",
     "description": "Öffnet Siri",
-    "urlScheme": "App-prefs:root=SIRI",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
     "keywords": [
       "siri"
     ]
@@ -1200,16 +1250,6 @@
     ]
   },
   {
-    "name": "Battery Health",
-    "category": "Battery",
-    "iconName": "gearshape.fill",
-    "description": "Öffnet Battery Health",
-    "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
-    "keywords": [
-      "battery health"
-    ]
-  },
-  {
     "name": "Bluetooth",
     "category": "System",
     "iconName": "gearshape.fill",
@@ -1970,16 +2010,6 @@
     ]
   },
   {
-    "name": "Keyboard",
-    "category": "Keyboard",
-    "iconName": "gearshape.fill",
-    "description": "Öffnet Keyboard",
-    "urlScheme": "App-prefs:root=General&path=Keyboard",
-    "keywords": [
-      "keyboard"
-    ]
-  },
-  {
     "name": "Hardware Keyboard",
     "category": "Keyboard",
     "iconName": "gearshape.fill",
@@ -1994,7 +2024,7 @@
     "category": "Keyboard",
     "iconName": "gearshape.fill",
     "description": "Öffnet Keyboards",
-    "urlScheme": "App-prefs:root=General&path=Keyboard",
+    "urlScheme": "App-prefs:root=General&path=Keyboard/KEYBOARDS",
     "keywords": [
       "keyboards"
     ]
@@ -2117,16 +2147,6 @@
     "urlScheme": "App-prefs:root=General&path=Reset",
     "keywords": [
       "reset"
-    ]
-  },
-  {
-    "name": "Software Update",
-    "category": "General",
-    "iconName": "gearshape.fill",
-    "description": "Öffnet Software Update",
-    "urlScheme": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
-    "keywords": [
-      "software update"
     ]
   },
   {
@@ -3817,16 +3837,6 @@
     "urlScheme": "App-prefs:root=Wallpaper",
     "keywords": [
       "wallpaper"
-    ]
-  },
-  {
-    "name": "Wi-Fi",
-    "category": "System",
-    "iconName": "gearshape.fill",
-    "description": "Öffnet Wi-Fi",
-    "urlScheme": "App-prefs:root=WIFI",
-    "keywords": [
-      "wi-fi"
     ]
   }
 ]
