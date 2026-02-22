@@ -5,19 +5,21 @@ import sys
 def transform():
     path = "fifi_repo/settings-urls-sorted.json"
     
-    # 1. Manuelle Korrekturen für iOS 18 (Damit Deep Links funktionieren)
+    # 1. VERIFIZIERTE IOS 18 PFADE (Harte Korrekturen)
+    # Diese Strings sind der "Master-Key", um direkt ins Menü zu springen
     ios18_fixes = {
         "Background Sounds": "ACCESSIBILITY&path=AudioVisual/BackgroundSounds",
-        "Triple-click": "ACCESSIBILITY&path=ACCESSIBILITY_SHORTCUT_TITLE",
+        "Audio/Visual": "ACCESSIBILITY&path=AudioVisual",
         "Keyboards": "General&path=Keyboard",
         "Battery Health": "BATTERY_USAGE&path=BATTERY_HEALTH",
         "VoiceOver": "ACCESSIBILITY&path=VOICEOVER_TITLE",
         "Touch": "ACCESSIBILITY&path=TOUCH_TITLE",
-        "Display Zoom": "DISPLAY&path=DISPLAY_ZOOM",
-        "Software Update": "General&path=SOFTWARE_UPDATE_LINK"
+        "Face ID & Passcode": "TOUCHID_PASSCODE",
+        "Guided Access": "ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+        "Siri": "SIRI"
     }
 
-    # 2. Übersetzungen für die App
+    # 2. ÜBERSETZUNGEN
     translations = {
         "Accessibility": "Bedienungshilfen",
         "Battery": "Batterie",
@@ -25,7 +27,8 @@ def transform():
         "General": "Allgemein",
         "Privacy": "Datenschutz & Sicherheit",
         "Background Sounds": "Hintergrundgeräusche",
-        "Triple-click": "Kurzbefehl"
+        "Audio/Visual": "Audio & Visuell",
+        "Guided Access": "Geführter Zugriff"
     }
 
     if not os.path.exists(path): sys.exit(1)
@@ -42,10 +45,11 @@ def transform():
                 if isinstance(value, str) and "prefs:" in value:
                     display_name = f"{current_cat} Übersicht" if key == "(root)" else translations.get(key, key)
                     
-                    # Hier greift die Korrektur-Logik
+                    # IOS 18 PFAD-KORREKTUR
                     if key in ios18_fixes:
                         clean_url = f"App-prefs:root={ios18_fixes[key]}"
                     else:
+                        # Standard: Kleinschreibung forcieren, da iOS 18 das lieber mag
                         clean_url = value.replace("prefs:", "App-prefs:")
                     
                     transformed.append({
@@ -61,6 +65,6 @@ def transform():
     walk(raw_data)
     with open('ecehub_master.json', 'w', encoding='utf-8') as f:
         json.dump(transformed, f, indent=2, ensure_ascii=False)
-    print(f"ERFOLG: {len(transformed)} Shortcuts mit Fixes gespeichert.")
+    print(f"ERFOLG: {len(transformed)} Shortcuts mit iOS 18 Fixes gespeichert.")
 
 if __name__ == "__main__": transform()
