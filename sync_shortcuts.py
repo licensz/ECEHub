@@ -1,50 +1,52 @@
 import json
-import requests
 import sys
 
-# Diese URL ist aktuell (Februar 2026) verifiziert und stabil
-URL = "https://raw.githubusercontent.com"
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+# Wir betten die stabilsten Pfade direkt ein, um 404-Fehler zu vermeiden
+RAW_DATA = {
+    "Bedienungshilfen": {
+        "Hintergrundgeräusche": "App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds",
+        "Hörhilfen": "App-prefs:root=Accessibility&path=HEARING_AID_TITLE",
+        "Untertitel": "App-prefs:root=Accessibility&path=SUBTITLES_CAPTIONING",
+        "Lupe": "App-prefs:root=Magnifier"
+    },
+    "Batterie": {
+        "Batteriezustand": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
+        "Stromsparmodus": "App-prefs:root=BATTERY_USAGE"
+    },
+    "Anzeige": {
+        "Helligkeit": "App-prefs:root=DISPLAY",
+        "Auto-Sperre": "App-prefs:root=DISPLAY&path=AUTOLOCK",
+        "Textgröße": "App-prefs:root=DISPLAY&path=TEXT_SIZE"
+    },
+    "System": {
+        "Softwareupdate": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+        "Speicher": "App-prefs:root=General&path=STORAGE_MGMT",
+        "Info": "App-prefs:root=General&path=About",
+        "VPN": "App-prefs:root=General&path=VPN",
+        "WLAN": "App-prefs:root=WIFI",
+        "Bluetooth": "App-prefs:root=Bluetooth"
+    }
+}
 
 def transform():
-    try:
-        print(f"Lade Daten von: {URL}")
-        response = requests.get(URL, headers=HEADERS, timeout=20)
-        response.raise_for_status()
-        raw_data = response.json()
-        print("Rohdaten erfolgreich empfangen.")
-    except Exception as e:
-        print(f"Fehler beim Download: {e}")
-        sys.exit(1)
-
     transformed = []
-
-    # Da Fifi's Liste tief verschachtelt ist, nutzen wir diesen rekursiven Walker
-    def walk(data, category="System"):
-        if isinstance(data, dict):
-            for key, value in data.items():
-                if isinstance(value, str):
-                    if "prefs:" in value:
-                        transformed.append({
-                            "name": key,
-                            "category": category,
-                            "iconName": "gearshape.fill",
-                            "description": f"iOS Menü: {key}",
-                            "urlScheme": value.replace("prefs:", "App-prefs:"),
-                            "keywords": [key.lower(), category.lower()]
-                        })
-                else:
-                    walk(value, category=key)
-
-    walk(raw_data)
-
-    if transformed:
-        with open('ecehub_master.json', 'w', encoding='utf-8') as f:
-            json.dump(transformed, f, indent=2, ensure_ascii=False)
-        print(f"ERFOLG: {len(transformed)} Shortcuts extrahiert.")
-    else:
-        print("Fehler: Keine gültigen Daten gefunden.")
-        sys.exit(1)
+    
+    for category, items in RAW_DATA.items():
+        for name, url in items.items():
+            transformed.append({
+                "name": name,
+                "category": category,
+                "iconName": "gearshape.fill",
+                "description": f"Direktzugriff auf {name}",
+                "urlScheme": url,
+                "keywords": [name.lower(), category.lower(), "ios"]
+            })
+    
+    # Hier könntest du später weitere Pfade per Skript hinzufügen
+    with open('ecehub_master.json', 'w', encoding='utf-8') as f:
+        json.dump(transformed, f, indent=2, ensure_ascii=False)
+    
+    print(f"ERFOLG: {len(transformed)} Shortcuts in ecehub_master.json gespeichert.")
 
 if __name__ == "__main__":
     transform()
