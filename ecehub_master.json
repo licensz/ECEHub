@@ -1194,7 +1194,7 @@
     "category": "Batterie",
     "iconName": "gearshape.fill",
     "description": "Öffnet Batterie Übersicht",
-    "urlScheme": "App-prefs:root=BATTERY_USAGE",
+    "urlScheme": "App-prefs:root=Battery",
     "keywords": [
       "batterie übersicht"
     ]
