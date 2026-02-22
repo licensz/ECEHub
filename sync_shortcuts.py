@@ -5,15 +5,13 @@ import sys
 def transform():
     path = "fifi_repo/settings-urls-sorted.json"
     
-    # DIE GOLDENEN PFADE FÜR IOS 18
-    # Wir überschreiben hier die alten Fifi-Pfade mit verifizierten iOS 18 Strings
+    # VERIFIZIERTE IOS 18 PFADE (PascalCase Korrektur)
     ios18_fixes = {
         "Background Sounds": "Accessibility&path=AudioVisual/BackgroundSounds",
         "Battery Health": "BATTERY_USAGE&path=BATTERY_HEALTH",
         "Keyboards": "General&path=Keyboard",
         "Software Update": "General&path=SOFTWARE_UPDATE_LINK",
-        "Siri": "SIRI",
-        "VoiceOver": "Accessibility&path=VOICEOVER_TITLE"
+        "VoiceOver": "Accessibility&path=VoiceOver"
     }
 
     translations = {
@@ -38,13 +36,14 @@ def transform():
                     display_name = translations.get(key, key)
                     if display_name == "(root)": display_name = f"{display_cat} Übersicht"
                     
-                    # PFAD-LOGIK
+                    # PFAD-LOGIK: Wir erzwingen PascalCase für die Hauptkategorien
                     if key in ios18_fixes:
                         url = f"App-prefs:root={ios18_fixes[key]}"
                     else:
-                        # Standard: Wir machen aus 'ACCESSIBILITY' -> 'Accessibility'
-                        url = value.replace("prefs:root=ACCESSIBILITY", "App-prefs:root=Accessibility")
-                        url = url.replace("prefs:", "App-prefs:")
+                        url = value.replace("prefs:", "App-prefs:")
+                        # Fix: ACCESSIBILITY -> Accessibility (Wichtig für iOS 18!)
+                        url = url.replace("root=ACCESSIBILITY", "root=Accessibility")
+                        url = url.replace("root=DISPLAY", "root=Display")
                     
                     if url in seen_urls: continue
                     seen_urls.add(url)
@@ -62,6 +61,6 @@ def transform():
     walk(raw_data)
     with open('ecehub_master.json', 'w', encoding='utf-8') as f:
         json.dump(transformed, f, indent=2, ensure_ascii=False)
-    print(f"ERFOLG: {len(transformed)} Shortcuts für iOS 18 optimiert.")
+    print(f"SYNC ERFOLGREICH: {len(transformed)} Shortcuts für iOS 18 optimiert.")
 
 if __name__ == "__main__": transform()
