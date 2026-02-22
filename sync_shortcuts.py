@@ -3,37 +3,29 @@ import os
 import sys
 
 def transform():
-    # Pfad zur Datei im "ausgeliehenen" Fifi-Ordner
     path = "fifi_repo/settings-urls-sorted.json"
     
-    # Mapping für die automatische Übersetzung & Kategorisierung
+    # Erweiterte Übersetzung & iOS 18 Pfad-Fixes
     translations = {
         "Accessibility": "Bedienungshilfen",
         "Battery": "Batterie",
         "Display & Brightness": "Anzeige & Helligkeit",
         "General": "Allgemein",
         "Privacy": "Datenschutz & Sicherheit",
-        "Sounds & Haptics": "Töne & Haptik",
         "Background Sounds": "Hintergrundgeräusche",
         "Battery Health": "Batteriezustand",
-        "Software Update": "Softwareupdate",
-        "Storage": "Speicher",
-        "VPN": "VPN & Netzwerk"
+        "Software Update": "Softwareupdate"
     }
 
-    # Interne iOS 18 Pfad-Korrekturen (Die "Scharfschützen"-Links)
+    # Spezifische iOS 18 Pfad-Korrekturen
     ios18_fixes = {
         "Background Sounds": "ACCESSIBILITY&path=AudioVisual/BackgroundSounds",
         "Battery Health": "BATTERY_USAGE&path=BATTERY_HEALTH",
         "Software Update": "General&path=SOFTWARE_UPDATE_LINK",
-        "Storage": "General&path=STORAGE_MGMT",
-        "Keyboards": "General&path=Keyboard"
+        "Storage": "General&path=STORAGE_MGMT"
     }
 
-    if not os.path.exists(path):
-        print("Fehler: Fifi-Repo nicht gefunden.")
-        sys.exit(1)
-
+    if not os.path.exists(path): sys.exit(1)
     with open(path, 'r', encoding='utf-8') as f:
         raw_data = json.load(f)
 
@@ -44,16 +36,15 @@ def transform():
         if isinstance(data, dict):
             for key, value in data.items():
                 if isinstance(value, str) and "prefs:" in value:
-                    # 1. Namen & Kategorien übersetzen
                     display_name = translations.get(key, key)
                     if display_name == "(root)": display_name = translations.get(category, category)
                     display_cat = translations.get(category, category)
                     
-                    # 2. Pfad generieren (Intelligente Bereinigung)
-                    # Wir entfernen Leerzeichen, da iOS 18 diese oft ablehnt
+                    # URL-Generierung
                     if key in ios18_fixes:
                         url = f"App-prefs:root={ios18_fixes[key]}"
                     else:
+                        # Entfernt Leerzeichen für maximale iOS 18 Kompatibilität
                         url = value.replace("prefs:", "App-prefs:").replace(" ", "")
                     
                     if url in seen_urls: continue
@@ -73,7 +64,7 @@ def transform():
     walk(raw_data)
     with open('ecehub_master.json', 'w', encoding='utf-8') as f:
         json.dump(transformed, f, indent=2, ensure_ascii=False)
-    print(f"AUTOMATISIERUNG: {len(transformed)} Shortcuts verarbeitet.")
+    print(f"ERFOLG: {len(transformed)} Shortcuts synchronisiert.")
 
 if __name__ == "__main__":
     transform()
