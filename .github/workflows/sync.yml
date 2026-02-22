@@ -1,0 +1,25 @@
+name: Auto-Sync iOS Database
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Jeden Sonntag um Mitternacht
+  workflow_dispatch: # Manueller Start möglich
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run Sync Script
+        run: python sync_shortcuts.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'ECEHub-Bot'
+          git config --global user.email 'bot@ecehub.app'
+          git add ecehub_master.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-Update: Database Sync" && git push)
