@@ -1,46 +1,182 @@
 [
   {
     "name": "Hintergrundgeräusche",
-    "category": "Allgemein",
+    "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Hintergrundgeräusche",
-    "urlScheme": "App-App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds",
+    "urlScheme": "App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds",
     "keywords": [
       "hintergrundgeräusche",
-      "allgemein"
+      "bedienungshilfen",
+      "ios"
+    ]
+  },
+  {
+    "name": "Hörhilfen",
+    "category": "Bedienungshilfen",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Hörhilfen",
+    "urlScheme": "App-prefs:root=Accessibility&path=HEARING_AID_TITLE",
+    "keywords": [
+      "hörhilfen",
+      "bedienungshilfen",
+      "ios"
+    ]
+  },
+  {
+    "name": "Untertitel",
+    "category": "Bedienungshilfen",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Untertitel",
+    "urlScheme": "App-prefs:root=Accessibility&path=SUBTITLES_CAPTIONING",
+    "keywords": [
+      "untertitel",
+      "bedienungshilfen",
+      "ios"
+    ]
+  },
+  {
+    "name": "Lupe",
+    "category": "Bedienungshilfen",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Lupe",
+    "urlScheme": "App-prefs:root=Magnifier",
+    "keywords": [
+      "lupe",
+      "bedienungshilfen",
+      "ios"
     ]
   },
   {
     "name": "Batteriezustand",
-    "category": "Allgemein",
+    "category": "Batterie",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Batteriezustand",
-    "urlScheme": "App-App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
+    "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
     "keywords": [
       "batteriezustand",
-      "allgemein"
+      "batterie",
+      "ios"
     ]
   },
   {
-    "name": "WLAN",
-    "category": "Allgemein",
+    "name": "Stromsparmodus",
+    "category": "Batterie",
     "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf WLAN",
-    "urlScheme": "App-App-prefs:root=WIFI",
+    "description": "Direktzugriff auf Stromsparmodus",
+    "urlScheme": "App-prefs:root=BATTERY_USAGE",
     "keywords": [
-      "wlan",
-      "allgemein"
+      "stromsparmodus",
+      "batterie",
+      "ios"
+    ]
+  },
+  {
+    "name": "Helligkeit",
+    "category": "Anzeige",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Helligkeit",
+    "urlScheme": "App-prefs:root=DISPLAY",
+    "keywords": [
+      "helligkeit",
+      "anzeige",
+      "ios"
+    ]
+  },
+  {
+    "name": "Auto-Sperre",
+    "category": "Anzeige",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Auto-Sperre",
+    "urlScheme": "App-prefs:root=DISPLAY&path=AUTOLOCK",
+    "keywords": [
+      "auto-sperre",
+      "anzeige",
+      "ios"
+    ]
+  },
+  {
+    "name": "Textgröße",
+    "category": "Anzeige",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Textgröße",
+    "urlScheme": "App-prefs:root=DISPLAY&path=TEXT_SIZE",
+    "keywords": [
+      "textgröße",
+      "anzeige",
+      "ios"
     ]
   },
   {
     "name": "Softwareupdate",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Softwareupdate",
-    "urlScheme": "App-App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "urlScheme": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
     "keywords": [
       "softwareupdate",
-      "allgemein"
+      "system",
+      "ios"
+    ]
+  },
+  {
+    "name": "Speicher",
+    "category": "System",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Speicher",
+    "urlScheme": "App-prefs:root=General&path=STORAGE_MGMT",
+    "keywords": [
+      "speicher",
+      "system",
+      "ios"
+    ]
+  },
+  {
+    "name": "Info",
+    "category": "System",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Info",
+    "urlScheme": "App-prefs:root=General&path=About",
+    "keywords": [
+      "info",
+      "system",
+      "ios"
+    ]
+  },
+  {
+    "name": "VPN",
+    "category": "System",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf VPN",
+    "urlScheme": "App-prefs:root=General&path=VPN",
+    "keywords": [
+      "vpn",
+      "system",
+      "ios"
+    ]
+  },
+  {
+    "name": "WLAN",
+    "category": "System",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf WLAN",
+    "urlScheme": "App-prefs:root=WIFI",
+    "keywords": [
+      "wlan",
+      "system",
+      "ios"
+    ]
+  },
+  {
+    "name": "Bluetooth",
+    "category": "System",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Bluetooth",
+    "urlScheme": "App-prefs:root=Bluetooth",
+    "keywords": [
+      "bluetooth",
+      "system",
+      "ios"
     ]
   }
 ]
