@@ -1,12 +1,12 @@
 [
   {
-    "name": "(root)",
+    "name": "Bedienungshilfen Übersicht",
     "category": "Bedienungshilfen",
     "iconName": "accessibility",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Bedienungshilfen Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY",
     "keywords": [
-      "(root)",
+      "bedienungshilfen übersicht",
       "bedienungshilfen",
       "einstellungen"
     ]
@@ -48,25 +48,25 @@
     ]
   },
   {
-    "name": "Audio/Visual",
+    "name": "Audio & Visuell",
     "category": "Bedienungshilfen",
     "iconName": "accessibility",
-    "description": "Direktzugriff auf Audio/Visual",
+    "description": "Direktzugriff auf Audio & Visuell",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
     "keywords": [
-      "audio/visual",
+      "audio & visuell",
       "bedienungshilfen",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "Display & Text Size Übersicht",
     "category": "Display & Text Size",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Display & Text Size Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
     "keywords": [
-      "(root)",
+      "display & text size übersicht",
       "display & text size",
       "einstellungen"
     ]
@@ -96,13 +96,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Guided Access Übersicht",
     "category": "Guided Access",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Guided Access Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
     "keywords": [
-      "(root)",
+      "guided access übersicht",
       "guided access",
       "einstellungen"
     ]
@@ -132,13 +132,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Time Limits Übersicht",
     "category": "Time Limits",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Time Limits Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList",
     "keywords": [
-      "(root)",
+      "time limits übersicht",
       "time limits",
       "einstellungen"
     ]
@@ -180,13 +180,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Keyboards Übersicht",
     "category": "Keyboards",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Keyboards Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS",
     "keywords": [
-      "(root)",
+      "keyboards übersicht",
       "keyboards",
       "einstellungen"
     ]
@@ -288,13 +288,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Sound Recognition Übersicht",
     "category": "Sound Recognition",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Sound Recognition Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
     "keywords": [
-      "(root)",
+      "sound recognition übersicht",
       "sound recognition",
       "einstellungen"
     ]
@@ -312,13 +312,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Spoken Content Übersicht",
     "category": "Spoken Content",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Spoken Content Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
     "keywords": [
-      "(root)",
+      "spoken content übersicht",
       "spoken content",
       "einstellungen"
     ]
@@ -408,13 +408,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Switch Control Übersicht",
     "category": "Switch Control",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Switch Control Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
     "keywords": [
-      "(root)",
+      "switch control übersicht",
       "switch control",
       "einstellungen"
     ]
@@ -492,13 +492,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Menu Items Übersicht",
     "category": "Menu Items",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Menu Items Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier",
     "keywords": [
-      "(root)",
+      "menu items übersicht",
       "menu items",
       "einstellungen"
     ]
@@ -612,13 +612,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Speech Übersicht",
     "category": "Speech",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Speech Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier",
     "keywords": [
-      "(root)",
+      "speech übersicht",
       "speech",
       "einstellungen"
     ]
@@ -636,13 +636,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Switches Übersicht",
     "category": "Switches",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Switches Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier",
     "keywords": [
-      "(root)",
+      "switches übersicht",
       "switches",
       "einstellungen"
     ]
@@ -672,25 +672,25 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Touch Übersicht",
     "category": "Touch",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Touch Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
     "keywords": [
-      "(root)",
+      "touch übersicht",
       "touch",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "AssistiveTouch Übersicht",
     "category": "AssistiveTouch",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf AssistiveTouch Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
     "keywords": [
-      "(root)",
+      "assistivetouch übersicht",
       "assistivetouch",
       "einstellungen"
     ]
@@ -708,13 +708,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Devices Übersicht",
     "category": "Devices",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Devices Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
     "keywords": [
-      "(root)",
+      "devices übersicht",
       "devices",
       "einstellungen"
     ]
@@ -768,13 +768,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Pointer Style Übersicht",
     "category": "Pointer Style",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Pointer Style Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
     "keywords": [
-      "(root)",
+      "pointer style übersicht",
       "pointer style",
       "einstellungen"
     ]
@@ -792,13 +792,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Color Übersicht",
     "category": "Color",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Color Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color",
     "keywords": [
-      "(root)",
+      "color übersicht",
       "color",
       "einstellungen"
     ]
@@ -840,13 +840,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Call Audio Routing Übersicht",
     "category": "Call Audio Routing",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Call Audio Routing Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING",
     "keywords": [
-      "(root)",
+      "call audio routing übersicht",
       "call audio routing",
       "einstellungen"
     ]
@@ -888,13 +888,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Voice Control Übersicht",
     "category": "Voice Control",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Voice Control Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
     "keywords": [
-      "(root)",
+      "voice control übersicht",
       "voice control",
       "einstellungen"
     ]
@@ -948,25 +948,25 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "VoiceOver Übersicht",
     "category": "VoiceOver",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf VoiceOver Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
     "keywords": [
-      "(root)",
+      "voiceover übersicht",
       "voiceover",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "Activities Übersicht",
     "category": "Activities",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Activities Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES",
     "keywords": [
-      "(root)",
+      "activities übersicht",
       "activities",
       "einstellungen"
     ]
@@ -1008,13 +1008,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Braille Übersicht",
     "category": "Braille",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Braille Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE",
     "keywords": [
-      "(root)",
+      "braille übersicht",
       "braille",
       "einstellungen"
     ]
@@ -1032,13 +1032,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Braille Tables Übersicht",
     "category": "Braille Tables",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Braille Tables Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier",
     "keywords": [
-      "(root)",
+      "braille tables übersicht",
       "braille tables",
       "einstellungen"
     ]
@@ -1092,25 +1092,25 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Verbosity Übersicht",
     "category": "Verbosity",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Verbosity Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY",
     "keywords": [
-      "(root)",
+      "verbosity übersicht",
       "verbosity",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "Punctuation Übersicht",
     "category": "Punctuation",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Punctuation Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY/voiceOverPunctuationGroup",
     "keywords": [
-      "(root)",
+      "punctuation übersicht",
       "punctuation",
       "einstellungen"
     ]
@@ -1200,13 +1200,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Typing Übersicht",
     "category": "Typing",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Typing Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS",
     "keywords": [
-      "(root)",
+      "typing übersicht",
       "typing",
       "einstellungen"
     ]
@@ -1260,13 +1260,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Zoom Übersicht",
     "category": "Zoom",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Zoom Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
     "keywords": [
-      "(root)",
+      "zoom übersicht",
       "zoom",
       "einstellungen"
     ]
@@ -1320,13 +1320,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "App Store Übersicht",
     "category": "App Store",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf App Store Übersicht",
     "urlScheme": "App-prefs:root=STORE",
     "keywords": [
-      "(root)",
+      "app store übersicht",
       "app store",
       "einstellungen"
     ]
@@ -1356,13 +1356,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Apple ID Übersicht",
     "category": "Apple ID",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Apple ID Übersicht",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT",
     "keywords": [
-      "(root)",
+      "apple id übersicht",
       "apple id",
       "einstellungen"
     ]
@@ -1428,13 +1428,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Batterie Übersicht",
     "category": "Batterie",
     "iconName": "battery.100",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Batterie Übersicht",
     "urlScheme": "App-prefs:root=BATTERY_USAGE",
     "keywords": [
-      "(root)",
+      "batterie übersicht",
       "batterie",
       "einstellungen"
     ]
@@ -1464,13 +1464,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Books Übersicht",
     "category": "Books",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Books Übersicht",
     "urlScheme": "App-prefs:root=IBOOKS",
     "keywords": [
-      "(root)",
+      "books übersicht",
       "books",
       "einstellungen"
     ]
@@ -1524,13 +1524,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Calendar Übersicht",
     "category": "Calendar",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Calendar Übersicht",
     "urlScheme": "App-prefs:root=CALENDAR",
     "keywords": [
-      "(root)",
+      "calendar übersicht",
       "calendar",
       "einstellungen"
     ]
@@ -1620,13 +1620,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Camera Übersicht",
     "category": "Camera",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Camera Übersicht",
     "urlScheme": "App-prefs:root=CAMERA",
     "keywords": [
-      "(root)",
+      "camera übersicht",
       "camera",
       "einstellungen"
     ]
@@ -1680,13 +1680,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Cellular Übersicht",
     "category": "Cellular",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Cellular Übersicht",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID",
     "keywords": [
-      "(root)",
+      "cellular übersicht",
       "cellular",
       "einstellungen"
     ]
@@ -1728,25 +1728,25 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Personal Hotspot Übersicht",
     "category": "Personal Hotspot",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Personal Hotspot Übersicht",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING",
     "keywords": [
-      "(root)",
+      "personal hotspot übersicht",
       "personal hotspot",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "Family Sharing Übersicht",
     "category": "Family Sharing",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Family Sharing Übersicht",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing",
     "keywords": [
-      "(root)",
+      "family sharing übersicht",
       "family sharing",
       "einstellungen"
     ]
@@ -1812,13 +1812,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Contacts Übersicht",
     "category": "Contacts",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Contacts Übersicht",
     "urlScheme": "App-prefs:root=CONTACTS",
     "keywords": [
-      "(root)",
+      "contacts übersicht",
       "contacts",
       "einstellungen"
     ]
@@ -1884,13 +1884,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Kontrollzentrum Übersicht",
     "category": "Kontrollzentrum",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Kontrollzentrum Übersicht",
     "urlScheme": "App-prefs:root=ControlCenter",
     "keywords": [
-      "(root)",
+      "kontrollzentrum übersicht",
       "kontrollzentrum",
       "einstellungen"
     ]
@@ -1908,13 +1908,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Developer Übersicht",
     "category": "Developer",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Developer Übersicht",
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS",
     "keywords": [
-      "(root)",
+      "developer übersicht",
       "developer",
       "einstellungen"
     ]
@@ -1992,13 +1992,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Display Übersicht",
     "category": "Display",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Display Übersicht",
     "urlScheme": "App-prefs:root=DISPLAY",
     "keywords": [
-      "(root)",
+      "display übersicht",
       "display",
       "einstellungen"
     ]
@@ -2052,13 +2052,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Do Not Disturb Übersicht",
     "category": "Do Not Disturb",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Do Not Disturb Übersicht",
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB",
     "keywords": [
-      "(root)",
+      "do not disturb übersicht",
       "do not disturb",
       "einstellungen"
     ]
@@ -2124,13 +2124,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Face/Touch ID & Passcode Übersicht",
     "category": "Face/Touch ID & Passcode",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Face/Touch ID & Passcode Übersicht",
     "urlScheme": "App-prefs:root=PASSCODE",
     "keywords": [
-      "(root)",
+      "face/touch id & passcode übersicht",
       "face/touch id & passcode",
       "einstellungen"
     ]
@@ -2148,13 +2148,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "FaceTime Übersicht",
     "category": "FaceTime",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf FaceTime Übersicht",
     "urlScheme": "App-prefs:root=FACETIME",
     "keywords": [
-      "(root)",
+      "facetime übersicht",
       "facetime",
       "einstellungen"
     ]
@@ -2172,13 +2172,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Game Center Übersicht",
     "category": "Game Center",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Game Center Übersicht",
     "urlScheme": "App-prefs:root=GAMECENTER",
     "keywords": [
-      "(root)",
+      "game center übersicht",
       "game center",
       "einstellungen"
     ]
@@ -2208,25 +2208,25 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Allgemein Übersicht",
     "category": "Allgemein",
     "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Allgemein Übersicht",
     "urlScheme": "App-prefs:root=General",
     "keywords": [
-      "(root)",
+      "allgemein übersicht",
       "allgemein",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "About Übersicht",
     "category": "About",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf About Übersicht",
     "urlScheme": "App-prefs:root=General&path=About",
     "keywords": [
-      "(root)",
+      "about übersicht",
       "about",
       "einstellungen"
     ]
@@ -2280,13 +2280,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Background App Refresh Übersicht",
     "category": "Background App Refresh",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Background App Refresh Übersicht",
     "urlScheme": "App-prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
     "keywords": [
-      "(root)",
+      "background app refresh übersicht",
       "background app refresh",
       "einstellungen"
     ]
@@ -2340,13 +2340,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "iPhone/iPad Storage Übersicht",
     "category": "iPhone/iPad Storage",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf iPhone/iPad Storage Übersicht",
     "urlScheme": "App-prefs:root=General&path=STORAGE_MGMT",
     "keywords": [
-      "(root)",
+      "iphone/ipad storage übersicht",
       "iphone/ipad storage",
       "einstellungen"
     ]
@@ -2364,13 +2364,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Keyboard Übersicht",
     "category": "Keyboard",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Keyboard Übersicht",
     "urlScheme": "App-prefs:root=General&path=Keyboard",
     "keywords": [
-      "(root)",
+      "keyboard übersicht",
       "keyboard",
       "einstellungen"
     ]
@@ -2424,13 +2424,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Language & Region Übersicht",
     "category": "Language & Region",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Language & Region Übersicht",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL",
     "keywords": [
-      "(root)",
+      "language & region übersicht",
       "language & region",
       "einstellungen"
     ]
@@ -2508,13 +2508,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Profiles Übersicht",
     "category": "Profiles",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Profiles Übersicht",
     "urlScheme": "App-prefs:root=General&path=ManagedConfigurationList",
     "keywords": [
-      "(root)",
+      "profiles übersicht",
       "profiles",
       "einstellungen"
     ]
@@ -2556,25 +2556,25 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "VPN Übersicht",
     "category": "VPN",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf VPN Übersicht",
     "urlScheme": "App-prefs:root=General&path=VPN",
     "keywords": [
-      "(root)",
+      "vpn übersicht",
       "vpn",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "[VPN Configuration Name] Übersicht",
     "category": "[VPN Configuration Name]",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf [VPN Configuration Name] Übersicht",
     "urlScheme": "App-prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]",
     "keywords": [
-      "(root)",
+      "[vpn configuration name] übersicht",
       "[vpn configuration name]",
       "einstellungen"
     ]
@@ -2616,13 +2616,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Health Übersicht",
     "category": "Health",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Health Übersicht",
     "urlScheme": "App-prefs:root=HEALTH",
     "keywords": [
-      "(root)",
+      "health übersicht",
       "health",
       "einstellungen"
     ]
@@ -2664,13 +2664,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Home Screen & Dock (iPad) Übersicht",
     "category": "Home Screen & Dock (iPad)",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Home Screen & Dock (iPad) Übersicht",
     "urlScheme": "App-prefs:root=HOME_SCREEN_DOCK",
     "keywords": [
-      "(root)",
+      "home screen & dock (ipad) übersicht",
       "home screen & dock (ipad)",
       "einstellungen"
     ]
@@ -2724,13 +2724,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Mail Übersicht",
     "category": "Mail",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Mail Übersicht",
     "urlScheme": "App-prefs:root=MAIL",
     "keywords": [
-      "(root)",
+      "mail übersicht",
       "mail",
       "einstellungen"
     ]
@@ -2856,13 +2856,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Swipe Options Übersicht",
     "category": "Swipe Options",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Swipe Options Übersicht",
     "urlScheme": "App-prefs:root=MAIL&path=Swipe%20Options",
     "keywords": [
-      "(root)",
+      "swipe options übersicht",
       "swipe options",
       "einstellungen"
     ]
@@ -2892,13 +2892,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Maps Übersicht",
     "category": "Maps",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Maps Übersicht",
     "urlScheme": "App-prefs:root=MAPS",
     "keywords": [
-      "(root)",
+      "maps übersicht",
       "maps",
       "einstellungen"
     ]
@@ -2952,13 +2952,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Measure Übersicht",
     "category": "Measure",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Measure Übersicht",
     "urlScheme": "App-prefs:root=MEASURE",
     "keywords": [
-      "(root)",
+      "measure übersicht",
       "measure",
       "einstellungen"
     ]
@@ -2988,13 +2988,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Music Übersicht",
     "category": "Music",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Music Übersicht",
     "urlScheme": "App-prefs:root=MUSIC",
     "keywords": [
-      "(root)",
+      "music übersicht",
       "music",
       "einstellungen"
     ]
@@ -3072,13 +3072,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "News Übersicht",
     "category": "News",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf News Übersicht",
     "urlScheme": "App-prefs:root=NEWS",
     "keywords": [
-      "(root)",
+      "news übersicht",
       "news",
       "einstellungen"
     ]
@@ -3096,13 +3096,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Notes Übersicht",
     "category": "Notes",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Notes Übersicht",
     "urlScheme": "App-prefs:root=NOTES",
     "keywords": [
-      "(root)",
+      "notes übersicht",
       "notes",
       "einstellungen"
     ]
@@ -3216,13 +3216,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Notifications Übersicht",
     "category": "Notifications",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Notifications Übersicht",
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID",
     "keywords": [
-      "(root)",
+      "notifications übersicht",
       "notifications",
       "einstellungen"
     ]
@@ -3264,13 +3264,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Passwords Übersicht",
     "category": "Passwords",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Passwords Übersicht",
     "urlScheme": "App-prefs:root=PASSWORDS",
     "keywords": [
-      "(root)",
+      "passwords übersicht",
       "passwords",
       "einstellungen"
     ]
@@ -3288,25 +3288,25 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Passwords & Accounts Übersicht",
     "category": "Passwords & Accounts",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Passwords & Accounts Übersicht",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS",
     "keywords": [
-      "(root)",
+      "passwords & accounts übersicht",
       "passwords & accounts",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "Add Account Übersicht",
     "category": "Add Account",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Add Account Übersicht",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT",
     "keywords": [
-      "(root)",
+      "add account übersicht",
       "add account",
       "einstellungen"
     ]
@@ -3348,13 +3348,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Other Übersicht",
     "category": "Other",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Other Übersicht",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER",
     "keywords": [
-      "(root)",
+      "other übersicht",
       "other",
       "einstellungen"
     ]
@@ -3444,25 +3444,25 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Personal Hotspot Übersicht",
     "category": "Personal Hotspot",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Personal Hotspot Übersicht",
     "urlScheme": "App-prefs:root=INTERNET_TETHERING",
     "keywords": [
-      "(root)",
+      "personal hotspot übersicht",
       "personal hotspot",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "Family Sharing Übersicht",
     "category": "Family Sharing",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Family Sharing Übersicht",
     "urlScheme": "App-prefs:root=INTERNET_TETHERING&path=Family%20Sharing",
     "keywords": [
-      "(root)",
+      "family sharing übersicht",
       "family sharing",
       "einstellungen"
     ]
@@ -3492,13 +3492,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Phone Übersicht",
     "category": "Phone",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Phone Übersicht",
     "urlScheme": "App-prefs:root=Phone",
     "keywords": [
-      "(root)",
+      "phone übersicht",
       "phone",
       "einstellungen"
     ]
@@ -3528,13 +3528,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Photos Übersicht",
     "category": "Photos",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Photos Übersicht",
     "urlScheme": "App-prefs:root=Photos",
     "keywords": [
-      "(root)",
+      "photos übersicht",
       "photos",
       "einstellungen"
     ]
@@ -3564,13 +3564,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Datenschutz & Sicherheit Übersicht",
     "category": "Datenschutz & Sicherheit",
     "iconName": "hand.raised.fill",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Datenschutz & Sicherheit Übersicht",
     "urlScheme": "App-prefs:root=Privacy",
     "keywords": [
-      "(root)",
+      "datenschutz & sicherheit übersicht",
       "datenschutz & sicherheit",
       "einstellungen"
     ]
@@ -3684,13 +3684,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Location Services Übersicht",
     "category": "Location Services",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Location Services Übersicht",
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION",
     "keywords": [
-      "(root)",
+      "location services übersicht",
       "location services",
       "einstellungen"
     ]
@@ -3708,13 +3708,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Share My Location Übersicht",
     "category": "Share My Location",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Share My Location Übersicht",
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/LOCATION_SHARING",
     "keywords": [
-      "(root)",
+      "share my location übersicht",
       "share my location",
       "einstellungen"
     ]
@@ -3780,13 +3780,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Photos Übersicht",
     "category": "Photos",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Photos Übersicht",
     "urlScheme": "App-prefs:root=Privacy&path=PHOTOS",
     "keywords": [
-      "(root)",
+      "photos übersicht",
       "photos",
       "einstellungen"
     ]
@@ -3852,13 +3852,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Reminders Übersicht",
     "category": "Reminders",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Reminders Übersicht",
     "urlScheme": "App-prefs:root=REMINDERS",
     "keywords": [
-      "(root)",
+      "reminders übersicht",
       "reminders",
       "einstellungen"
     ]
@@ -3888,13 +3888,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Safari Übersicht",
     "category": "Safari",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Safari Übersicht",
     "urlScheme": "App-prefs:root=SAFARI",
     "keywords": [
-      "(root)",
+      "safari übersicht",
       "safari",
       "einstellungen"
     ]
@@ -4056,13 +4056,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Bildschirmzeit Übersicht",
     "category": "Bildschirmzeit",
-    "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "iconName": "hourglass",
+    "description": "Direktzugriff auf Bildschirmzeit Übersicht",
     "urlScheme": "App-prefs:root=SCREEN_TIME",
     "keywords": [
-      "(root)",
+      "bildschirmzeit übersicht",
       "bildschirmzeit",
       "einstellungen"
     ]
@@ -4070,7 +4070,7 @@
   {
     "name": "Always Allowed",
     "category": "Bildschirmzeit",
-    "iconName": "gearshape",
+    "iconName": "hourglass",
     "description": "Direktzugriff auf Always Allowed",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
     "keywords": [
@@ -4082,7 +4082,7 @@
   {
     "name": "App Limits",
     "category": "Bildschirmzeit",
-    "iconName": "gearshape",
+    "iconName": "hourglass",
     "description": "Direktzugriff auf App Limits",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=APP_LIMITS",
     "keywords": [
@@ -4094,7 +4094,7 @@
   {
     "name": "Communication Limits",
     "category": "Bildschirmzeit",
-    "iconName": "gearshape",
+    "iconName": "hourglass",
     "description": "Direktzugriff auf Communication Limits",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
     "keywords": [
@@ -4106,7 +4106,7 @@
   {
     "name": "Content & Privacy Restrictions",
     "category": "Bildschirmzeit",
-    "iconName": "gearshape",
+    "iconName": "hourglass",
     "description": "Direktzugriff auf Content & Privacy Restrictions",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
     "keywords": [
@@ -4118,7 +4118,7 @@
   {
     "name": "Downtime",
     "category": "Bildschirmzeit",
-    "iconName": "gearshape",
+    "iconName": "hourglass",
     "description": "Direktzugriff auf Downtime",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=DOWNTIME",
     "keywords": [
@@ -4130,7 +4130,7 @@
   {
     "name": "See All Activity",
     "category": "Bildschirmzeit",
-    "iconName": "gearshape",
+    "iconName": "hourglass",
     "description": "Direktzugriff auf See All Activity",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
     "keywords": [
@@ -4142,7 +4142,7 @@
   {
     "name": "Turn On Screen Time",
     "category": "Bildschirmzeit",
-    "iconName": "gearshape",
+    "iconName": "hourglass",
     "description": "Direktzugriff auf Turn On Screen Time",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=Turn%20On%20Screen%20Time",
     "keywords": [
@@ -4164,13 +4164,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Shortcuts Übersicht",
     "category": "Shortcuts",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Shortcuts Übersicht",
     "urlScheme": "App-prefs:root=SHORTCUTS",
     "keywords": [
-      "(root)",
+      "shortcuts übersicht",
       "shortcuts",
       "einstellungen"
     ]
@@ -4248,13 +4248,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Sounds Übersicht",
     "category": "Sounds",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Sounds Übersicht",
     "urlScheme": "App-prefs:root=Sounds",
     "keywords": [
-      "(root)",
+      "sounds übersicht",
       "sounds",
       "einstellungen"
     ]
@@ -4380,13 +4380,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "TV Übersicht",
     "category": "TV",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf TV Übersicht",
     "urlScheme": "App-prefs:root=TVAPP",
     "keywords": [
-      "(root)",
+      "tv übersicht",
       "tv",
       "einstellungen"
     ]
@@ -4452,13 +4452,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Voice Memos Übersicht",
     "category": "Voice Memos",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Voice Memos Übersicht",
     "urlScheme": "App-prefs:root=VOICE_MEMOS",
     "keywords": [
-      "(root)",
+      "voice memos übersicht",
       "voice memos",
       "einstellungen"
     ]
@@ -4500,25 +4500,25 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "VPN Übersicht",
     "category": "VPN",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf VPN Übersicht",
     "urlScheme": "App-prefs:root=VPN",
     "keywords": [
-      "(root)",
+      "vpn übersicht",
       "vpn",
       "einstellungen"
     ]
   },
   {
-    "name": "(root)",
+    "name": "[VPN configuration] Übersicht",
     "category": "[VPN configuration]",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf [VPN configuration] Übersicht",
     "urlScheme": "App-prefs:root=VPN&path=[URL-encoded VPN Configuration Name]",
     "keywords": [
-      "(root)",
+      "[vpn configuration] übersicht",
       "[vpn configuration]",
       "einstellungen"
     ]
@@ -4548,13 +4548,13 @@
     ]
   },
   {
-    "name": "(root)",
+    "name": "Wallet Übersicht",
     "category": "Wallet",
     "iconName": "gearshape",
-    "description": "Direktzugriff auf (root)",
+    "description": "Direktzugriff auf Wallet Übersicht",
     "urlScheme": "App-prefs:root=PASSBOOK",
     "keywords": [
-      "(root)",
+      "wallet übersicht",
       "wallet",
       "einstellungen"
     ]
