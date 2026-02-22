@@ -5,22 +5,14 @@
     "iconName": "ear.and.waveform",
     "description": "Regen oder Rauschen zur Konzentration",
     "urlScheme": "App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds",
-    "keywords": ["Lärm", "Fokus", "Schlafen", "Regen"]
+    "keywords": ["Lärm", "Fokus", "Schlafen"]
   },
   {
     "name": "Batteriezustand",
     "category": "System",
     "iconName": "battery.100",
-    "description": "Maximale Kapazität des Akkus prüfen",
+    "description": "Akku-Kapazität prüfen",
     "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
-    "keywords": ["Akku", "Strom", "Laden", "Prozent"]
-  },
-  {
-    "name": "WLAN-Einstellungen",
-    "category": "Netzwerk",
-    "iconName": "wifi",
-    "description": "Netzwerke verwalten",
-    "urlScheme": "App-prefs:root=WIFI",
-    "keywords": ["Internet", "Verbindung", "Router"]
+    "keywords": ["Akku", "Strom", "Laden"]
   }
 ]
