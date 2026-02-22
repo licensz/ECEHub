@@ -44,13 +44,13 @@
     ]
   },
   {
-    "name": "Audio/Visual",
+    "name": "Audio & Visuell",
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Audio/Visual",
-    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
+    "description": "Öffnet Audio & Visuell",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=AudioVisual",
     "keywords": [
-      "audio/visual",
+      "audio & visuell",
       "bedienungshilfen"
     ]
   },
@@ -88,36 +88,36 @@
     ]
   },
   {
-    "name": "Guided Access Übersicht",
-    "category": "Guided Access",
+    "name": "Geführter Zugriff Übersicht",
+    "category": "Geführter Zugriff",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Guided Access Übersicht",
+    "description": "Öffnet Geführter Zugriff Übersicht",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
     "keywords": [
-      "guided access übersicht",
-      "guided access"
+      "geführter zugriff übersicht",
+      "geführter zugriff"
     ]
   },
   {
     "name": "Display Auto-Lock",
-    "category": "Guided Access",
+    "category": "Geführter Zugriff",
     "iconName": "gearshape.fill",
     "description": "Öffnet Display Auto-Lock",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime",
     "keywords": [
       "display auto-lock",
-      "guided access"
+      "geführter zugriff"
     ]
   },
   {
     "name": "Passcode Settings",
-    "category": "Guided Access",
+    "category": "Geführter Zugriff",
     "iconName": "gearshape.fill",
     "description": "Öffnet Passcode Settings",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList",
     "keywords": [
       "passcode settings",
-      "guided access"
+      "geführter zugriff"
     ]
   },
   {
@@ -257,7 +257,7 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Siri",
-    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
+    "urlScheme": "App-prefs:root=SIRI",
     "keywords": [
       "siri",
       "bedienungshilfen"
