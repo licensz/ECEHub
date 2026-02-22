@@ -1,12 +1,32 @@
 [
   {
+    "name": "Hintergrundgeräusche",
+    "category": "Audio",
+    "iconName": "ear.and.waveform",
+    "description": "Direktzugriff auf Hintergrundgeräusche",
+    "urlScheme": "App-prefs:root=Accessibility&path=AudioVisual/BackgroundSounds",
+    "keywords": [
+      "hintergrundgeräusche"
+    ]
+  },
+  {
     "name": "Bedienungshilfen Übersicht",
-    "category": "Bedienungshilfen",
-    "iconName": "gearshape.fill",
-    "description": "Öffnet Bedienungshilfen Übersicht",
+    "category": "System",
+    "iconName": "accessibility",
+    "description": "Direktzugriff auf Bedienungshilfen Übersicht",
     "urlScheme": "App-prefs:root=Accessibility",
     "keywords": [
       "bedienungshilfen übersicht"
+    ]
+  },
+  {
+    "name": "Bedienungshilfen",
+    "category": "Bedienungshilfen",
+    "iconName": "gearshape.fill",
+    "description": "Öffnet Bedienungshilfen",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY",
+    "keywords": [
+      "bedienungshilfen"
     ]
   },
   {
@@ -14,7 +34,7 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Accessibility Shortcut",
-    "urlScheme": "App-prefs:root=Accessibility&path=TRIPLE_CLICK_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
     "keywords": [
       "accessibility shortcut"
     ]
@@ -24,7 +44,7 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Apple TV Remote",
-    "urlScheme": "App-prefs:root=Accessibility&path=Apple%20TV%20Remote",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=Apple%20TV%20Remote",
     "keywords": [
       "apple tv remote"
     ]
@@ -34,7 +54,7 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Audio Descriptions",
-    "urlScheme": "App-prefs:root=Accessibility&path=DESCRIPTIVE_VIDEO",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
     "keywords": [
       "audio descriptions"
     ]
@@ -44,19 +64,19 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Audio/Visual",
-    "urlScheme": "App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
     "keywords": [
       "audio/visual"
     ]
   },
   {
-    "name": "Display & Text Size Übersicht",
+    "name": "Display & Text Size",
     "category": "Display & Text Size",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Display & Text Size Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=DISPLAY_AND_TEXT",
+    "description": "Öffnet Display & Text Size",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
     "keywords": [
-      "display & text size übersicht"
+      "display & text size"
     ]
   },
   {
@@ -64,7 +84,7 @@
     "category": "Display & Text Size",
     "iconName": "gearshape.fill",
     "description": "Öffnet Color Filters",
-    "urlScheme": "App-prefs:root=Accessibility&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
     "keywords": [
       "color filters"
     ]
@@ -74,19 +94,19 @@
     "category": "Display & Text Size",
     "iconName": "gearshape.fill",
     "description": "Öffnet Larger Text",
-    "urlScheme": "App-prefs:root=Accessibility&path=DISPLAY_AND_TEXT/Larger%20Text",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Larger%20Text",
     "keywords": [
       "larger text"
     ]
   },
   {
-    "name": "Guided Access Übersicht",
+    "name": "Guided Access",
     "category": "Guided Access",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Guided Access Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=GUIDED_ACCESS_TITLE",
+    "description": "Öffnet Guided Access",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
     "keywords": [
-      "guided access übersicht"
+      "guided access"
     ]
   },
   {
@@ -94,7 +114,7 @@
     "category": "Guided Access",
     "iconName": "gearshape.fill",
     "description": "Öffnet Display Auto-Lock",
-    "urlScheme": "App-prefs:root=Accessibility&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime",
     "keywords": [
       "display auto-lock"
     ]
@@ -104,19 +124,19 @@
     "category": "Guided Access",
     "iconName": "gearshape.fill",
     "description": "Öffnet Passcode Settings",
-    "urlScheme": "App-prefs:root=Accessibility&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList",
     "keywords": [
       "passcode settings"
     ]
   },
   {
-    "name": "Time Limits Übersicht",
+    "name": "Time Limits",
     "category": "Time Limits",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Time Limits Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList",
+    "description": "Öffnet Time Limits",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList",
     "keywords": [
-      "time limits übersicht"
+      "time limits"
     ]
   },
   {
@@ -124,7 +144,7 @@
     "category": "Time Limits",
     "iconName": "gearshape.fill",
     "description": "Öffnet Sound",
-    "urlScheme": "App-prefs:root=Accessibility&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
     "keywords": [
       "sound"
     ]
@@ -134,7 +154,7 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Hearing Devices",
-    "urlScheme": "App-prefs:root=Accessibility&path=HEARING_AID_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
     "keywords": [
       "hearing devices"
     ]
@@ -144,19 +164,19 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Home Button",
-    "urlScheme": "App-prefs:root=Accessibility&path=HOME_CLICK_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
     "keywords": [
       "home button"
     ]
   },
   {
-    "name": "Keyboards Übersicht",
+    "name": "Keyboards",
     "category": "Keyboards",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Keyboards Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=KEYBOARDS",
+    "description": "Öffnet Keyboards",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS",
     "keywords": [
-      "keyboards übersicht"
+      "keyboards"
     ]
   },
   {
@@ -164,7 +184,7 @@
     "category": "Keyboards",
     "iconName": "gearshape.fill",
     "description": "Öffnet Full Keyboard Access",
-    "urlScheme": "App-prefs:root=Accessibility&path=KEYBOARDS/Full%20Keyboard%20Access",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/Full%20Keyboard%20Access",
     "keywords": [
       "full keyboard access"
     ]
@@ -174,7 +194,7 @@
     "category": "Keyboards",
     "iconName": "gearshape.fill",
     "description": "Öffnet Key Repeat",
-    "urlScheme": "App-prefs:root=Accessibility&path=KEYBOARDS/KEY_REPEAT",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT",
     "keywords": [
       "key repeat"
     ]
@@ -184,7 +204,7 @@
     "category": "Keyboards",
     "iconName": "gearshape.fill",
     "description": "Öffnet Slow Keys",
-    "urlScheme": "App-prefs:root=Accessibility&path=KEYBOARDS/SLOW_KEYS",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS",
     "keywords": [
       "slow keys"
     ]
@@ -194,7 +214,7 @@
     "category": "Keyboards",
     "iconName": "gearshape.fill",
     "description": "Öffnet Sticky Keys",
-    "urlScheme": "App-prefs:root=Accessibility&path=KEYBOARDS/STICKY_KEYS",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS",
     "keywords": [
       "sticky keys"
     ]
@@ -204,7 +224,7 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Magnifier",
-    "urlScheme": "App-prefs:root=Accessibility&path=MAGNIFIER_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=MAGNIFIER_TITLE",
     "keywords": [
       "magnifier"
     ]
@@ -214,7 +234,7 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Motion",
-    "urlScheme": "App-prefs:root=Accessibility&path=MOTION_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
     "keywords": [
       "motion"
     ]
@@ -224,7 +244,7 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet RTT",
-    "urlScheme": "App-prefs:root=Accessibility&path=RTT",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=RTT",
     "keywords": [
       "rtt"
     ]
@@ -234,19 +254,19 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Siri",
-    "urlScheme": "App-prefs:root=Accessibility&path=SIRI_SETTINGS_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
     "keywords": [
       "siri"
     ]
   },
   {
-    "name": "Sound Recognition Übersicht",
+    "name": "Sound Recognition",
     "category": "Sound Recognition",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Sound Recognition Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=SOUND_RECOGNITION_TITLE",
+    "description": "Öffnet Sound Recognition",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
     "keywords": [
-      "sound recognition übersicht"
+      "sound recognition"
     ]
   },
   {
@@ -254,19 +274,19 @@
     "category": "Sound Recognition",
     "iconName": "gearshape.fill",
     "description": "Öffnet Sounds",
-    "urlScheme": "App-prefs:root=Accessibility&path=SOUND_RECOGNITION_TITLE/Sounds",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds",
     "keywords": [
       "sounds"
     ]
   },
   {
-    "name": "Spoken Content Übersicht",
+    "name": "Spoken Content",
     "category": "Spoken Content",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Spoken Content Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=SPEECH_TITLE",
+    "description": "Öffnet Spoken Content",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
     "keywords": [
-      "spoken content übersicht"
+      "spoken content"
     ]
   },
   {
@@ -274,7 +294,7 @@
     "category": "Spoken Content",
     "iconName": "gearshape.fill",
     "description": "Öffnet Customize Mouse Buttons",
-    "urlScheme": "App-prefs:root=Accessibility&path=SPEECH_TITLE/SpeechController/CustomizeMouseButtons",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/CustomizeMouseButtons",
     "keywords": [
       "customize mouse buttons"
     ]
@@ -284,7 +304,7 @@
     "category": "Spoken Content",
     "iconName": "gearshape.fill",
     "description": "Öffnet Highlight Content",
-    "urlScheme": "App-prefs:root=Accessibility&path=SPEECH_TITLE/QuickSpeakHighlight",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight",
     "keywords": [
       "highlight content"
     ]
@@ -294,7 +314,7 @@
     "category": "Spoken Content",
     "iconName": "gearshape.fill",
     "description": "Öffnet Speech Controller",
-    "urlScheme": "App-prefs:root=Accessibility&path=SPEECH_TITLE/SpeechController",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
     "keywords": [
       "speech controller"
     ]
@@ -304,7 +324,7 @@
     "category": "Spoken Content",
     "iconName": "gearshape.fill",
     "description": "Öffnet Typing Feedback",
-    "urlScheme": "App-prefs:root=Accessibility&path=SPEECH_TITLE/TypingFeedback",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
     "keywords": [
       "typing feedback"
     ]
@@ -314,7 +334,7 @@
     "category": "Spoken Content",
     "iconName": "gearshape.fill",
     "description": "Öffnet Voices",
-    "urlScheme": "App-prefs:root=Accessibility&path=SPEECH_TITLE/QuickSpeakAccents",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents",
     "keywords": [
       "voices"
     ]
@@ -334,19 +354,19 @@
     "category": "Bedienungshilfen",
     "iconName": "gearshape.fill",
     "description": "Öffnet Subtitles & Captioning",
-    "urlScheme": "App-prefs:root=Accessibility&path=SUBTITLES_CAPTIONING",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
     "keywords": [
       "subtitles & captioning"
     ]
   },
   {
-    "name": "Switch Control Übersicht",
+    "name": "Switch Control",
     "category": "Switch Control",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Switch Control Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle",
+    "description": "Öffnet Switch Control",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
     "keywords": [
-      "switch control übersicht"
+      "switch control"
     ]
   },
   {
@@ -354,7 +374,7 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Focused Item After Tap",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/Focused%20Item%20After%20Tap",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Focused%20Item%20After%20Tap",
     "keywords": [
       "focused item after tap"
     ]
@@ -364,7 +384,7 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Gliding Cursor",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/Gliding%20Cursor",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Gliding%20Cursor",
     "keywords": [
       "gliding cursor"
     ]
@@ -374,7 +394,7 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Head Tracking",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/CameraPointPickerSwitch",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch",
     "keywords": [
       "head tracking"
     ]
@@ -384,7 +404,7 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Hold Duration",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/Hold%20Duration",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Hold%20Duration",
     "keywords": [
       "hold duration"
     ]
@@ -394,7 +414,7 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Ignore Repeat",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/Ignore%20Repeat",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Ignore%20Repeat",
     "keywords": [
       "ignore repeat"
     ]
@@ -404,19 +424,19 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Long Press",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/Long%20Press",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Long%20Press",
     "keywords": [
       "long press"
     ]
   },
   {
-    "name": "Menu Items Übersicht",
+    "name": "Menu Items",
     "category": "Menu Items",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Menu Items Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/CustomizeMenuIdentifier",
+    "description": "Öffnet Menu Items",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier",
     "keywords": [
-      "menu items übersicht"
+      "menu items"
     ]
   },
   {
@@ -424,7 +444,7 @@
     "category": "Menu Items",
     "iconName": "gearshape.fill",
     "description": "Öffnet Device",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device",
     "keywords": [
       "device"
     ]
@@ -434,7 +454,7 @@
     "category": "Menu Items",
     "iconName": "gearshape.fill",
     "description": "Öffnet Gestures",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures",
     "keywords": [
       "gestures"
     ]
@@ -444,7 +464,7 @@
     "category": "Menu Items",
     "iconName": "gearshape.fill",
     "description": "Öffnet Media Controls",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Media%20Controls",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Media%20Controls",
     "keywords": [
       "media controls"
     ]
@@ -454,7 +474,7 @@
     "category": "Menu Items",
     "iconName": "gearshape.fill",
     "description": "Öffnet Settings",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings",
     "keywords": [
       "settings"
     ]
@@ -464,7 +484,7 @@
     "category": "Menu Items",
     "iconName": "gearshape.fill",
     "description": "Öffnet Top Level",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Top%20Level",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Top%20Level",
     "keywords": [
       "top level"
     ]
@@ -474,7 +494,7 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Move Repeat",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/Move%20Repeat",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Move%20Repeat",
     "keywords": [
       "move repeat"
     ]
@@ -484,7 +504,7 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Pause on First Item",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/Pause%20on%20First%20Item",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Pause%20on%20First%20Item",
     "keywords": [
       "pause on first item"
     ]
@@ -494,7 +514,7 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Saved Gestures",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/CustomGesturesIdentifier",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier",
     "keywords": [
       "saved gestures"
     ]
@@ -504,19 +524,19 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Scanning Style",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/Scanning%20Style",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Scanning%20Style",
     "keywords": [
       "scanning style"
     ]
   },
   {
-    "name": "Speech Übersicht",
+    "name": "Speech",
     "category": "Speech",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Speech Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/SpeechIdentifier",
+    "description": "Öffnet Speech",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier",
     "keywords": [
-      "speech übersicht"
+      "speech"
     ]
   },
   {
@@ -524,19 +544,19 @@
     "category": "Speech",
     "iconName": "gearshape.fill",
     "description": "Öffnet Voices",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/SpeechIdentifier/VoicesIdentifier",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier/VoicesIdentifier",
     "keywords": [
       "voices"
     ]
   },
   {
-    "name": "Switches Übersicht",
+    "name": "Switches",
     "category": "Switches",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Switches Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/SwitchesIdentifier",
+    "description": "Öffnet Switches",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier",
     "keywords": [
-      "switches übersicht"
+      "switches"
     ]
   },
   {
@@ -544,7 +564,7 @@
     "category": "Switches",
     "iconName": "gearshape.fill",
     "description": "Öffnet Bluetooth Devices…",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier",
     "keywords": [
       "bluetooth devices…"
     ]
@@ -554,29 +574,29 @@
     "category": "Switch Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Tap Behavior",
-    "urlScheme": "App-prefs:root=Accessibility&path=ScannerSwitchTitle/Tap%20Behavior",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Tap%20Behavior",
     "keywords": [
       "tap behavior"
     ]
   },
   {
-    "name": "Touch Übersicht",
+    "name": "Touch",
     "category": "Touch",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Touch Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE",
+    "description": "Öffnet Touch",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
     "keywords": [
-      "touch übersicht"
+      "touch"
     ]
   },
   {
-    "name": "AssistiveTouch Übersicht",
+    "name": "AssistiveTouch",
     "category": "AssistiveTouch",
     "iconName": "gearshape.fill",
-    "description": "Öffnet AssistiveTouch Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
+    "description": "Öffnet AssistiveTouch",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
     "keywords": [
-      "assistivetouch übersicht"
+      "assistivetouch"
     ]
   },
   {
@@ -584,19 +604,19 @@
     "category": "AssistiveTouch",
     "iconName": "gearshape.fill",
     "description": "Öffnet Customize Top Level Menu",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
     "keywords": [
       "customize top level menu"
     ]
   },
   {
-    "name": "Devices Übersicht",
+    "name": "Devices",
     "category": "Devices",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Devices Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
+    "description": "Öffnet Devices",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
     "keywords": [
-      "devices übersicht"
+      "devices"
     ]
   },
   {
@@ -604,7 +624,7 @@
     "category": "Devices",
     "iconName": "gearshape.fill",
     "description": "Öffnet Bluetooth Devices…",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/Bluetooth%20Devices%E2%80%A6",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/Bluetooth%20Devices%E2%80%A6",
     "keywords": [
       "bluetooth devices…"
     ]
@@ -614,7 +634,7 @@
     "category": "AssistiveTouch",
     "iconName": "gearshape.fill",
     "description": "Öffnet Idle Opacity",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity",
     "keywords": [
       "idle opacity"
     ]
@@ -624,7 +644,7 @@
     "category": "AssistiveTouch",
     "iconName": "gearshape.fill",
     "description": "Öffnet Mouse Keys",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys",
     "keywords": [
       "mouse keys"
     ]
@@ -634,19 +654,19 @@
     "category": "AssistiveTouch",
     "iconName": "gearshape.fill",
     "description": "Öffnet Movement Tolerance",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Movement%20Tolerance",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Movement%20Tolerance",
     "keywords": [
       "movement tolerance"
     ]
   },
   {
-    "name": "Pointer Style Übersicht",
+    "name": "Pointer Style",
     "category": "Pointer Style",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Pointer Style Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
+    "description": "Öffnet Pointer Style",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
     "keywords": [
-      "pointer style übersicht"
+      "pointer style"
     ]
   },
   {
@@ -654,19 +674,19 @@
     "category": "Pointer Style",
     "iconName": "gearshape.fill",
     "description": "Öffnet Auto-Hide",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Auto-Hide",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Auto-Hide",
     "keywords": [
       "auto-hide"
     ]
   },
   {
-    "name": "Color Übersicht",
+    "name": "Color",
     "category": "Color",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Color Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color",
+    "description": "Öffnet Color",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color",
     "keywords": [
-      "color übersicht"
+      "color"
     ]
   },
   {
@@ -674,7 +694,7 @@
     "category": "Color",
     "iconName": "gearshape.fill",
     "description": "Öffnet Customize Mouse Buttons",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color/CustomizeMouseButtons",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color/CustomizeMouseButtons",
     "keywords": [
       "customize mouse buttons"
     ]
@@ -684,7 +704,7 @@
     "category": "AssistiveTouch",
     "iconName": "gearshape.fill",
     "description": "Öffnet Single-Tap",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Single-Tap",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Single-Tap",
     "keywords": [
       "single-tap"
     ]
@@ -694,19 +714,19 @@
     "category": "Touch",
     "iconName": "gearshape.fill",
     "description": "Öffnet Back Tap",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/Back%20Tap",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Back%20Tap",
     "keywords": [
       "back tap"
     ]
   },
   {
-    "name": "Call Audio Routing Übersicht",
+    "name": "Call Audio Routing",
     "category": "Call Audio Routing",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Call Audio Routing Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING",
+    "description": "Öffnet Call Audio Routing",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING",
     "keywords": [
-      "call audio routing übersicht"
+      "call audio routing"
     ]
   },
   {
@@ -714,7 +734,7 @@
     "category": "Call Audio Routing",
     "iconName": "gearshape.fill",
     "description": "Öffnet Auto-Answer Calls",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer",
     "keywords": [
       "auto-answer calls"
     ]
@@ -724,7 +744,7 @@
     "category": "Touch",
     "iconName": "gearshape.fill",
     "description": "Öffnet Force/Haptic Touch",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/ForceTouch",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch",
     "keywords": [
       "force/haptic touch"
     ]
@@ -734,19 +754,19 @@
     "category": "Touch",
     "iconName": "gearshape.fill",
     "description": "Öffnet Touch Accommodations",
-    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_REACHABILITY_TITLE/Touch%20Accommodations",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Touch%20Accommodations",
     "keywords": [
       "touch accommodations"
     ]
   },
   {
-    "name": "Voice Control Übersicht",
+    "name": "Voice Control",
     "category": "Voice Control",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Voice Control Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=CommandAndControlTitle",
+    "description": "Öffnet Voice Control",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
     "keywords": [
-      "voice control übersicht"
+      "voice control"
     ]
   },
   {
@@ -754,7 +774,7 @@
     "category": "Voice Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Customize Commands",
-    "urlScheme": "App-prefs:root=Accessibility&path=CommandAndControlTitle/CUSTOMIZE_COMMANDS",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/CUSTOMIZE_COMMANDS",
     "keywords": [
       "customize commands"
     ]
@@ -764,7 +784,7 @@
     "category": "Voice Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Language",
-    "urlScheme": "App-prefs:root=Accessibility&path=CommandAndControlTitle/LANGUAGE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/LANGUAGE",
     "keywords": [
       "language"
     ]
@@ -774,7 +794,7 @@
     "category": "Voice Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Overlay",
-    "urlScheme": "App-prefs:root=Accessibility&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY",
     "keywords": [
       "overlay"
     ]
@@ -784,29 +804,29 @@
     "category": "Voice Control",
     "iconName": "gearshape.fill",
     "description": "Öffnet Vocabulary",
-    "urlScheme": "App-prefs:root=Accessibility&path=CommandAndControlTitle/VOCABULARY",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/VOCABULARY",
     "keywords": [
       "vocabulary"
     ]
   },
   {
-    "name": "VoiceOver Übersicht",
+    "name": "VoiceOver",
     "category": "VoiceOver",
     "iconName": "gearshape.fill",
-    "description": "Öffnet VoiceOver Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE",
+    "description": "Öffnet VoiceOver",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
     "keywords": [
-      "voiceover übersicht"
+      "voiceover"
     ]
   },
   {
-    "name": "Activities Übersicht",
+    "name": "Activities",
     "category": "Activities",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Activities Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/ACTIVITIES",
+    "description": "Öffnet Activities",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES",
     "keywords": [
-      "activities übersicht"
+      "activities"
     ]
   },
   {
@@ -814,7 +834,7 @@
     "category": "Activities",
     "iconName": "gearshape.fill",
     "description": "Öffnet Add Activity…",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/ACTIVITIES/New",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES/New",
     "keywords": [
       "add activity…"
     ]
@@ -824,7 +844,7 @@
     "category": "Activities",
     "iconName": "gearshape.fill",
     "description": "Öffnet Programming",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/ACTIVITIES/Programming",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES/Programming",
     "keywords": [
       "programming"
     ]
@@ -834,19 +854,19 @@
     "category": "VoiceOver",
     "iconName": "gearshape.fill",
     "description": "Öffnet Audio",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/AUDIO_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/AUDIO_TITLE",
     "keywords": [
       "audio"
     ]
   },
   {
-    "name": "Braille Übersicht",
+    "name": "Braille",
     "category": "Braille",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Braille Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/BRAILLE_TITLE",
+    "description": "Öffnet Braille",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE",
     "keywords": [
-      "braille übersicht"
+      "braille"
     ]
   },
   {
@@ -854,19 +874,19 @@
     "category": "Braille",
     "iconName": "gearshape.fill",
     "description": "Öffnet Braille Screen Input",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleGesturesInput",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleGesturesInput",
     "keywords": [
       "braille screen input"
     ]
   },
   {
-    "name": "Braille Tables Übersicht",
+    "name": "Braille Tables",
     "category": "Braille Tables",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Braille Tables Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier",
+    "description": "Öffnet Braille Tables",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier",
     "keywords": [
-      "braille tables übersicht"
+      "braille tables"
     ]
   },
   {
@@ -874,7 +894,7 @@
     "category": "Braille Tables",
     "iconName": "gearshape.fill",
     "description": "Öffnet Language",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier/DefaultLanguage",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier/DefaultLanguage",
     "keywords": [
       "language"
     ]
@@ -884,7 +904,7 @@
     "category": "Braille",
     "iconName": "gearshape.fill",
     "description": "Öffnet Input",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayInput",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayInput",
     "keywords": [
       "input"
     ]
@@ -894,7 +914,7 @@
     "category": "Braille",
     "iconName": "gearshape.fill",
     "description": "Öffnet Output",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayOutput",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayOutput",
     "keywords": [
       "output"
     ]
@@ -904,29 +924,29 @@
     "category": "Braille",
     "iconName": "gearshape.fill",
     "description": "Öffnet Status Cells",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/BRAILLE_TITLE/STATUS_CELL",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/STATUS_CELL",
     "keywords": [
       "status cells"
     ]
   },
   {
-    "name": "Verbosity Übersicht",
+    "name": "Verbosity",
     "category": "Verbosity",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Verbosity Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/VERBOSITY",
+    "description": "Öffnet Verbosity",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY",
     "keywords": [
-      "verbosity übersicht"
+      "verbosity"
     ]
   },
   {
-    "name": "Punctuation Übersicht",
+    "name": "Punctuation",
     "category": "Punctuation",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Punctuation Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/VERBOSITY/voiceOverPunctuationGroup",
+    "description": "Öffnet Punctuation",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY/voiceOverPunctuationGroup",
     "keywords": [
-      "punctuation übersicht"
+      "punctuation"
     ]
   },
   {
@@ -934,7 +954,7 @@
     "category": "Punctuation",
     "iconName": "gearshape.fill",
     "description": "Öffnet Media Descriptions",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/VERBOSITY/voiceOverMediaDescriptions",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY/voiceOverMediaDescriptions",
     "keywords": [
       "media descriptions"
     ]
@@ -944,7 +964,7 @@
     "category": "VoiceOver",
     "iconName": "gearshape.fill",
     "description": "Öffnet Commands",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/CUSTOMIZE_COMMANDS",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CUSTOMIZE_COMMANDS",
     "keywords": [
       "commands"
     ]
@@ -954,7 +974,7 @@
     "category": "VoiceOver",
     "iconName": "gearshape.fill",
     "description": "Öffnet Double-tap Timeout",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
     "keywords": [
       "double-tap timeout"
     ]
@@ -964,7 +984,7 @@
     "category": "VoiceOver",
     "iconName": "gearshape.fill",
     "description": "Öffnet Navigate Images",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/INCLUDE_UNLABELED_IMAGES_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/INCLUDE_UNLABELED_IMAGES_TITLE",
     "keywords": [
       "navigate images"
     ]
@@ -974,7 +994,7 @@
     "category": "VoiceOver",
     "iconName": "gearshape.fill",
     "description": "Öffnet Rotor",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/WEB_ROTOR",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/WEB_ROTOR",
     "keywords": [
       "rotor"
     ]
@@ -984,7 +1004,7 @@
     "category": "VoiceOver",
     "iconName": "gearshape.fill",
     "description": "Öffnet Rotor Actions",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/ROTOR_ACTIONS",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ROTOR_ACTIONS",
     "keywords": [
       "rotor actions"
     ]
@@ -994,19 +1014,19 @@
     "category": "VoiceOver",
     "iconName": "gearshape.fill",
     "description": "Öffnet Speech",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/SPEECH_TITLE",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/SPEECH_TITLE",
     "keywords": [
       "speech"
     ]
   },
   {
-    "name": "Typing Übersicht",
+    "name": "Typing",
     "category": "Typing",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Typing Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/TYPING_OPTIONS",
+    "description": "Öffnet Typing",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS",
     "keywords": [
-      "typing übersicht"
+      "typing"
     ]
   },
   {
@@ -1014,7 +1034,7 @@
     "category": "Typing",
     "iconName": "gearshape.fill",
     "description": "Öffnet Keyboard Interaction Time",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/TYPING_OPTIONS/Keyboard%20Interaction%20Time",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Keyboard%20Interaction%20Time",
     "keywords": [
       "keyboard interaction time"
     ]
@@ -1024,7 +1044,7 @@
     "category": "Typing",
     "iconName": "gearshape.fill",
     "description": "Öffnet Modifier Keys",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/TYPING_OPTIONS/Modifier%20Keys",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Modifier%20Keys",
     "keywords": [
       "modifier keys"
     ]
@@ -1034,7 +1054,7 @@
     "category": "Typing",
     "iconName": "gearshape.fill",
     "description": "Öffnet Phonetic Feedback",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/TYPING_OPTIONS/Phonetic%20Feedback",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Phonetic%20Feedback",
     "keywords": [
       "phonetic feedback"
     ]
@@ -1044,19 +1064,19 @@
     "category": "Typing",
     "iconName": "gearshape.fill",
     "description": "Öffnet Typing Style",
-    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE/TYPING_OPTIONS/Typing%20Style",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Typing%20Style",
     "keywords": [
       "typing style"
     ]
   },
   {
-    "name": "Zoom Übersicht",
+    "name": "Zoom",
     "category": "Zoom",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Zoom Übersicht",
-    "urlScheme": "App-prefs:root=Accessibility&path=ZOOM_TITLE",
+    "description": "Öffnet Zoom",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
     "keywords": [
-      "zoom übersicht"
+      "zoom"
     ]
   },
   {
@@ -1064,7 +1084,7 @@
     "category": "Zoom",
     "iconName": "gearshape.fill",
     "description": "Öffnet Keyboard Shortcuts",
-    "urlScheme": "App-prefs:root=Accessibility&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
     "keywords": [
       "keyboard shortcuts"
     ]
@@ -1074,7 +1094,7 @@
     "category": "Zoom",
     "iconName": "gearshape.fill",
     "description": "Öffnet Zoom Controller",
-    "urlScheme": "App-prefs:root=Accessibility&path=ZOOM_TITLE/ZoomSlug",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug",
     "keywords": [
       "zoom controller"
     ]
@@ -1084,14 +1104,14 @@
     "category": "Zoom",
     "iconName": "gearshape.fill",
     "description": "Öffnet Zoom Filter",
-    "urlScheme": "App-prefs:root=Accessibility&path=ZOOM_TITLE/ZoomFilter",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter",
     "keywords": [
       "zoom filter"
     ]
   },
   {
     "name": "Action Button",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Action Button",
     "urlScheme": "App-prefs:root=ACTION_BUTTON",
@@ -1100,13 +1120,13 @@
     ]
   },
   {
-    "name": "App Store Übersicht",
+    "name": "App Store",
     "category": "App Store",
     "iconName": "gearshape.fill",
-    "description": "Öffnet App Store Übersicht",
+    "description": "Öffnet App Store",
     "urlScheme": "App-prefs:root=STORE",
     "keywords": [
-      "app store übersicht"
+      "app store"
     ]
   },
   {
@@ -1130,13 +1150,13 @@
     ]
   },
   {
-    "name": "Apple ID Übersicht",
+    "name": "Apple ID",
     "category": "Apple ID",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Apple ID Übersicht",
+    "description": "Öffnet Apple ID",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT",
     "keywords": [
-      "apple id übersicht"
+      "apple id"
     ]
   },
   {
@@ -1181,7 +1201,7 @@
   },
   {
     "name": "Apple Pencil",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Apple Pencil",
     "urlScheme": "App-prefs:root=Pencil",
@@ -1190,13 +1210,13 @@
     ]
   },
   {
-    "name": "Batterie Übersicht",
+    "name": "Batterie",
     "category": "Batterie",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Batterie Übersicht",
-    "urlScheme": "App-prefs:root=Battery",
+    "description": "Öffnet Batterie",
+    "urlScheme": "App-prefs:root=BATTERY_USAGE",
     "keywords": [
-      "batterie übersicht"
+      "batterie"
     ]
   },
   {
@@ -1204,14 +1224,14 @@
     "category": "Batterie",
     "iconName": "gearshape.fill",
     "description": "Öffnet Battery Health",
-    "urlScheme": "App-prefs:root=Battery&path=BATTERY_HEALTH",
+    "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
     "keywords": [
       "battery health"
     ]
   },
   {
     "name": "Bluetooth",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Bluetooth",
     "urlScheme": "App-prefs:root=Bluetooth",
@@ -1220,13 +1240,13 @@
     ]
   },
   {
-    "name": "Books Übersicht",
+    "name": "Books",
     "category": "Books",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Books Übersicht",
+    "description": "Öffnet Books",
     "urlScheme": "App-prefs:root=IBOOKS",
     "keywords": [
-      "books übersicht"
+      "books"
     ]
   },
   {
@@ -1270,13 +1290,13 @@
     ]
   },
   {
-    "name": "Calendar Übersicht",
+    "name": "Calendar",
     "category": "Calendar",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Calendar Übersicht",
+    "description": "Öffnet Calendar",
     "urlScheme": "App-prefs:root=CALENDAR",
     "keywords": [
-      "calendar übersicht"
+      "calendar"
     ]
   },
   {
@@ -1350,13 +1370,13 @@
     ]
   },
   {
-    "name": "Camera Übersicht",
+    "name": "Camera",
     "category": "Camera",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Camera Übersicht",
+    "description": "Öffnet Camera",
     "urlScheme": "App-prefs:root=CAMERA",
     "keywords": [
-      "camera übersicht"
+      "camera"
     ]
   },
   {
@@ -1400,13 +1420,13 @@
     ]
   },
   {
-    "name": "Cellular Übersicht",
+    "name": "Cellular",
     "category": "Cellular",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Cellular Übersicht",
+    "description": "Öffnet Cellular",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID",
     "keywords": [
-      "cellular übersicht"
+      "cellular"
     ]
   },
   {
@@ -1440,23 +1460,23 @@
     ]
   },
   {
-    "name": "Personal Hotspot Übersicht",
+    "name": "Personal Hotspot",
     "category": "Personal Hotspot",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Personal Hotspot Übersicht",
+    "description": "Öffnet Personal Hotspot",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING",
     "keywords": [
-      "personal hotspot übersicht"
+      "personal hotspot"
     ]
   },
   {
-    "name": "Family Sharing Übersicht",
+    "name": "Family Sharing",
     "category": "Family Sharing",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Family Sharing Übersicht",
+    "description": "Öffnet Family Sharing",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing",
     "keywords": [
-      "family sharing übersicht"
+      "family sharing"
     ]
   },
   {
@@ -1501,7 +1521,7 @@
   },
   {
     "name": "Compass",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Compass",
     "urlScheme": "App-prefs:root=COMPASS",
@@ -1510,13 +1530,13 @@
     ]
   },
   {
-    "name": "Contacts Übersicht",
+    "name": "Contacts",
     "category": "Contacts",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Contacts Übersicht",
+    "description": "Öffnet Contacts",
     "urlScheme": "App-prefs:root=CONTACTS",
     "keywords": [
-      "contacts übersicht"
+      "contacts"
     ]
   },
   {
@@ -1570,13 +1590,13 @@
     ]
   },
   {
-    "name": "Control Center Übersicht",
+    "name": "Control Center",
     "category": "Control Center",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Control Center Übersicht",
+    "description": "Öffnet Control Center",
     "urlScheme": "App-prefs:root=ControlCenter",
     "keywords": [
-      "control center übersicht"
+      "control center"
     ]
   },
   {
@@ -1590,13 +1610,13 @@
     ]
   },
   {
-    "name": "Developer Übersicht",
+    "name": "Developer",
     "category": "Developer",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Developer Übersicht",
+    "description": "Öffnet Developer",
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS",
     "keywords": [
-      "developer übersicht"
+      "developer"
     ]
   },
   {
@@ -1660,13 +1680,13 @@
     ]
   },
   {
-    "name": "Display Übersicht",
+    "name": "Display",
     "category": "Display",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Display Übersicht",
-    "urlScheme": "App-prefs:root=Display",
+    "description": "Öffnet Display",
+    "urlScheme": "App-prefs:root=DISPLAY",
     "keywords": [
-      "display übersicht"
+      "display"
     ]
   },
   {
@@ -1674,7 +1694,7 @@
     "category": "Display",
     "iconName": "gearshape.fill",
     "description": "Öffnet Auto Lock",
-    "urlScheme": "App-prefs:root=Display&path=AUTOLOCK",
+    "urlScheme": "App-prefs:root=DISPLAY&path=AUTOLOCK",
     "keywords": [
       "auto lock"
     ]
@@ -1684,7 +1704,7 @@
     "category": "Display",
     "iconName": "gearshape.fill",
     "description": "Öffnet Night Shift",
-    "urlScheme": "App-prefs:root=Display&path=BLUE_LIGHT_REDUCTION",
+    "urlScheme": "App-prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
     "keywords": [
       "night shift"
     ]
@@ -1694,7 +1714,7 @@
     "category": "Display",
     "iconName": "gearshape.fill",
     "description": "Öffnet Options",
-    "urlScheme": "App-prefs:root=Display&path=APPEARANCE_OPTIONS",
+    "urlScheme": "App-prefs:root=DISPLAY&path=APPEARANCE_OPTIONS",
     "keywords": [
       "options"
     ]
@@ -1704,19 +1724,19 @@
     "category": "Display",
     "iconName": "gearshape.fill",
     "description": "Öffnet Text Size",
-    "urlScheme": "App-prefs:root=Display&path=TEXT_SIZE",
+    "urlScheme": "App-prefs:root=DISPLAY&path=TEXT_SIZE",
     "keywords": [
       "text size"
     ]
   },
   {
-    "name": "Do Not Disturb Übersicht",
+    "name": "Do Not Disturb",
     "category": "Do Not Disturb",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Do Not Disturb Übersicht",
+    "description": "Öffnet Do Not Disturb",
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB",
     "keywords": [
-      "do not disturb übersicht"
+      "do not disturb"
     ]
   },
   {
@@ -1751,7 +1771,7 @@
   },
   {
     "name": "Emergency SOS",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Emergency SOS",
     "urlScheme": "App-prefs:root=EMERGENCY_SOS",
@@ -1761,7 +1781,7 @@
   },
   {
     "name": "Exposure Notifications",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Exposure Notifications",
     "urlScheme": "App-prefs:root=EXPOSURE_NOTIFICATION",
@@ -1770,13 +1790,13 @@
     ]
   },
   {
-    "name": "Face/Touch ID & Passcode Übersicht",
+    "name": "Face/Touch ID & Passcode",
     "category": "Face/Touch ID & Passcode",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Face/Touch ID & Passcode Übersicht",
+    "description": "Öffnet Face/Touch ID & Passcode",
     "urlScheme": "App-prefs:root=PASSCODE",
     "keywords": [
-      "face/touch id & passcode übersicht"
+      "face/touch id & passcode"
     ]
   },
   {
@@ -1790,13 +1810,13 @@
     ]
   },
   {
-    "name": "FaceTime Übersicht",
+    "name": "FaceTime",
     "category": "FaceTime",
     "iconName": "gearshape.fill",
-    "description": "Öffnet FaceTime Übersicht",
+    "description": "Öffnet FaceTime",
     "urlScheme": "App-prefs:root=FACETIME",
     "keywords": [
-      "facetime übersicht"
+      "facetime"
     ]
   },
   {
@@ -1810,13 +1830,13 @@
     ]
   },
   {
-    "name": "Game Center Übersicht",
+    "name": "Game Center",
     "category": "Game Center",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Game Center Übersicht",
+    "description": "Öffnet Game Center",
     "urlScheme": "App-prefs:root=GAMECENTER",
     "keywords": [
-      "game center übersicht"
+      "game center"
     ]
   },
   {
@@ -1840,23 +1860,23 @@
     ]
   },
   {
-    "name": "Allgemein Übersicht",
+    "name": "Allgemein",
     "category": "Allgemein",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Allgemein Übersicht",
+    "description": "Öffnet Allgemein",
     "urlScheme": "App-prefs:root=General",
     "keywords": [
-      "allgemein übersicht"
+      "allgemein"
     ]
   },
   {
-    "name": "About Übersicht",
+    "name": "About",
     "category": "About",
     "iconName": "gearshape.fill",
-    "description": "Öffnet About Übersicht",
+    "description": "Öffnet About",
     "urlScheme": "App-prefs:root=General&path=About",
     "keywords": [
-      "about übersicht"
+      "about"
     ]
   },
   {
@@ -1900,13 +1920,13 @@
     ]
   },
   {
-    "name": "Background App Refresh Übersicht",
+    "name": "Background App Refresh",
     "category": "Background App Refresh",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Background App Refresh Übersicht",
+    "description": "Öffnet Background App Refresh",
     "urlScheme": "App-prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
     "keywords": [
-      "background app refresh übersicht"
+      "background app refresh"
     ]
   },
   {
@@ -1950,13 +1970,13 @@
     ]
   },
   {
-    "name": "iPhone/iPad Storage Übersicht",
+    "name": "iPhone/iPad Storage",
     "category": "iPhone/iPad Storage",
     "iconName": "gearshape.fill",
-    "description": "Öffnet iPhone/iPad Storage Übersicht",
+    "description": "Öffnet iPhone/iPad Storage",
     "urlScheme": "App-prefs:root=General&path=STORAGE_MGMT",
     "keywords": [
-      "iphone/ipad storage übersicht"
+      "iphone/ipad storage"
     ]
   },
   {
@@ -1970,13 +1990,13 @@
     ]
   },
   {
-    "name": "Keyboard Übersicht",
+    "name": "Keyboard",
     "category": "Keyboard",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Keyboard Übersicht",
+    "description": "Öffnet Keyboard",
     "urlScheme": "App-prefs:root=General&path=Keyboard",
     "keywords": [
-      "keyboard übersicht"
+      "keyboard"
     ]
   },
   {
@@ -1987,6 +2007,16 @@
     "urlScheme": "App-prefs:root=General&path=Keyboard/Hardware%20Keyboard",
     "keywords": [
       "hardware keyboard"
+    ]
+  },
+  {
+    "name": "Keyboards",
+    "category": "Keyboard",
+    "iconName": "gearshape.fill",
+    "description": "Öffnet Keyboards",
+    "urlScheme": "App-prefs:root=General&path=Keyboard/KEYBOARDS",
+    "keywords": [
+      "keyboards"
     ]
   },
   {
@@ -2010,13 +2040,13 @@
     ]
   },
   {
-    "name": "Language & Region Übersicht",
+    "name": "Language & Region",
     "category": "Language & Region",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Language & Region Übersicht",
+    "description": "Öffnet Language & Region",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL",
     "keywords": [
-      "language & region übersicht"
+      "language & region"
     ]
   },
   {
@@ -2080,13 +2110,13 @@
     ]
   },
   {
-    "name": "Profiles Übersicht",
+    "name": "Profiles",
     "category": "Profiles",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Profiles Übersicht",
+    "description": "Öffnet Profiles",
     "urlScheme": "App-prefs:root=General&path=ManagedConfigurationList",
     "keywords": [
-      "profiles übersicht"
+      "profiles"
     ]
   },
   {
@@ -2120,23 +2150,23 @@
     ]
   },
   {
-    "name": "VPN Übersicht",
+    "name": "VPN",
     "category": "VPN",
     "iconName": "gearshape.fill",
-    "description": "Öffnet VPN Übersicht",
+    "description": "Öffnet VPN",
     "urlScheme": "App-prefs:root=General&path=VPN",
     "keywords": [
-      "vpn übersicht"
+      "vpn"
     ]
   },
   {
-    "name": "[VPN Configuration Name] Übersicht",
+    "name": "[VPN Configuration Name]",
     "category": "[VPN Configuration Name]",
     "iconName": "gearshape.fill",
-    "description": "Öffnet [VPN Configuration Name] Übersicht",
+    "description": "Öffnet [VPN Configuration Name]",
     "urlScheme": "App-prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]",
     "keywords": [
-      "[vpn configuration name] übersicht"
+      "[vpn configuration name]"
     ]
   },
   {
@@ -2170,13 +2200,13 @@
     ]
   },
   {
-    "name": "Health Übersicht",
+    "name": "Health",
     "category": "Health",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Health Übersicht",
+    "description": "Öffnet Health",
     "urlScheme": "App-prefs:root=HEALTH",
     "keywords": [
-      "health übersicht"
+      "health"
     ]
   },
   {
@@ -2191,7 +2221,7 @@
   },
   {
     "name": "Home",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Home",
     "urlScheme": "App-prefs:root=HOMEKIT",
@@ -2201,7 +2231,7 @@
   },
   {
     "name": "Home Screen (iPhone)",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Home Screen (iPhone)",
     "urlScheme": "App-prefs:root=HOME_SCREEN",
@@ -2210,13 +2240,13 @@
     ]
   },
   {
-    "name": "Home Screen & Dock (iPad) Übersicht",
+    "name": "Home Screen & Dock (iPad)",
     "category": "Home Screen & Dock (iPad)",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Home Screen & Dock (iPad) Übersicht",
+    "description": "Öffnet Home Screen & Dock (iPad)",
     "urlScheme": "App-prefs:root=HOME_SCREEN_DOCK",
     "keywords": [
-      "home screen & dock (ipad) übersicht"
+      "home screen & dock (ipad)"
     ]
   },
   {
@@ -2260,13 +2290,13 @@
     ]
   },
   {
-    "name": "Mail Übersicht",
+    "name": "Mail",
     "category": "Mail",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Mail Übersicht",
+    "description": "Öffnet Mail",
     "urlScheme": "App-prefs:root=MAIL",
     "keywords": [
-      "mail übersicht"
+      "mail"
     ]
   },
   {
@@ -2370,13 +2400,13 @@
     ]
   },
   {
-    "name": "Swipe Options Übersicht",
+    "name": "Swipe Options",
     "category": "Swipe Options",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Swipe Options Übersicht",
+    "description": "Öffnet Swipe Options",
     "urlScheme": "App-prefs:root=MAIL&path=Swipe%20Options",
     "keywords": [
-      "swipe options übersicht"
+      "swipe options"
     ]
   },
   {
@@ -2400,13 +2430,13 @@
     ]
   },
   {
-    "name": "Maps Übersicht",
+    "name": "Maps",
     "category": "Maps",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Maps Übersicht",
+    "description": "Öffnet Maps",
     "urlScheme": "App-prefs:root=MAPS",
     "keywords": [
-      "maps übersicht"
+      "maps"
     ]
   },
   {
@@ -2450,13 +2480,13 @@
     ]
   },
   {
-    "name": "Measure Übersicht",
+    "name": "Measure",
     "category": "Measure",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Measure Übersicht",
+    "description": "Öffnet Measure",
     "urlScheme": "App-prefs:root=MEASURE",
     "keywords": [
-      "measure übersicht"
+      "measure"
     ]
   },
   {
@@ -2471,7 +2501,7 @@
   },
   {
     "name": "Messages",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Messages",
     "urlScheme": "App-prefs:root=MESSAGES",
@@ -2480,13 +2510,13 @@
     ]
   },
   {
-    "name": "Music Übersicht",
+    "name": "Music",
     "category": "Music",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Music Übersicht",
+    "description": "Öffnet Music",
     "urlScheme": "App-prefs:root=MUSIC",
     "keywords": [
-      "music übersicht"
+      "music"
     ]
   },
   {
@@ -2550,13 +2580,13 @@
     ]
   },
   {
-    "name": "News Übersicht",
+    "name": "News",
     "category": "News",
     "iconName": "gearshape.fill",
-    "description": "Öffnet News Übersicht",
+    "description": "Öffnet News",
     "urlScheme": "App-prefs:root=NEWS",
     "keywords": [
-      "news übersicht"
+      "news"
     ]
   },
   {
@@ -2570,13 +2600,13 @@
     ]
   },
   {
-    "name": "Notes Übersicht",
+    "name": "Notes",
     "category": "Notes",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Notes Übersicht",
+    "description": "Öffnet Notes",
     "urlScheme": "App-prefs:root=NOTES",
     "keywords": [
-      "notes übersicht"
+      "notes"
     ]
   },
   {
@@ -2670,13 +2700,13 @@
     ]
   },
   {
-    "name": "Notifications Übersicht",
+    "name": "Notifications",
     "category": "Notifications",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Notifications Übersicht",
+    "description": "Öffnet Notifications",
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID",
     "keywords": [
-      "notifications übersicht"
+      "notifications"
     ]
   },
   {
@@ -2710,13 +2740,13 @@
     ]
   },
   {
-    "name": "Passwords Übersicht",
+    "name": "Passwords",
     "category": "Passwords",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Passwords Übersicht",
+    "description": "Öffnet Passwords",
     "urlScheme": "App-prefs:root=PASSWORDS",
     "keywords": [
-      "passwords übersicht"
+      "passwords"
     ]
   },
   {
@@ -2730,23 +2760,23 @@
     ]
   },
   {
-    "name": "Passwords & Accounts Übersicht",
+    "name": "Passwords & Accounts",
     "category": "Passwords & Accounts",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Passwords & Accounts Übersicht",
+    "description": "Öffnet Passwords & Accounts",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS",
     "keywords": [
-      "passwords & accounts übersicht"
+      "passwords & accounts"
     ]
   },
   {
-    "name": "Add Account Übersicht",
+    "name": "Add Account",
     "category": "Add Account",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Add Account Übersicht",
+    "description": "Öffnet Add Account",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT",
     "keywords": [
-      "add account übersicht"
+      "add account"
     ]
   },
   {
@@ -2780,13 +2810,13 @@
     ]
   },
   {
-    "name": "Other Übersicht",
+    "name": "Other",
     "category": "Other",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Other Übersicht",
+    "description": "Öffnet Other",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER",
     "keywords": [
-      "other übersicht"
+      "other"
     ]
   },
   {
@@ -2860,23 +2890,23 @@
     ]
   },
   {
-    "name": "Personal Hotspot Übersicht",
+    "name": "Personal Hotspot",
     "category": "Personal Hotspot",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Personal Hotspot Übersicht",
+    "description": "Öffnet Personal Hotspot",
     "urlScheme": "App-prefs:root=INTERNET_TETHERING",
     "keywords": [
-      "personal hotspot übersicht"
+      "personal hotspot"
     ]
   },
   {
-    "name": "Family Sharing Übersicht",
+    "name": "Family Sharing",
     "category": "Family Sharing",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Family Sharing Übersicht",
+    "description": "Öffnet Family Sharing",
     "urlScheme": "App-prefs:root=INTERNET_TETHERING&path=Family%20Sharing",
     "keywords": [
-      "family sharing übersicht"
+      "family sharing"
     ]
   },
   {
@@ -2900,13 +2930,13 @@
     ]
   },
   {
-    "name": "Phone Übersicht",
+    "name": "Phone",
     "category": "Phone",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Phone Übersicht",
+    "description": "Öffnet Phone",
     "urlScheme": "App-prefs:root=Phone",
     "keywords": [
-      "phone übersicht"
+      "phone"
     ]
   },
   {
@@ -2930,13 +2960,13 @@
     ]
   },
   {
-    "name": "Photos Übersicht",
+    "name": "Photos",
     "category": "Photos",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Photos Übersicht",
+    "description": "Öffnet Photos",
     "urlScheme": "App-prefs:root=Photos",
     "keywords": [
-      "photos übersicht"
+      "photos"
     ]
   },
   {
@@ -2951,7 +2981,7 @@
   },
   {
     "name": "Podcasts",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Podcasts",
     "urlScheme": "App-prefs:root=com.apple.podcasts",
@@ -2960,13 +2990,13 @@
     ]
   },
   {
-    "name": "Privacy Übersicht",
+    "name": "Privacy",
     "category": "Privacy",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Privacy Übersicht",
+    "description": "Öffnet Privacy",
     "urlScheme": "App-prefs:root=Privacy",
     "keywords": [
-      "privacy übersicht"
+      "privacy"
     ]
   },
   {
@@ -3060,13 +3090,13 @@
     ]
   },
   {
-    "name": "Location Services Übersicht",
+    "name": "Location Services",
     "category": "Location Services",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Location Services Übersicht",
+    "description": "Öffnet Location Services",
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION",
     "keywords": [
-      "location services übersicht"
+      "location services"
     ]
   },
   {
@@ -3080,13 +3110,13 @@
     ]
   },
   {
-    "name": "Share My Location Übersicht",
+    "name": "Share My Location",
     "category": "Share My Location",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Share My Location Übersicht",
+    "description": "Öffnet Share My Location",
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/LOCATION_SHARING",
     "keywords": [
-      "share my location übersicht"
+      "share my location"
     ]
   },
   {
@@ -3140,13 +3170,13 @@
     ]
   },
   {
-    "name": "Photos Übersicht",
+    "name": "Photos",
     "category": "Photos",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Photos Übersicht",
+    "description": "Öffnet Photos",
     "urlScheme": "App-prefs:root=Privacy&path=PHOTOS",
     "keywords": [
-      "photos übersicht"
+      "photos"
     ]
   },
   {
@@ -3200,13 +3230,13 @@
     ]
   },
   {
-    "name": "Reminders Übersicht",
+    "name": "Reminders",
     "category": "Reminders",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Reminders Übersicht",
+    "description": "Öffnet Reminders",
     "urlScheme": "App-prefs:root=REMINDERS",
     "keywords": [
-      "reminders übersicht"
+      "reminders"
     ]
   },
   {
@@ -3230,13 +3260,13 @@
     ]
   },
   {
-    "name": "Safari Übersicht",
+    "name": "Safari",
     "category": "Safari",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Safari Übersicht",
+    "description": "Öffnet Safari",
     "urlScheme": "App-prefs:root=SAFARI",
     "keywords": [
-      "safari übersicht"
+      "safari"
     ]
   },
   {
@@ -3370,13 +3400,13 @@
     ]
   },
   {
-    "name": "Screen Time Übersicht",
+    "name": "Screen Time",
     "category": "Screen Time",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Screen Time Übersicht",
+    "description": "Öffnet Screen Time",
     "urlScheme": "App-prefs:root=SCREEN_TIME",
     "keywords": [
-      "screen time übersicht"
+      "screen time"
     ]
   },
   {
@@ -3451,7 +3481,7 @@
   },
   {
     "name": "Settings For App…",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Settings For App…",
     "urlScheme": "App-prefs:root=[App Bundle ID]",
@@ -3460,13 +3490,13 @@
     ]
   },
   {
-    "name": "Shortcuts Übersicht",
+    "name": "Shortcuts",
     "category": "Shortcuts",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Shortcuts Übersicht",
+    "description": "Öffnet Shortcuts",
     "urlScheme": "App-prefs:root=SHORTCUTS",
     "keywords": [
-      "shortcuts übersicht"
+      "shortcuts"
     ]
   },
   {
@@ -3530,13 +3560,13 @@
     ]
   },
   {
-    "name": "Sounds Übersicht",
+    "name": "Sounds",
     "category": "Sounds",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Sounds Übersicht",
+    "description": "Öffnet Sounds",
     "urlScheme": "App-prefs:root=Sounds",
     "keywords": [
-      "sounds übersicht"
+      "sounds"
     ]
   },
   {
@@ -3631,7 +3661,7 @@
   },
   {
     "name": "Translate",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Translate",
     "urlScheme": "App-prefs:root=TRANSLATE",
@@ -3640,13 +3670,13 @@
     ]
   },
   {
-    "name": "TV Übersicht",
+    "name": "TV",
     "category": "TV",
     "iconName": "gearshape.fill",
-    "description": "Öffnet TV Übersicht",
+    "description": "Öffnet TV",
     "urlScheme": "App-prefs:root=TVAPP",
     "keywords": [
-      "tv übersicht"
+      "tv"
     ]
   },
   {
@@ -3691,7 +3721,7 @@
   },
   {
     "name": "TV Provider",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet TV Provider",
     "urlScheme": "App-prefs:root=VIDEO_SUBSCRIBER",
@@ -3700,13 +3730,13 @@
     ]
   },
   {
-    "name": "Voice Memos Übersicht",
+    "name": "Voice Memos",
     "category": "Voice Memos",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Voice Memos Übersicht",
+    "description": "Öffnet Voice Memos",
     "urlScheme": "App-prefs:root=VOICE_MEMOS",
     "keywords": [
-      "voice memos übersicht"
+      "voice memos"
     ]
   },
   {
@@ -3740,23 +3770,23 @@
     ]
   },
   {
-    "name": "VPN Übersicht",
+    "name": "VPN",
     "category": "VPN",
     "iconName": "gearshape.fill",
-    "description": "Öffnet VPN Übersicht",
+    "description": "Öffnet VPN",
     "urlScheme": "App-prefs:root=VPN",
     "keywords": [
-      "vpn übersicht"
+      "vpn"
     ]
   },
   {
-    "name": "[VPN configuration] Übersicht",
+    "name": "[VPN configuration]",
     "category": "[VPN configuration]",
     "iconName": "gearshape.fill",
-    "description": "Öffnet [VPN configuration] Übersicht",
+    "description": "Öffnet [VPN configuration]",
     "urlScheme": "App-prefs:root=VPN&path=[URL-encoded VPN Configuration Name]",
     "keywords": [
-      "[vpn configuration] übersicht"
+      "[vpn configuration]"
     ]
   },
   {
@@ -3780,13 +3810,13 @@
     ]
   },
   {
-    "name": "Wallet Übersicht",
+    "name": "Wallet",
     "category": "Wallet",
     "iconName": "gearshape.fill",
-    "description": "Öffnet Wallet Übersicht",
+    "description": "Öffnet Wallet",
     "urlScheme": "App-prefs:root=PASSBOOK",
     "keywords": [
-      "wallet übersicht"
+      "wallet"
     ]
   },
   {
@@ -3801,7 +3831,7 @@
   },
   {
     "name": "Wallpaper",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Wallpaper",
     "urlScheme": "App-prefs:root=Wallpaper",
@@ -3811,7 +3841,7 @@
   },
   {
     "name": "Wi-Fi",
-    "category": "Allgemein",
+    "category": "System",
     "iconName": "gearshape.fill",
     "description": "Öffnet Wi-Fi",
     "urlScheme": "App-prefs:root=WIFI",
