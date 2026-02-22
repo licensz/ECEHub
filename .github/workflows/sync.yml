@@ -1,8 +1,8 @@
 name: Auto-Sync iOS Database
 on:
-  workflow_dispatch: # Das hier MUSS vorhanden sein für den Button!
   schedule:
     - cron: '0 0 * * 0'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -11,13 +11,16 @@ jobs:
       - name: Checkout ECEHub
         uses: actions/checkout@v3
 
+      - name: Checkout Fifi Data (Direkt-Kopie)
+        uses: actions/checkout@v3
+        with:
+          repository: FifiTheBulldog/ios-settings-urls
+          path: fifi_repo # Lädt alles in diesen Unterordner
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
-      - name: Install dependencies
-        run: pip install requests
 
       - name: Run Sync Script
         run: python sync_shortcuts.py
@@ -27,4 +30,4 @@ jobs:
           git config --global user.name 'ECEHub-Bot'
           git config --global user.email 'bot@ecehub.app'
           git add ecehub_master.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-Update: Database Sync" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-Update: Full Database Sync" && git push)
