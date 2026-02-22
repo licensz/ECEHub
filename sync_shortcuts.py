@@ -1,35 +1,25 @@
 import json
-import requests
+import os
 import sys
 
-# Wir nutzen die stabilste bekannte Quelle und einen Browser-Header
-URL = "https://raw.githubusercontent.com"
-HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
-
 def transform():
-    print(f"Abruf von: {URL}")
+    # Der Pfad zur Datei im ausgeliehenen Repo
+    path = "wesley_repo/settings.json"
+    
+    if not os.path.exists(path):
+        print(f"Fehler: Datei {path} nicht gefunden!")
+        sys.exit(1)
+
     try:
-        response = requests.get(URL, headers=HEADERS, timeout=20)
-        # Wenn wir HTML (Fehlerseite) bekommen, brechen wir ab und nutzen den Fallback
-        if "text/html" in response.headers.get("Content-Type", ""):
-            raise ValueError("Server lieferte HTML statt JSON (404)")
-        
-        response.raise_for_status()
-        raw_data = response.json()
-        print("Quelle erfolgreich geladen.")
+        with open(path, 'r', encoding='utf-8') as f:
+            raw_data = json.load(f)
+        print("Datei erfolgreich von Festplatte geladen.")
     except Exception as e:
-        print(f"Fehler beim Laden: {e}. Nutze Fallback-Daten.")
-        # FALLBACK: Deine Kern-Funktionen, damit die App immer läuft
-        raw_data = [
-            {"title": "Hintergrundgeräusche", "url": "App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds"},
-            {"title": "Batteriezustand", "url": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH"},
-            {"title": "WLAN", "url": "App-prefs:root=WIFI"},
-            {"title": "Softwareupdate", "url": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK"}
-        ]
+        print(f"Fehler beim Lesen: {e}")
+        sys.exit(1)
 
     transformed = []
-    
-    # Rekursiver Parser, der flachklopft
+
     def walk(data, cat="Allgemein"):
         if isinstance(data, dict):
             for k, v in data.items():
@@ -55,12 +45,9 @@ def transform():
 
     walk(raw_data)
 
-    if transformed:
-        with open('ecehub_master.json', 'w', encoding='utf-8') as f:
-            json.dump(transformed, f, indent=2, ensure_ascii=False)
-        print(f"ERFOLG: {len(transformed)} Einträge gespeichert.")
-    else:
-        sys.exit("Fehler: Keine Daten generiert.")
+    with open('ecehub_master.json', 'w', encoding='utf-8') as f:
+        json.dump(transformed, f, indent=2, ensure_ascii=False)
+    print(f"ERFOLG: {len(transformed)} Shortcuts aus Wesleys Repo extrahiert.")
 
 if __name__ == "__main__":
     transform()
