@@ -4,7 +4,7 @@
     "category": "Audio",
     "iconName": "star.fill",
     "description": "Direktzugriff auf Hintergrundgeräusche",
-    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=AudioVisual/BackgroundSounds",
+    "urlScheme": "App-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/BackgroundSounds",
     "keywords": [
       "hintergrundgeräusche"
     ]
