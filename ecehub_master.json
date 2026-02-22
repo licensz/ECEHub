@@ -1,4215 +1,4598 @@
 [
   {
     "name": "(root)",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY",
     "keywords": [
       "(root)",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "Accessibility Shortcut",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Accessibility Shortcut",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE",
     "keywords": [
       "accessibility shortcut",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "Apple TV Remote",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Apple TV Remote",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=Apple%20TV%20Remote",
     "keywords": [
       "apple tv remote",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "Audio Descriptions",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Audio Descriptions",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO",
     "keywords": [
       "audio descriptions",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "Audio/Visual",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Audio/Visual",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE",
     "keywords": [
       "audio/visual",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Display & Text Size",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT",
     "keywords": [
       "(root)",
-      "display & text size"
+      "display & text size",
+      "einstellungen"
     ]
   },
   {
     "name": "Color Filters",
     "category": "Display & Text Size",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Color Filters",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR",
     "keywords": [
       "color filters",
-      "display & text size"
+      "display & text size",
+      "einstellungen"
     ]
   },
   {
     "name": "Larger Text",
     "category": "Display & Text Size",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Larger Text",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/Larger%20Text",
     "keywords": [
       "larger text",
-      "display & text size"
+      "display & text size",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Guided Access",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
     "keywords": [
       "(root)",
-      "guided access"
+      "guided access",
+      "einstellungen"
     ]
   },
   {
     "name": "Display Auto-Lock",
     "category": "Guided Access",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Display Auto-Lock",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime",
     "keywords": [
       "display auto-lock",
-      "guided access"
+      "guided access",
+      "einstellungen"
     ]
   },
   {
     "name": "Passcode Settings",
     "category": "Guided Access",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Passcode Settings",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList",
     "keywords": [
       "passcode settings",
-      "guided access"
+      "guided access",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Time Limits",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList",
     "keywords": [
       "(root)",
-      "time limits"
+      "time limits",
+      "einstellungen"
     ]
   },
   {
     "name": "Sound",
     "category": "Time Limits",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Sound",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE",
     "keywords": [
       "sound",
-      "time limits"
+      "time limits",
+      "einstellungen"
     ]
   },
   {
     "name": "Hearing Devices",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Hearing Devices",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE",
     "keywords": [
       "hearing devices",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "Home Button",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Home Button",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE",
     "keywords": [
       "home button",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Keyboards",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS",
     "keywords": [
       "(root)",
-      "keyboards"
+      "keyboards",
+      "einstellungen"
     ]
   },
   {
     "name": "Full Keyboard Access",
     "category": "Keyboards",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Full Keyboard Access",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/Full%20Keyboard%20Access",
     "keywords": [
       "full keyboard access",
-      "keyboards"
+      "keyboards",
+      "einstellungen"
     ]
   },
   {
     "name": "Key Repeat",
     "category": "Keyboards",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Key Repeat",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT",
     "keywords": [
       "key repeat",
-      "keyboards"
+      "keyboards",
+      "einstellungen"
     ]
   },
   {
     "name": "Slow Keys",
     "category": "Keyboards",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Slow Keys",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS",
     "keywords": [
       "slow keys",
-      "keyboards"
+      "keyboards",
+      "einstellungen"
     ]
   },
   {
     "name": "Sticky Keys",
     "category": "Keyboards",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Sticky Keys",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS",
     "keywords": [
       "sticky keys",
-      "keyboards"
+      "keyboards",
+      "einstellungen"
     ]
   },
   {
     "name": "Magnifier",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Magnifier",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=MAGNIFIER_TITLE",
     "keywords": [
       "magnifier",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "Motion",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Motion",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=MOTION_TITLE",
     "keywords": [
       "motion",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "RTT",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf RTT",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=RTT",
     "keywords": [
       "rtt",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "Siri",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Siri",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE",
     "keywords": [
       "siri",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Sound Recognition",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE",
     "keywords": [
       "(root)",
-      "sound recognition"
+      "sound recognition",
+      "einstellungen"
     ]
   },
   {
     "name": "Sounds",
     "category": "Sound Recognition",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Sounds",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds",
     "keywords": [
       "sounds",
-      "sound recognition"
+      "sound recognition",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Spoken Content",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE",
     "keywords": [
       "(root)",
-      "spoken content"
+      "spoken content",
+      "einstellungen"
     ]
   },
   {
     "name": "Customize Mouse Buttons",
     "category": "Spoken Content",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Customize Mouse Buttons",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/CustomizeMouseButtons",
     "keywords": [
       "customize mouse buttons",
-      "spoken content"
+      "spoken content",
+      "einstellungen"
     ]
   },
   {
     "name": "Highlight Content",
     "category": "Spoken Content",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Highlight Content",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight",
     "keywords": [
       "highlight content",
-      "spoken content"
+      "spoken content",
+      "einstellungen"
     ]
   },
   {
     "name": "Speech Controller",
     "category": "Spoken Content",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Speech Controller",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController",
     "keywords": [
       "speech controller",
-      "spoken content"
+      "spoken content",
+      "einstellungen"
     ]
   },
   {
     "name": "Typing Feedback",
     "category": "Spoken Content",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Typing Feedback",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback",
     "keywords": [
       "typing feedback",
-      "spoken content"
+      "spoken content",
+      "einstellungen"
     ]
   },
   {
     "name": "Voices",
     "category": "Spoken Content",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Voices",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents",
     "keywords": [
       "voices",
-      "spoken content"
+      "spoken content",
+      "einstellungen"
     ]
   },
   {
     "name": "StandBy",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf StandBy",
     "urlScheme": "App-prefs:root=AMBIENT",
     "keywords": [
       "standby",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "Subtitles & Captioning",
-    "category": "Accessibility",
-    "iconName": "gearshape.fill",
+    "category": "Bedienungshilfen",
+    "iconName": "accessibility",
     "description": "Direktzugriff auf Subtitles & Captioning",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING",
     "keywords": [
       "subtitles & captioning",
-      "accessibility"
+      "bedienungshilfen",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle",
     "keywords": [
       "(root)",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "Focused Item After Tap",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Focused Item After Tap",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Focused%20Item%20After%20Tap",
     "keywords": [
       "focused item after tap",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "Gliding Cursor",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Gliding Cursor",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Gliding%20Cursor",
     "keywords": [
       "gliding cursor",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "Head Tracking",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Head Tracking",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch",
     "keywords": [
       "head tracking",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "Hold Duration",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Hold Duration",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Hold%20Duration",
     "keywords": [
       "hold duration",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "Ignore Repeat",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Ignore Repeat",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Ignore%20Repeat",
     "keywords": [
       "ignore repeat",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "Long Press",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Long Press",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Long%20Press",
     "keywords": [
       "long press",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Menu Items",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier",
     "keywords": [
       "(root)",
-      "menu items"
+      "menu items",
+      "einstellungen"
     ]
   },
   {
     "name": "Device",
     "category": "Menu Items",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Device",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device",
     "keywords": [
       "device",
-      "menu items"
+      "menu items",
+      "einstellungen"
     ]
   },
   {
     "name": "Gestures",
     "category": "Menu Items",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Gestures",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures",
     "keywords": [
       "gestures",
-      "menu items"
+      "menu items",
+      "einstellungen"
     ]
   },
   {
     "name": "Media Controls",
     "category": "Menu Items",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Media Controls",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Media%20Controls",
     "keywords": [
       "media controls",
-      "menu items"
+      "menu items",
+      "einstellungen"
     ]
   },
   {
     "name": "Settings",
     "category": "Menu Items",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Settings",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings",
     "keywords": [
       "settings",
-      "menu items"
+      "menu items",
+      "einstellungen"
     ]
   },
   {
     "name": "Top Level",
     "category": "Menu Items",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Top Level",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Top%20Level",
     "keywords": [
       "top level",
-      "menu items"
+      "menu items",
+      "einstellungen"
     ]
   },
   {
     "name": "Move Repeat",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Move Repeat",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Move%20Repeat",
     "keywords": [
       "move repeat",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "Pause on First Item",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Pause on First Item",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Pause%20on%20First%20Item",
     "keywords": [
       "pause on first item",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "Saved Gestures",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Saved Gestures",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier",
     "keywords": [
       "saved gestures",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "Scanning Style",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Scanning Style",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Scanning%20Style",
     "keywords": [
       "scanning style",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Speech",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier",
     "keywords": [
       "(root)",
-      "speech"
+      "speech",
+      "einstellungen"
     ]
   },
   {
     "name": "Voices",
     "category": "Speech",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Voices",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier/VoicesIdentifier",
     "keywords": [
       "voices",
-      "speech"
+      "speech",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Switches",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier",
     "keywords": [
       "(root)",
-      "switches"
+      "switches",
+      "einstellungen"
     ]
   },
   {
     "name": "Bluetooth Devices…",
     "category": "Switches",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Bluetooth Devices…",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier",
     "keywords": [
       "bluetooth devices…",
-      "switches"
+      "switches",
+      "einstellungen"
     ]
   },
   {
     "name": "Tap Behavior",
     "category": "Switch Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Tap Behavior",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/Tap%20Behavior",
     "keywords": [
       "tap behavior",
-      "switch control"
+      "switch control",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Touch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE",
     "keywords": [
       "(root)",
-      "touch"
+      "touch",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "AssistiveTouch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE",
     "keywords": [
       "(root)",
-      "assistivetouch"
+      "assistivetouch",
+      "einstellungen"
     ]
   },
   {
     "name": "Customize Top Level Menu",
     "category": "AssistiveTouch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Customize Top Level Menu",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize",
     "keywords": [
       "customize top level menu",
-      "assistivetouch"
+      "assistivetouch",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Devices",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices",
     "keywords": [
       "(root)",
-      "devices"
+      "devices",
+      "einstellungen"
     ]
   },
   {
     "name": "Bluetooth Devices…",
     "category": "Devices",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Bluetooth Devices…",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/Bluetooth%20Devices%E2%80%A6",
     "keywords": [
       "bluetooth devices…",
-      "devices"
+      "devices",
+      "einstellungen"
     ]
   },
   {
     "name": "Idle Opacity",
     "category": "AssistiveTouch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Idle Opacity",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity",
     "keywords": [
       "idle opacity",
-      "assistivetouch"
+      "assistivetouch",
+      "einstellungen"
     ]
   },
   {
     "name": "Mouse Keys",
     "category": "AssistiveTouch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Mouse Keys",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys",
     "keywords": [
       "mouse keys",
-      "assistivetouch"
+      "assistivetouch",
+      "einstellungen"
     ]
   },
   {
     "name": "Movement Tolerance",
     "category": "AssistiveTouch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Movement Tolerance",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Movement%20Tolerance",
     "keywords": [
       "movement tolerance",
-      "assistivetouch"
+      "assistivetouch",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Pointer Style",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization",
     "keywords": [
       "(root)",
-      "pointer style"
+      "pointer style",
+      "einstellungen"
     ]
   },
   {
     "name": "Auto-Hide",
     "category": "Pointer Style",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Auto-Hide",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Auto-Hide",
     "keywords": [
       "auto-hide",
-      "pointer style"
+      "pointer style",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Color",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color",
     "keywords": [
       "(root)",
-      "color"
+      "color",
+      "einstellungen"
     ]
   },
   {
     "name": "Customize Mouse Buttons",
     "category": "Color",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Customize Mouse Buttons",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTMousePointerCustomization/Color/CustomizeMouseButtons",
     "keywords": [
       "customize mouse buttons",
-      "color"
+      "color",
+      "einstellungen"
     ]
   },
   {
     "name": "Single-Tap",
     "category": "AssistiveTouch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Single-Tap",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/Single-Tap",
     "keywords": [
       "single-tap",
-      "assistivetouch"
+      "assistivetouch",
+      "einstellungen"
     ]
   },
   {
     "name": "Back Tap",
     "category": "Touch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Back Tap",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Back%20Tap",
     "keywords": [
       "back tap",
-      "touch"
+      "touch",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Call Audio Routing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING",
     "keywords": [
       "(root)",
-      "call audio routing"
+      "call audio routing",
+      "einstellungen"
     ]
   },
   {
     "name": "Auto-Answer Calls",
     "category": "Call Audio Routing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Auto-Answer Calls",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer",
     "keywords": [
       "auto-answer calls",
-      "call audio routing"
+      "call audio routing",
+      "einstellungen"
     ]
   },
   {
     "name": "Force/Haptic Touch",
     "category": "Touch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Force/Haptic Touch",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch",
     "keywords": [
       "force/haptic touch",
-      "touch"
+      "touch",
+      "einstellungen"
     ]
   },
   {
     "name": "Touch Accommodations",
     "category": "Touch",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Touch Accommodations",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Touch%20Accommodations",
     "keywords": [
       "touch accommodations",
-      "touch"
+      "touch",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Voice Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle",
     "keywords": [
       "(root)",
-      "voice control"
+      "voice control",
+      "einstellungen"
     ]
   },
   {
     "name": "Customize Commands",
     "category": "Voice Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Customize Commands",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/CUSTOMIZE_COMMANDS",
     "keywords": [
       "customize commands",
-      "voice control"
+      "voice control",
+      "einstellungen"
     ]
   },
   {
     "name": "Language",
     "category": "Voice Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Language",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/LANGUAGE",
     "keywords": [
       "language",
-      "voice control"
+      "voice control",
+      "einstellungen"
     ]
   },
   {
     "name": "Overlay",
     "category": "Voice Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Overlay",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY",
     "keywords": [
       "overlay",
-      "voice control"
+      "voice control",
+      "einstellungen"
     ]
   },
   {
     "name": "Vocabulary",
     "category": "Voice Control",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Vocabulary",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/VOCABULARY",
     "keywords": [
       "vocabulary",
-      "voice control"
+      "voice control",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "VoiceOver",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE",
     "keywords": [
       "(root)",
-      "voiceover"
+      "voiceover",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Activities",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES",
     "keywords": [
       "(root)",
-      "activities"
+      "activities",
+      "einstellungen"
     ]
   },
   {
     "name": "Add Activity…",
     "category": "Activities",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add Activity…",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES/New",
     "keywords": [
       "add activity…",
-      "activities"
+      "activities",
+      "einstellungen"
     ]
   },
   {
     "name": "Programming",
     "category": "Activities",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Programming",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ACTIVITIES/Programming",
     "keywords": [
       "programming",
-      "activities"
+      "activities",
+      "einstellungen"
     ]
   },
   {
     "name": "Audio",
     "category": "VoiceOver",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Audio",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/AUDIO_TITLE",
     "keywords": [
       "audio",
-      "voiceover"
+      "voiceover",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Braille",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE",
     "keywords": [
       "(root)",
-      "braille"
+      "braille",
+      "einstellungen"
     ]
   },
   {
     "name": "Braille Screen Input",
     "category": "Braille",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Braille Screen Input",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleGesturesInput",
     "keywords": [
       "braille screen input",
-      "braille"
+      "braille",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Braille Tables",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier",
     "keywords": [
       "(root)",
-      "braille tables"
+      "braille tables",
+      "einstellungen"
     ]
   },
   {
     "name": "Language",
     "category": "Braille Tables",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Language",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/tableIdentifier/DefaultLanguage",
     "keywords": [
       "language",
-      "braille tables"
+      "braille tables",
+      "einstellungen"
     ]
   },
   {
     "name": "Input",
     "category": "Braille",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Input",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayInput",
     "keywords": [
       "input",
-      "braille"
+      "braille",
+      "einstellungen"
     ]
   },
   {
     "name": "Output",
     "category": "Braille",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Output",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/BrailleDisplayOutput",
     "keywords": [
       "output",
-      "braille"
+      "braille",
+      "einstellungen"
     ]
   },
   {
     "name": "Status Cells",
     "category": "Braille",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Status Cells",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/BRAILLE_TITLE/STATUS_CELL",
     "keywords": [
       "status cells",
-      "braille"
+      "braille",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Verbosity",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY",
     "keywords": [
       "(root)",
-      "verbosity"
+      "verbosity",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Punctuation",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY/voiceOverPunctuationGroup",
     "keywords": [
       "(root)",
-      "punctuation"
+      "punctuation",
+      "einstellungen"
     ]
   },
   {
     "name": "Media Descriptions",
     "category": "Punctuation",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Media Descriptions",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/VERBOSITY/voiceOverMediaDescriptions",
     "keywords": [
       "media descriptions",
-      "punctuation"
+      "punctuation",
+      "einstellungen"
     ]
   },
   {
     "name": "Commands",
     "category": "VoiceOver",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Commands",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CUSTOMIZE_COMMANDS",
     "keywords": [
       "commands",
-      "voiceover"
+      "voiceover",
+      "einstellungen"
     ]
   },
   {
     "name": "Double-tap Timeout",
     "category": "VoiceOver",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Double-tap Timeout",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE",
     "keywords": [
       "double-tap timeout",
-      "voiceover"
+      "voiceover",
+      "einstellungen"
     ]
   },
   {
     "name": "Navigate Images",
     "category": "VoiceOver",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Navigate Images",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/INCLUDE_UNLABELED_IMAGES_TITLE",
     "keywords": [
       "navigate images",
-      "voiceover"
+      "voiceover",
+      "einstellungen"
     ]
   },
   {
     "name": "Rotor",
     "category": "VoiceOver",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Rotor",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/WEB_ROTOR",
     "keywords": [
       "rotor",
-      "voiceover"
+      "voiceover",
+      "einstellungen"
     ]
   },
   {
     "name": "Rotor Actions",
     "category": "VoiceOver",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Rotor Actions",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/ROTOR_ACTIONS",
     "keywords": [
       "rotor actions",
-      "voiceover"
+      "voiceover",
+      "einstellungen"
     ]
   },
   {
     "name": "Speech",
     "category": "VoiceOver",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Speech",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/SPEECH_TITLE",
     "keywords": [
       "speech",
-      "voiceover"
+      "voiceover",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Typing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS",
     "keywords": [
       "(root)",
-      "typing"
+      "typing",
+      "einstellungen"
     ]
   },
   {
     "name": "Keyboard Interaction Time",
     "category": "Typing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Keyboard Interaction Time",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Keyboard%20Interaction%20Time",
     "keywords": [
       "keyboard interaction time",
-      "typing"
+      "typing",
+      "einstellungen"
     ]
   },
   {
     "name": "Modifier Keys",
     "category": "Typing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Modifier Keys",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Modifier%20Keys",
     "keywords": [
       "modifier keys",
-      "typing"
+      "typing",
+      "einstellungen"
     ]
   },
   {
     "name": "Phonetic Feedback",
     "category": "Typing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Phonetic Feedback",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Phonetic%20Feedback",
     "keywords": [
       "phonetic feedback",
-      "typing"
+      "typing",
+      "einstellungen"
     ]
   },
   {
     "name": "Typing Style",
     "category": "Typing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Typing Style",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TYPING_OPTIONS/Typing%20Style",
     "keywords": [
       "typing style",
-      "typing"
+      "typing",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Zoom",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE",
     "keywords": [
       "(root)",
-      "zoom"
+      "zoom",
+      "einstellungen"
     ]
   },
   {
     "name": "Keyboard Shortcuts",
     "category": "Zoom",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Keyboard Shortcuts",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts",
     "keywords": [
       "keyboard shortcuts",
-      "zoom"
+      "zoom",
+      "einstellungen"
     ]
   },
   {
     "name": "Zoom Controller",
     "category": "Zoom",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Zoom Controller",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug",
     "keywords": [
       "zoom controller",
-      "zoom"
+      "zoom",
+      "einstellungen"
     ]
   },
   {
     "name": "Zoom Filter",
     "category": "Zoom",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Zoom Filter",
     "urlScheme": "App-prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter",
     "keywords": [
       "zoom filter",
-      "zoom"
+      "zoom",
+      "einstellungen"
     ]
   },
   {
     "name": "Action Button",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Action Button",
     "urlScheme": "App-prefs:root=ACTION_BUTTON",
     "keywords": [
       "action button",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "App Store",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=STORE",
     "keywords": [
       "(root)",
-      "app store"
+      "app store",
+      "einstellungen"
     ]
   },
   {
     "name": "App Downloads",
     "category": "App Store",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf App Downloads",
     "urlScheme": "App-prefs:root=STORE&path=App%20Downloads",
     "keywords": [
       "app downloads",
-      "app store"
+      "app store",
+      "einstellungen"
     ]
   },
   {
     "name": "Video Autoplay",
     "category": "App Store",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Video Autoplay",
     "urlScheme": "App-prefs:root=STORE&path=Video%20Autoplay",
     "keywords": [
       "video autoplay",
-      "app store"
+      "app store",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Apple ID",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT",
     "keywords": [
       "(root)",
-      "apple id"
+      "apple id",
+      "einstellungen"
     ]
   },
   {
     "name": "Name, Phone Numbers, Email",
     "category": "Apple ID",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Name, Phone Numbers, Email",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT",
     "keywords": [
       "name, phone numbers, email",
-      "apple id"
+      "apple id",
+      "einstellungen"
     ]
   },
   {
     "name": "Password & Security",
     "category": "Apple ID",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Password & Security",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY",
     "keywords": [
       "password & security",
-      "apple id"
+      "apple id",
+      "einstellungen"
     ]
   },
   {
     "name": "Payment & Shipping",
     "category": "Apple ID",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Payment & Shipping",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING",
     "keywords": [
       "payment & shipping",
-      "apple id"
+      "apple id",
+      "einstellungen"
     ]
   },
   {
     "name": "Subscriptions",
     "category": "Apple ID",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Subscriptions",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS",
     "keywords": [
       "subscriptions",
-      "apple id"
+      "apple id",
+      "einstellungen"
     ]
   },
   {
     "name": "Apple Pencil",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Apple Pencil",
     "urlScheme": "App-prefs:root=Pencil",
     "keywords": [
       "apple pencil",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
-    "category": "Battery",
-    "iconName": "gearshape.fill",
+    "category": "Batterie",
+    "iconName": "battery.100",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=BATTERY_USAGE",
     "keywords": [
       "(root)",
-      "battery"
+      "batterie",
+      "einstellungen"
     ]
   },
   {
     "name": "Battery Health",
-    "category": "Battery",
-    "iconName": "gearshape.fill",
+    "category": "Batterie",
+    "iconName": "battery.100",
     "description": "Direktzugriff auf Battery Health",
     "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
     "keywords": [
       "battery health",
-      "battery"
+      "batterie",
+      "einstellungen"
     ]
   },
   {
     "name": "Bluetooth",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Bluetooth",
     "urlScheme": "App-prefs:root=Bluetooth",
     "keywords": [
       "bluetooth",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Books",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=IBOOKS",
     "keywords": [
       "(root)",
-      "books"
+      "books",
+      "einstellungen"
     ]
   },
   {
     "name": "Acknowledgements",
     "category": "Books",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Acknowledgements",
     "urlScheme": "App-prefs:root=IBOOKS&path=Acknowledgements",
     "keywords": [
       "acknowledgements",
-      "books"
+      "books",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "Books",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=IBOOKS&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "books"
+      "siri & suche",
+      "books",
+      "einstellungen"
     ]
   },
   {
     "name": "Skip Back",
     "category": "Books",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Skip Back",
     "urlScheme": "App-prefs:root=IBOOKS&path=BKAudioBookSkipBackward",
     "keywords": [
       "skip back",
-      "books"
+      "books",
+      "einstellungen"
     ]
   },
   {
     "name": "Skip Forward",
     "category": "Books",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Skip Forward",
     "urlScheme": "App-prefs:root=IBOOKS&path=BKAudioBookSkipForward",
     "keywords": [
       "skip forward",
-      "books"
+      "books",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Calendar",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=CALENDAR",
     "keywords": [
       "(root)",
-      "calendar"
+      "calendar",
+      "einstellungen"
     ]
   },
   {
     "name": "Alternate Calendars",
     "category": "Calendar",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Alternate Calendars",
     "urlScheme": "App-prefs:root=CALENDAR&path=Alternate%20Calendars",
     "keywords": [
       "alternate calendars",
-      "calendar"
+      "calendar",
+      "einstellungen"
     ]
   },
   {
     "name": "Default Alert Times",
     "category": "Calendar",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Default Alert Times",
     "urlScheme": "App-prefs:root=CALENDAR&path=Default%20Alert%20Times",
     "keywords": [
       "default alert times",
-      "calendar"
+      "calendar",
+      "einstellungen"
     ]
   },
   {
     "name": "Default Calendar",
     "category": "Calendar",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Default Calendar",
     "urlScheme": "App-prefs:root=CALENDAR&path=Default%20Calendar",
     "keywords": [
       "default calendar",
-      "calendar"
+      "calendar",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "Calendar",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=CALENDAR&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "calendar"
+      "siri & suche",
+      "calendar",
+      "einstellungen"
     ]
   },
   {
     "name": "Start Week On",
     "category": "Calendar",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Start Week On",
     "urlScheme": "App-prefs:root=CALENDAR&path=com.apple.mobilecal",
     "keywords": [
       "start week on",
-      "calendar"
+      "calendar",
+      "einstellungen"
     ]
   },
   {
     "name": "Sync",
     "category": "Calendar",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Sync",
     "urlScheme": "App-prefs:root=CALENDAR&path=Sync",
     "keywords": [
       "sync",
-      "calendar"
+      "calendar",
+      "einstellungen"
     ]
   },
   {
     "name": "Time Zone Override",
     "category": "Calendar",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Time Zone Override",
     "urlScheme": "App-prefs:root=CALENDAR&path=TimeZoneCityArray",
     "keywords": [
       "time zone override",
-      "calendar"
+      "calendar",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Camera",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=CAMERA",
     "keywords": [
       "(root)",
-      "camera"
+      "camera",
+      "einstellungen"
     ]
   },
   {
     "name": "Formats",
     "category": "Camera",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Formats",
     "urlScheme": "App-prefs:root=CAMERA&path=CameraFormatsSettingsList",
     "keywords": [
       "formats",
-      "camera"
+      "camera",
+      "einstellungen"
     ]
   },
   {
     "name": "Preserve Settings",
     "category": "Camera",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Preserve Settings",
     "urlScheme": "App-prefs:root=CAMERA&path=CameraPreserveSettingsSwitch",
     "keywords": [
       "preserve settings",
-      "camera"
+      "camera",
+      "einstellungen"
     ]
   },
   {
     "name": "Record Slo-mo",
     "category": "Camera",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Record Slo-mo",
     "urlScheme": "App-prefs:root=CAMERA&path=Record%20Slo-mo",
     "keywords": [
       "record slo-mo",
-      "camera"
+      "camera",
+      "einstellungen"
     ]
   },
   {
     "name": "Record Video",
     "category": "Camera",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Record Video",
     "urlScheme": "App-prefs:root=CAMERA&path=Record%20Video",
     "keywords": [
       "record video",
-      "camera"
+      "camera",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Cellular",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID",
     "keywords": [
       "(root)",
-      "cellular"
+      "cellular",
+      "einstellungen"
     ]
   },
   {
     "name": "[plan name]",
     "category": "Cellular",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf [plan name]",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=[plan name]",
     "keywords": [
       "[plan name]",
-      "cellular"
+      "cellular",
+      "einstellungen"
     ]
   },
   {
     "name": "Cellular Data (for devices with two SIMs)",
     "category": "Cellular",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Cellular Data (for devices with two SIMs)",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=MOBILE_DATA_SETTINGS",
     "keywords": [
       "cellular data (for devices with two sims)",
-      "cellular"
+      "cellular",
+      "einstellungen"
     ]
   },
   {
     "name": "Cellular Data Options",
     "category": "Cellular",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Cellular Data Options",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS",
     "keywords": [
       "cellular data options",
-      "cellular"
+      "cellular",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Personal Hotspot",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING",
     "keywords": [
       "(root)",
-      "personal hotspot"
+      "personal hotspot",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Family Sharing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing",
     "keywords": [
       "(root)",
-      "family sharing"
+      "family sharing",
+      "einstellungen"
     ]
   },
   {
     "name": "[Family Member Name]",
     "category": "Family Sharing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf [Family Member Name]",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Family%20Sharing/[URL-encoded Family Member Name]",
     "keywords": [
       "[family member name]",
-      "family sharing"
+      "family sharing",
+      "einstellungen"
     ]
   },
   {
     "name": "Wi-Fi Password",
     "category": "Personal Hotspot",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Wi-Fi Password",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=INTERNET_TETHERING/Wi-Fi%20Password",
     "keywords": [
       "wi-fi password",
-      "personal hotspot"
+      "personal hotspot",
+      "einstellungen"
     ]
   },
   {
     "name": "Reset Statistics",
     "category": "Cellular",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Reset Statistics",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID#Reset Statistics",
     "keywords": [
       "reset statistics",
-      "cellular"
+      "cellular",
+      "einstellungen"
     ]
   },
   {
     "name": "System Services",
     "category": "Cellular",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf System Services",
     "urlScheme": "App-prefs:root=MOBILE_DATA_SETTINGS_ID&path=System%20Services",
     "keywords": [
       "system services",
-      "cellular"
+      "cellular",
+      "einstellungen"
     ]
   },
   {
     "name": "Compass",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Compass",
     "urlScheme": "App-prefs:root=COMPASS",
     "keywords": [
       "compass",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Contacts",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=CONTACTS",
     "keywords": [
       "(root)",
-      "contacts"
+      "contacts",
+      "einstellungen"
     ]
   },
   {
     "name": "Display Order",
     "category": "Contacts",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Display Order",
     "urlScheme": "App-prefs:root=CONTACTS&path=PersonNameOrder",
     "keywords": [
       "display order",
-      "contacts"
+      "contacts",
+      "einstellungen"
     ]
   },
   {
     "name": "My Info",
     "category": "Contacts",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf My Info",
     "urlScheme": "App-prefs:root=CONTACTS&path=MeCard",
     "keywords": [
       "my info",
-      "contacts"
+      "contacts",
+      "einstellungen"
     ]
   },
   {
     "name": "Short Name",
     "category": "Contacts",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Short Name",
     "urlScheme": "App-prefs:root=CONTACTS&path=PersonShortName",
     "keywords": [
       "short name",
-      "contacts"
+      "contacts",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "Contacts",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=CONTACTS&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "contacts"
+      "siri & suche",
+      "contacts",
+      "einstellungen"
     ]
   },
   {
     "name": "Sort Order",
     "category": "Contacts",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Sort Order",
     "urlScheme": "App-prefs:root=CONTACTS&path=ContactsSortOrder",
     "keywords": [
       "sort order",
-      "contacts"
+      "contacts",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
-    "category": "Control Center",
-    "iconName": "gearshape.fill",
+    "category": "Kontrollzentrum",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ControlCenter",
     "keywords": [
       "(root)",
-      "control center"
+      "kontrollzentrum",
+      "einstellungen"
     ]
   },
   {
     "name": "Customize Controls",
-    "category": "Control Center",
-    "iconName": "gearshape.fill",
+    "category": "Kontrollzentrum",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Customize Controls",
     "urlScheme": "App-prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS",
     "keywords": [
       "customize controls",
-      "control center"
+      "kontrollzentrum",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Developer",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS",
     "keywords": [
       "(root)",
-      "developer"
+      "developer",
+      "einstellungen"
     ]
   },
   {
     "name": "Ad Refresh Rate",
     "category": "Developer",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Ad Refresh Rate",
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=AD_REFRESH_RATE",
     "keywords": [
       "ad refresh rate",
-      "developer"
+      "developer",
+      "einstellungen"
     ]
   },
   {
     "name": "Fill Rate",
     "category": "Developer",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Fill Rate",
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=FILL_RATE",
     "keywords": [
       "fill rate",
-      "developer"
+      "developer",
+      "einstellungen"
     ]
   },
   {
     "name": "Instruments/Logging",
     "category": "Developer",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Instruments/Logging",
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings",
     "keywords": [
       "instruments/logging",
-      "developer"
+      "developer",
+      "einstellungen"
     ]
   },
   {
     "name": "Multipath Networking",
     "category": "Developer",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Multipath Networking",
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG",
     "keywords": [
       "multipath networking",
-      "developer"
+      "developer",
+      "einstellungen"
     ]
   },
   {
     "name": "Network Link Conditioner",
     "category": "Developer",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Network Link Conditioner",
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=NLC",
     "keywords": [
       "network link conditioner",
-      "developer"
+      "developer",
+      "einstellungen"
     ]
   },
   {
     "name": "TV Provider",
     "category": "Developer",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf TV Provider",
     "urlScheme": "App-prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings",
     "keywords": [
       "tv provider",
-      "developer"
+      "developer",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Display",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=DISPLAY",
     "keywords": [
       "(root)",
-      "display"
+      "display",
+      "einstellungen"
     ]
   },
   {
     "name": "Auto Lock",
     "category": "Display",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Auto Lock",
     "urlScheme": "App-prefs:root=DISPLAY&path=AUTOLOCK",
     "keywords": [
       "auto lock",
-      "display"
+      "display",
+      "einstellungen"
     ]
   },
   {
     "name": "Night Shift",
     "category": "Display",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Night Shift",
     "urlScheme": "App-prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION",
     "keywords": [
       "night shift",
-      "display"
+      "display",
+      "einstellungen"
     ]
   },
   {
     "name": "Options",
     "category": "Display",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Options",
     "urlScheme": "App-prefs:root=DISPLAY&path=APPEARANCE_OPTIONS",
     "keywords": [
       "options",
-      "display"
+      "display",
+      "einstellungen"
     ]
   },
   {
     "name": "Text Size",
     "category": "Display",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Text Size",
     "urlScheme": "App-prefs:root=DISPLAY&path=TEXT_SIZE",
     "keywords": [
       "text size",
-      "display"
+      "display",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Do Not Disturb",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB",
     "keywords": [
       "(root)",
-      "do not disturb"
+      "do not disturb",
+      "einstellungen"
     ]
   },
   {
     "name": "Allow Calls From",
     "category": "Do Not Disturb",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Allow Calls From",
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB&path=Allow%20Calls%20From",
     "keywords": [
       "allow calls from",
-      "do not disturb"
+      "do not disturb",
+      "einstellungen"
     ]
   },
   {
     "name": "Auto-Reply",
     "category": "Do Not Disturb",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Auto-Reply",
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY_MESSAGE",
     "keywords": [
       "auto-reply",
-      "do not disturb"
+      "do not disturb",
+      "einstellungen"
     ]
   },
   {
     "name": "Auto-Reply To",
     "category": "Do Not Disturb",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Auto-Reply To",
     "urlScheme": "App-prefs:root=DO_NOT_DISTURB&path=DRIVER_MODE_AUTOREPLY",
     "keywords": [
       "auto-reply to",
-      "do not disturb"
+      "do not disturb",
+      "einstellungen"
     ]
   },
   {
-    "name": "Emergency SOS",
+    "name": "Notruf SOS",
     "category": "System",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Emergency SOS",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Notruf SOS",
     "urlScheme": "App-prefs:root=EMERGENCY_SOS",
     "keywords": [
-      "emergency sos",
-      "system"
+      "notruf sos",
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "Exposure Notifications",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Exposure Notifications",
     "urlScheme": "App-prefs:root=EXPOSURE_NOTIFICATION",
     "keywords": [
       "exposure notifications",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Face/Touch ID & Passcode",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=PASSCODE",
     "keywords": [
       "(root)",
-      "face/touch id & passcode"
+      "face/touch id & passcode",
+      "einstellungen"
     ]
   },
   {
     "name": "Require Passcode",
     "category": "Face/Touch ID & Passcode",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Require Passcode",
     "urlScheme": "App-prefs:root=PASSCODE&path=PASSCODE_REQ",
     "keywords": [
       "require passcode",
-      "face/touch id & passcode"
+      "face/touch id & passcode",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "FaceTime",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=FACETIME",
     "keywords": [
       "(root)",
-      "facetime"
+      "facetime",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "FaceTime",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=FACETIME&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "facetime"
+      "siri & suche",
+      "facetime",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Game Center",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=GAMECENTER",
     "keywords": [
       "(root)",
-      "game center"
+      "game center",
+      "einstellungen"
     ]
   },
   {
     "name": "Add Friends",
     "category": "Game Center",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add Friends",
     "urlScheme": "App-prefs:root=GAMECENTER&path=Add%20Friends",
     "keywords": [
       "add friends",
-      "game center"
+      "game center",
+      "einstellungen"
     ]
   },
   {
     "name": "Terms and Conditions",
     "category": "Game Center",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Terms and Conditions",
     "urlScheme": "App-prefs:root=GAMECENTER&path=Terms%20and%20Conditions",
     "keywords": [
       "terms and conditions",
-      "game center"
+      "game center",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
-    "category": "General",
+    "category": "Allgemein",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=General",
     "keywords": [
       "(root)",
-      "general"
+      "allgemein",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "About",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=General&path=About",
     "keywords": [
       "(root)",
-      "about"
+      "about",
+      "einstellungen"
     ]
   },
   {
     "name": "Certificate Trust Settings",
     "category": "About",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Certificate Trust Settings",
     "urlScheme": "App-prefs:root=General&path=About/CERT_TRUST_SETTINGS",
     "keywords": [
       "certificate trust settings",
-      "about"
+      "about",
+      "einstellungen"
     ]
   },
   {
     "name": "SEID",
     "category": "About",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf SEID",
     "urlScheme": "App-prefs:root=General&path=About/SEID",
     "keywords": [
       "seid",
-      "about"
+      "about",
+      "einstellungen"
     ]
   },
   {
     "name": "AirDrop",
-    "category": "General",
+    "category": "Allgemein",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf AirDrop",
     "urlScheme": "App-prefs:root=General&path=AIRDROP_LINK",
     "keywords": [
       "airdrop",
-      "general"
+      "allgemein",
+      "einstellungen"
     ]
   },
   {
     "name": "AirPlay & Handoff",
-    "category": "General",
+    "category": "Allgemein",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf AirPlay & Handoff",
     "urlScheme": "App-prefs:root=General&path=CONTINUITY_SPEC",
     "keywords": [
       "airplay & handoff",
-      "general"
+      "allgemein",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Background App Refresh",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=General&path=AUTO_CONTENT_DOWNLOAD",
     "keywords": [
       "(root)",
-      "background app refresh"
+      "background app refresh",
+      "einstellungen"
     ]
   },
   {
     "name": "Background App Refresh",
     "category": "Background App Refresh",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Background App Refresh",
     "urlScheme": "App-prefs:root=General&path=AUTO_CONTENT_DOWNLOAD/AUTO_CONTENT_DOWNLOAD",
     "keywords": [
       "background app refresh",
-      "background app refresh"
+      "background app refresh",
+      "einstellungen"
     ]
   },
   {
     "name": "CarPlay",
-    "category": "General",
+    "category": "Allgemein",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf CarPlay",
     "urlScheme": "App-prefs:root=General&path=CARPLAY",
     "keywords": [
       "carplay",
-      "general"
+      "allgemein",
+      "einstellungen"
     ]
   },
   {
     "name": "Date & Time",
-    "category": "General",
+    "category": "Allgemein",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Date & Time",
     "urlScheme": "App-prefs:root=General&path=DATE_AND_TIME",
     "keywords": [
       "date & time",
-      "general"
+      "allgemein",
+      "einstellungen"
     ]
   },
   {
     "name": "Dictionary",
-    "category": "General",
+    "category": "Allgemein",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Dictionary",
     "urlScheme": "App-prefs:root=General&path=DICTIONARY",
     "keywords": [
       "dictionary",
-      "general"
+      "allgemein",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "iPhone/iPad Storage",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=General&path=STORAGE_MGMT",
     "keywords": [
       "(root)",
-      "iphone/ipad storage"
+      "iphone/ipad storage",
+      "einstellungen"
     ]
   },
   {
     "name": "[App Name]",
     "category": "iPhone/iPad Storage",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf [App Name]",
     "urlScheme": "App-prefs:root=General&path=STORAGE_MGMT/[App Bundle ID]",
     "keywords": [
       "[app name]",
-      "iphone/ipad storage"
+      "iphone/ipad storage",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Keyboard",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=General&path=Keyboard",
     "keywords": [
       "(root)",
-      "keyboard"
+      "keyboard",
+      "einstellungen"
     ]
   },
   {
     "name": "Hardware Keyboard",
     "category": "Keyboard",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Hardware Keyboard",
     "urlScheme": "App-prefs:root=General&path=Keyboard/Hardware%20Keyboard",
     "keywords": [
       "hardware keyboard",
-      "keyboard"
+      "keyboard",
+      "einstellungen"
     ]
   },
   {
     "name": "Keyboards",
     "category": "Keyboard",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Keyboards",
     "urlScheme": "App-prefs:root=General&path=Keyboard/KEYBOARDS",
     "keywords": [
       "keyboards",
-      "keyboard"
+      "keyboard",
+      "einstellungen"
     ]
   },
   {
     "name": "One Handed Keyboard",
     "category": "Keyboard",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf One Handed Keyboard",
     "urlScheme": "App-prefs:root=General&path=Keyboard/ReachableKeyboard",
     "keywords": [
       "one handed keyboard",
-      "keyboard"
+      "keyboard",
+      "einstellungen"
     ]
   },
   {
     "name": "Text Replacement",
     "category": "Keyboard",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Text Replacement",
     "urlScheme": "App-prefs:root=General&path=Keyboard/USER_DICTIONARY",
     "keywords": [
       "text replacement",
-      "keyboard"
+      "keyboard",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Language & Region",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL",
     "keywords": [
       "(root)",
-      "language & region"
+      "language & region",
+      "einstellungen"
     ]
   },
   {
     "name": "Calendar",
     "category": "Language & Region",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Calendar",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/CALENDAR",
     "keywords": [
       "calendar",
-      "language & region"
+      "language & region",
+      "einstellungen"
     ]
   },
   {
     "name": "Device Language",
     "category": "Language & Region",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Device Language",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/DEVICE_LANGUAGE",
     "keywords": [
       "device language",
-      "language & region"
+      "language & region",
+      "einstellungen"
     ]
   },
   {
     "name": "Numbers",
     "category": "Language & Region",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Numbers",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM",
     "keywords": [
       "numbers",
-      "language & region"
+      "language & region",
+      "einstellungen"
     ]
   },
   {
     "name": "Region",
     "category": "Language & Region",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Region",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/LOCALE",
     "keywords": [
       "region",
-      "language & region"
+      "language & region",
+      "einstellungen"
     ]
   },
   {
     "name": "Temperature Unit",
     "category": "Language & Region",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Temperature Unit",
     "urlScheme": "App-prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT",
     "keywords": [
       "temperature unit",
-      "language & region"
+      "language & region",
+      "einstellungen"
     ]
   },
   {
     "name": "Legal & Regulatory",
-    "category": "General",
+    "category": "Allgemein",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Legal & Regulatory",
     "urlScheme": "App-prefs:root=General&path=LEGAL_AND_REGULATORY",
     "keywords": [
       "legal & regulatory",
-      "general"
+      "allgemein",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Profiles",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=General&path=ManagedConfigurationList",
     "keywords": [
       "(root)",
-      "profiles"
+      "profiles",
+      "einstellungen"
     ]
   },
   {
     "name": "Install Profile",
     "category": "Profiles",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Install Profile",
     "urlScheme": "App-prefs:root=General&path=ManagedConfigurationList/PurgatoryInstallRequested",
     "keywords": [
       "install profile",
-      "profiles"
+      "profiles",
+      "einstellungen"
     ]
   },
   {
     "name": "Reset",
-    "category": "General",
+    "category": "Allgemein",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Reset",
     "urlScheme": "App-prefs:root=General&path=Reset",
     "keywords": [
       "reset",
-      "general"
+      "allgemein",
+      "einstellungen"
     ]
   },
   {
     "name": "Software Update",
-    "category": "General",
+    "category": "Allgemein",
     "iconName": "gearshape.fill",
     "description": "Direktzugriff auf Software Update",
     "urlScheme": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
     "keywords": [
       "software update",
-      "general"
+      "allgemein",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "VPN",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=General&path=VPN",
     "keywords": [
       "(root)",
-      "vpn"
+      "vpn",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "[VPN Configuration Name]",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]",
     "keywords": [
       "(root)",
-      "[vpn configuration name]"
+      "[vpn configuration name]",
+      "einstellungen"
     ]
   },
   {
     "name": "Delete VPN",
     "category": "[VPN Configuration Name]",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Delete VPN",
     "urlScheme": "App-prefs:root=General&path=VPN/[URL-encoded VPN Configuration Name]/Delete%20VPN",
     "keywords": [
       "delete vpn",
-      "[vpn configuration name]"
+      "[vpn configuration name]",
+      "einstellungen"
     ]
   },
   {
     "name": "Add VPN Configuration…",
     "category": "VPN",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add VPN Configuration…",
     "urlScheme": "App-prefs:root=General&path=VPN/Add%20VPN%20Configuration%E2%80%A6",
     "keywords": [
       "add vpn configuration…",
-      "vpn"
+      "vpn",
+      "einstellungen"
     ]
   },
   {
     "name": "DNS",
     "category": "VPN",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf DNS",
     "urlScheme": "App-prefs:root=General&path=VPN/DNS",
     "keywords": [
       "dns",
-      "vpn"
+      "vpn",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Health",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=HEALTH",
     "keywords": [
       "(root)",
-      "health"
+      "health",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "Health",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=HEALTH&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "health"
+      "siri & suche",
+      "health",
+      "einstellungen"
     ]
   },
   {
     "name": "Home",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Home",
     "urlScheme": "App-prefs:root=HOMEKIT",
     "keywords": [
       "home",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "Home Screen (iPhone)",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Home Screen (iPhone)",
     "urlScheme": "App-prefs:root=HOME_SCREEN",
     "keywords": [
       "home screen (iphone)",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Home Screen & Dock (iPad)",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=HOME_SCREEN_DOCK",
     "keywords": [
       "(root)",
-      "home screen & dock (ipad)"
+      "home screen & dock (ipad)",
+      "einstellungen"
     ]
   },
   {
     "name": "Multitasking",
     "category": "Home Screen & Dock (iPad)",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Multitasking",
     "urlScheme": "App-prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING",
     "keywords": [
       "multitasking",
-      "home screen & dock (ipad)"
+      "home screen & dock (ipad)",
+      "einstellungen"
     ]
   },
   {
     "name": "Family Sharing",
     "category": "iCloud",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Family Sharing",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=FAMILY",
     "keywords": [
       "family sharing",
-      "icloud"
+      "icloud",
+      "einstellungen"
     ]
   },
   {
     "name": "Find My",
     "category": "iCloud",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Find My",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING",
     "keywords": [
       "find my",
-      "icloud"
+      "icloud",
+      "einstellungen"
     ]
   },
   {
     "name": "Hide My Email",
     "category": "iCloud",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Hide My Email",
     "urlScheme": "App-prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE",
     "keywords": [
       "hide my email",
-      "icloud"
+      "icloud",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=MAIL",
     "keywords": [
       "(root)",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Blocked",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Blocked",
     "urlScheme": "App-prefs:root=MAIL&path=Blocked",
     "keywords": [
       "blocked",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Blocked Sender Options",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Blocked Sender Options",
     "urlScheme": "App-prefs:root=MAIL&path=Blocked%20Sender%20Options",
     "keywords": [
       "blocked sender options",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Default Account",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Default Account",
     "urlScheme": "App-prefs:root=MAIL&path=Default%20Account",
     "keywords": [
       "default account",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Include Attachments with Replies",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Include Attachments with Replies",
     "urlScheme": "App-prefs:root=MAIL&path=Include%20Attachments%20with%20Replies",
     "keywords": [
       "include attachments with replies",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Increase Quote Level",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Increase Quote Level",
     "urlScheme": "App-prefs:root=MAIL&path=Increase%20Quote%20Level",
     "keywords": [
       "increase quote level",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Mark Addresses",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Mark Addresses",
     "urlScheme": "App-prefs:root=MAIL&path=Mark%20Addresses",
     "keywords": [
       "mark addresses",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Muted Thread Action",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Muted Thread Action",
     "urlScheme": "App-prefs:root=MAIL&path=Muted%20Thread%20Action",
     "keywords": [
       "muted thread action",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Notifications",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Notifications",
     "urlScheme": "App-prefs:root=MAIL&path=NOTIFICATIONS",
     "keywords": [
       "notifications",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Preview",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Preview",
     "urlScheme": "App-prefs:root=MAIL&path=Preview",
     "keywords": [
       "preview",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "Signature",
     "category": "Mail",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Signature",
     "urlScheme": "App-prefs:root=MAIL&path=Signature",
     "keywords": [
       "signature",
-      "mail"
+      "mail",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Swipe Options",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=MAIL&path=Swipe%20Options",
     "keywords": [
       "(root)",
-      "swipe options"
+      "swipe options",
+      "einstellungen"
     ]
   },
   {
     "name": "Swipe Left",
     "category": "Swipe Options",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Swipe Left",
     "urlScheme": "App-prefs:root=MAIL&path=Swipe%20Options/Swipe%20Left",
     "keywords": [
       "swipe left",
-      "swipe options"
+      "swipe options",
+      "einstellungen"
     ]
   },
   {
     "name": "Swipe Right",
     "category": "Swipe Options",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Swipe Right",
     "urlScheme": "App-prefs:root=MAIL&path=Swipe%20Options/Swipe%20Right",
     "keywords": [
       "swipe right",
-      "swipe options"
+      "swipe options",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Maps",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=MAPS",
     "keywords": [
       "(root)",
-      "maps"
+      "maps",
+      "einstellungen"
     ]
   },
   {
     "name": "Cycling",
     "category": "Maps",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Cycling",
     "urlScheme": "App-prefs:root=MAPS&path=Cycling",
     "keywords": [
       "cycling",
-      "maps"
+      "maps",
+      "einstellungen"
     ]
   },
   {
     "name": "Driving",
     "category": "Maps",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Driving",
     "urlScheme": "App-prefs:root=MAPS&path=Driving",
     "keywords": [
       "driving",
-      "maps"
+      "maps",
+      "einstellungen"
     ]
   },
   {
     "name": "Transit",
     "category": "Maps",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Transit",
     "urlScheme": "App-prefs:root=MAPS&path=Transit",
     "keywords": [
       "transit",
-      "maps"
+      "maps",
+      "einstellungen"
     ]
   },
   {
     "name": "Walking (iPhone)",
     "category": "Maps",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Walking (iPhone)",
     "urlScheme": "App-prefs:root=MAPS&path=Walking",
     "keywords": [
       "walking (iphone)",
-      "maps"
+      "maps",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Measure",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=MEASURE",
     "keywords": [
       "(root)",
-      "measure"
+      "measure",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "Measure",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=MEASURE&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "measure"
+      "siri & suche",
+      "measure",
+      "einstellungen"
     ]
   },
   {
     "name": "Messages",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Messages",
     "urlScheme": "App-prefs:root=MESSAGES",
     "keywords": [
       "messages",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Music",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=MUSIC",
     "keywords": [
       "(root)",
-      "music"
+      "music",
+      "einstellungen"
     ]
   },
   {
     "name": "Audio Quality",
     "category": "Music",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Audio Quality",
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AAudioQuality",
     "keywords": [
       "audio quality",
-      "music"
+      "music",
+      "einstellungen"
     ]
   },
   {
     "name": "Cellular Data",
     "category": "Music",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Cellular Data",
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3ACellularData",
     "keywords": [
       "cellular data",
-      "music"
+      "music",
+      "einstellungen"
     ]
   },
   {
     "name": "Dolby Atmos",
     "category": "Music",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Dolby Atmos",
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AAtmos",
     "keywords": [
       "dolby atmos",
-      "music"
+      "music",
+      "einstellungen"
     ]
   },
   {
     "name": "EQ",
     "category": "Music",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf EQ",
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AEQ",
     "keywords": [
       "eq",
-      "music"
+      "music",
+      "einstellungen"
     ]
   },
   {
     "name": "Optimize Storage",
     "category": "Music",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Optimize Storage",
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage",
     "keywords": [
       "optimize storage",
-      "music"
+      "music",
+      "einstellungen"
     ]
   },
   {
     "name": "Volume Limit",
     "category": "Music",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Volume Limit",
     "urlScheme": "App-prefs:root=MUSIC&path=com.apple.Music%3AVolumeLimit",
     "keywords": [
       "volume limit",
-      "music"
+      "music",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "News",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=NEWS",
     "keywords": [
       "(root)",
-      "news"
+      "news",
+      "einstellungen"
     ]
   },
   {
     "name": "Acknowledgements",
     "category": "News",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Acknowledgements",
     "urlScheme": "App-prefs:root=NEWS&path=Acknowledgements",
     "keywords": [
       "acknowledgements",
-      "news"
+      "news",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Notes",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=NOTES",
     "keywords": [
       "(root)",
-      "notes"
+      "notes",
+      "einstellungen"
     ]
   },
   {
     "name": "Access Notes from Lock Screen",
     "category": "Notes",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Access Notes from Lock Screen",
     "urlScheme": "App-prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen",
     "keywords": [
       "access notes from lock screen",
-      "notes"
+      "notes",
+      "einstellungen"
     ]
   },
   {
     "name": "Default Account",
     "category": "Notes",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Default Account",
     "urlScheme": "App-prefs:root=NOTES&path=Default%20Account",
     "keywords": [
       "default account",
-      "notes"
+      "notes",
+      "einstellungen"
     ]
   },
   {
     "name": "Lines & Grids",
     "category": "Notes",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Lines & Grids",
     "urlScheme": "App-prefs:root=NOTES&path=Lines%20%26%20Grids",
     "keywords": [
       "lines & grids",
-      "notes"
+      "notes",
+      "einstellungen"
     ]
   },
   {
     "name": "New Notes Start With",
     "category": "Notes",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf New Notes Start With",
     "urlScheme": "App-prefs:root=NOTES&path=New%20Notes%20Start%20With",
     "keywords": [
       "new notes start with",
-      "notes"
+      "notes",
+      "einstellungen"
     ]
   },
   {
     "name": "Note Backgrounds",
     "category": "Notes",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Note Backgrounds",
     "urlScheme": "App-prefs:root=NOTES&path=Note%20Backgrounds",
     "keywords": [
       "note backgrounds",
-      "notes"
+      "notes",
+      "einstellungen"
     ]
   },
   {
     "name": "Password",
     "category": "Notes",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Password",
     "urlScheme": "App-prefs:root=NOTES&path=Password",
     "keywords": [
       "password",
-      "notes"
+      "notes",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "Notes",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=NOTES&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "notes"
+      "siri & suche",
+      "notes",
+      "einstellungen"
     ]
   },
   {
     "name": "Sort Checked Items",
     "category": "Notes",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Sort Checked Items",
     "urlScheme": "App-prefs:root=NOTES&path=Sort%20Checked%20Items",
     "keywords": [
       "sort checked items",
-      "notes"
+      "notes",
+      "einstellungen"
     ]
   },
   {
     "name": "Sort Notes By",
     "category": "Notes",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Sort Notes By",
     "urlScheme": "App-prefs:root=NOTES&path=Sort%20Notes%20By",
     "keywords": [
       "sort notes by",
-      "notes"
+      "notes",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Notifications",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID",
     "keywords": [
       "(root)",
-      "notifications"
+      "notifications",
+      "einstellungen"
     ]
   },
   {
     "name": "App Name",
     "category": "Notifications",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf App Name",
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID&path=App%20Bundle%20ID",
     "keywords": [
       "app name",
-      "notifications"
+      "notifications",
+      "einstellungen"
     ]
   },
   {
     "name": "Show Previews",
     "category": "Notifications",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Show Previews",
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID&path=SHOW_PREVIEW_GROUP_ID",
     "keywords": [
       "show previews",
-      "notifications"
+      "notifications",
+      "einstellungen"
     ]
   },
   {
     "name": "Siri Suggestions",
     "category": "Notifications",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Siri Suggestions",
     "urlScheme": "App-prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions",
     "keywords": [
       "siri suggestions",
-      "notifications"
+      "notifications",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Passwords",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=PASSWORDS",
     "keywords": [
       "(root)",
-      "passwords"
+      "passwords",
+      "einstellungen"
     ]
   },
   {
     "name": "[Search Term]",
     "category": "Passwords",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf [Search Term]",
     "urlScheme": "App-prefs:root=PASSWORDS&search=[Search Term]",
     "keywords": [
       "[search term]",
-      "passwords"
+      "passwords",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Passwords & Accounts",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS",
     "keywords": [
       "(root)",
-      "passwords & accounts"
+      "passwords & accounts",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Add Account",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT",
     "keywords": [
       "(root)",
-      "add account"
+      "add account",
+      "einstellungen"
     ]
   },
   {
     "name": "AOL",
     "category": "Add Account",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf AOL",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/AOL",
     "keywords": [
       "aol",
-      "add account"
+      "add account",
+      "einstellungen"
     ]
   },
   {
     "name": "Google",
     "category": "Add Account",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Google",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/Gmail",
     "keywords": [
       "google",
-      "add account"
+      "add account",
+      "einstellungen"
     ]
   },
   {
     "name": "iCloud",
     "category": "Add Account",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf iCloud",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/iCloud",
     "keywords": [
       "icloud",
-      "add account"
+      "add account",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Other",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER",
     "keywords": [
       "(root)",
-      "other"
+      "other",
+      "einstellungen"
     ]
   },
   {
     "name": "Add CalDAV Account",
     "category": "Other",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add CalDAV Account",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20CalDAV%20Account",
     "keywords": [
       "add caldav account",
-      "other"
+      "other",
+      "einstellungen"
     ]
   },
   {
     "name": "Add CardDAV Account",
     "category": "Other",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add CardDAV Account",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20CardDAV%20Account",
     "keywords": [
       "add carddav account",
-      "other"
+      "other",
+      "einstellungen"
     ]
   },
   {
     "name": "Add LDAP Account",
     "category": "Other",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add LDAP Account",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20LDAP%20Account",
     "keywords": [
       "add ldap account",
-      "other"
+      "other",
+      "einstellungen"
     ]
   },
   {
     "name": "Add Mail Account",
     "category": "Other",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add Mail Account",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20Mail%20Account",
     "keywords": [
       "add mail account",
-      "other"
+      "other",
+      "einstellungen"
     ]
   },
   {
     "name": "Add Subscribed Calendar",
     "category": "Other",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add Subscribed Calendar",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/OTHER/Add%20Subscribed%20Calendar",
     "keywords": [
       "add subscribed calendar",
-      "other"
+      "other",
+      "einstellungen"
     ]
   },
   {
     "name": "Outlook",
     "category": "Add Account",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Outlook",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT/Outlook",
     "keywords": [
       "outlook",
-      "add account"
+      "add account",
+      "einstellungen"
     ]
   },
   {
     "name": "Fetch New Data",
     "category": "Passwords & Accounts",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Fetch New Data",
     "urlScheme": "App-prefs:root=ACCOUNTS_AND_PASSWORDS&path=FETCH_NEW_DATA",
     "keywords": [
       "fetch new data",
-      "passwords & accounts"
+      "passwords & accounts",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Personal Hotspot",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=INTERNET_TETHERING",
     "keywords": [
       "(root)",
-      "personal hotspot"
+      "personal hotspot",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Family Sharing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=INTERNET_TETHERING&path=Family%20Sharing",
     "keywords": [
       "(root)",
-      "family sharing"
+      "family sharing",
+      "einstellungen"
     ]
   },
   {
     "name": "[Family Member Name]",
     "category": "Family Sharing",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf [Family Member Name]",
     "urlScheme": "App-prefs:root=INTERNET_TETHERING&path=Family%20Sharing/[URL-encoded Family Member Name]",
     "keywords": [
       "[family member name]",
-      "family sharing"
+      "family sharing",
+      "einstellungen"
     ]
   },
   {
     "name": "Wi-Fi Password",
     "category": "Personal Hotspot",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Wi-Fi Password",
     "urlScheme": "App-prefs:root=INTERNET_TETHERING&path=Wi-Fi%20Password",
     "keywords": [
       "wi-fi password",
-      "personal hotspot"
+      "personal hotspot",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Phone",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=Phone",
     "keywords": [
       "(root)",
-      "phone"
+      "phone",
+      "einstellungen"
     ]
   },
   {
     "name": "Respond with Text",
     "category": "Phone",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Respond with Text",
     "urlScheme": "App-prefs:root=Phone&path=Respond%20with%20Text",
     "keywords": [
       "respond with text",
-      "phone"
+      "phone",
+      "einstellungen"
     ]
   },
   {
     "name": "Silence Unknown Callers",
     "category": "Phone",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Silence Unknown Callers",
     "urlScheme": "App-prefs:root=Phone&path=SILENCE_CALLS",
     "keywords": [
       "silence unknown callers",
-      "phone"
+      "phone",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Photos",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=Photos",
     "keywords": [
       "(root)",
-      "photos"
+      "photos",
+      "einstellungen"
     ]
   },
   {
     "name": "Cellular Data",
     "category": "Photos",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Cellular Data",
     "urlScheme": "App-prefs:root=Photos&path=CellularDataLinkList",
     "keywords": [
       "cellular data",
-      "photos"
+      "photos",
+      "einstellungen"
     ]
   },
   {
     "name": "Podcasts",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Podcasts",
     "urlScheme": "App-prefs:root=com.apple.podcasts",
     "keywords": [
       "podcasts",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=Privacy",
     "keywords": [
       "(root)",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Advertising",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Advertising",
     "urlScheme": "App-prefs:root=Privacy&path=ADVERTISING",
     "keywords": [
       "advertising",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Analytics & Improvements",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Analytics & Improvements",
     "urlScheme": "App-prefs:root=Privacy&path=PROBLEM_REPORTING",
     "keywords": [
       "analytics & improvements",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Bluetooth",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Bluetooth",
     "urlScheme": "App-prefs:root=Privacy&path=BT_PERIPHERAL",
     "keywords": [
       "bluetooth",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Calendars",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Calendars",
     "urlScheme": "App-prefs:root=Privacy&path=CALENDARS",
     "keywords": [
       "calendars",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Camera",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Camera",
     "urlScheme": "App-prefs:root=Privacy&path=CAMERA",
     "keywords": [
       "camera",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Contacts",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Contacts",
     "urlScheme": "App-prefs:root=Privacy&path=CONTACTS",
     "keywords": [
       "contacts",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Health",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Health",
     "urlScheme": "App-prefs:root=Privacy&path=HEALTH",
     "keywords": [
       "health",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "HomeKit",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf HomeKit",
     "urlScheme": "App-prefs:root=Privacy&path=WILLOW",
     "keywords": [
       "homekit",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Local Network",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Local Network",
     "urlScheme": "App-prefs:root=Privacy&path=LOCAL_NETWORK",
     "keywords": [
       "local network",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Location Services",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION",
     "keywords": [
       "(root)",
-      "location services"
+      "location services",
+      "einstellungen"
     ]
   },
   {
     "name": "[App Name]",
     "category": "Location Services",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf [App Name]",
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/[App Bundle ID]",
     "keywords": [
       "[app name]",
-      "location services"
+      "location services",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Share My Location",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/LOCATION_SHARING",
     "keywords": [
       "(root)",
-      "share my location"
+      "share my location",
+      "einstellungen"
     ]
   },
   {
     "name": "[Family Member Name]",
     "category": "Share My Location",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf [Family Member Name]",
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/LOCATION_SHARING/[URL-encoded Family Member Name]",
     "keywords": [
       "[family member name]",
-      "share my location"
+      "share my location",
+      "einstellungen"
     ]
   },
   {
     "name": "System Services",
     "category": "Location Services",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf System Services",
     "urlScheme": "App-prefs:root=Privacy&path=LOCATION/SYSTEM_SERVICES",
     "keywords": [
       "system services",
-      "location services"
+      "location services",
+      "einstellungen"
     ]
   },
   {
     "name": "Media & Apple Music",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Media & Apple Music",
     "urlScheme": "App-prefs:root=Privacy&path=MEDIALIBRARY",
     "keywords": [
       "media & apple music",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Microphone",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Microphone",
     "urlScheme": "App-prefs:root=Privacy&path=MICROPHONE",
     "keywords": [
       "microphone",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Motion & Fitness",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Motion & Fitness",
     "urlScheme": "App-prefs:root=Privacy&path=MOTION",
     "keywords": [
       "motion & fitness",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Photos",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=Privacy&path=PHOTOS",
     "keywords": [
       "(root)",
-      "photos"
+      "photos",
+      "einstellungen"
     ]
   },
   {
     "name": "[App Name]",
     "category": "Photos",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf [App Name]",
     "urlScheme": "App-prefs:root=Privacy&path=PHOTOS/[App Bundle ID]",
     "keywords": [
       "[app name]",
-      "photos"
+      "photos",
+      "einstellungen"
     ]
   },
   {
     "name": "Record App Activity",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Record App Activity",
     "urlScheme": "App-prefs:root=Privacy&path=PRIVACY_REPORT",
     "keywords": [
       "record app activity",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Reminders",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Reminders",
     "urlScheme": "App-prefs:root=Privacy&path=REMINDERS",
     "keywords": [
       "reminders",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Speech Recognition",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Speech Recognition",
     "urlScheme": "App-prefs:root=Privacy&path=SPEECH_RECOGNITION",
     "keywords": [
       "speech recognition",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "Tracking",
-    "category": "Privacy",
-    "iconName": "gearshape.fill",
+    "category": "Datenschutz & Sicherheit",
+    "iconName": "hand.raised.fill",
     "description": "Direktzugriff auf Tracking",
     "urlScheme": "App-prefs:root=Privacy&path=USER_TRACKING",
     "keywords": [
       "tracking",
-      "privacy"
+      "datenschutz & sicherheit",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Reminders",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=REMINDERS",
     "keywords": [
       "(root)",
-      "reminders"
+      "reminders",
+      "einstellungen"
     ]
   },
   {
     "name": "Default List",
     "category": "Reminders",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Default List",
     "urlScheme": "App-prefs:root=REMINDERS&path=DEFAULT_LIST",
     "keywords": [
       "default list",
-      "reminders"
+      "reminders",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "Reminders",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=REMINDERS&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "reminders"
+      "siri & suche",
+      "reminders",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=SAFARI",
     "keywords": [
       "(root)",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Advanced",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Advanced",
     "urlScheme": "App-prefs:root=SAFARI&path=ADVANCED",
     "keywords": [
       "advanced",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "AutoFill",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf AutoFill",
     "urlScheme": "App-prefs:root=SAFARI&path=AUTO_FILL",
     "keywords": [
       "autofill",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Camera",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Camera",
     "urlScheme": "App-prefs:root=SAFARI&path=Camera",
     "keywords": [
       "camera",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Clear History and Website Data",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Clear History and Website Data",
     "urlScheme": "App-prefs:root=SAFARI&path=CLEAR_HISTORY_AND_DATA",
     "keywords": [
       "clear history and website data",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Close Tabs",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Close Tabs",
     "urlScheme": "App-prefs:root=SAFARI&path=Close%20Tabs",
     "keywords": [
       "close tabs",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Content Blockers",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Content Blockers",
     "urlScheme": "App-prefs:root=SAFARI&path=CONTENT_BLOCKERS",
     "keywords": [
       "content blockers",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Downloads",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Downloads",
     "urlScheme": "App-prefs:root=SAFARI&path=DOWNLOADS",
     "keywords": [
       "downloads",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Hide IP Address",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Hide IP Address",
     "urlScheme": "App-prefs:root=SAFARI&path=Hide%20IP%20Address",
     "keywords": [
       "hide ip address",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Location",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Location",
     "urlScheme": "App-prefs:root=SAFARI&path=Location",
     "keywords": [
       "location",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Microphone",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Microphone",
     "urlScheme": "App-prefs:root=SAFARI&path=Microphone",
     "keywords": [
       "microphone",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Page Zoom",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Page Zoom",
     "urlScheme": "App-prefs:root=SAFARI&path=Page%20Zoom",
     "keywords": [
       "page zoom",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Reader",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Reader",
     "urlScheme": "App-prefs:root=SAFARI&path=Reader",
     "keywords": [
       "reader",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "Request Desktop Website",
     "category": "Safari",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Request Desktop Website",
     "urlScheme": "App-prefs:root=SAFARI&path=Request%20Desktop%20Website",
     "keywords": [
       "request desktop website",
-      "safari"
+      "safari",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
-    "category": "Screen Time",
-    "iconName": "gearshape.fill",
+    "category": "Bildschirmzeit",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=SCREEN_TIME",
     "keywords": [
       "(root)",
-      "screen time"
+      "bildschirmzeit",
+      "einstellungen"
     ]
   },
   {
     "name": "Always Allowed",
-    "category": "Screen Time",
-    "iconName": "gearshape.fill",
+    "category": "Bildschirmzeit",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Always Allowed",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED",
     "keywords": [
       "always allowed",
-      "screen time"
+      "bildschirmzeit",
+      "einstellungen"
     ]
   },
   {
     "name": "App Limits",
-    "category": "Screen Time",
-    "iconName": "gearshape.fill",
+    "category": "Bildschirmzeit",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf App Limits",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=APP_LIMITS",
     "keywords": [
       "app limits",
-      "screen time"
+      "bildschirmzeit",
+      "einstellungen"
     ]
   },
   {
     "name": "Communication Limits",
-    "category": "Screen Time",
-    "iconName": "gearshape.fill",
+    "category": "Bildschirmzeit",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Communication Limits",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS",
     "keywords": [
       "communication limits",
-      "screen time"
+      "bildschirmzeit",
+      "einstellungen"
     ]
   },
   {
     "name": "Content & Privacy Restrictions",
-    "category": "Screen Time",
-    "iconName": "gearshape.fill",
+    "category": "Bildschirmzeit",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Content & Privacy Restrictions",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY",
     "keywords": [
       "content & privacy restrictions",
-      "screen time"
+      "bildschirmzeit",
+      "einstellungen"
     ]
   },
   {
     "name": "Downtime",
-    "category": "Screen Time",
-    "iconName": "gearshape.fill",
+    "category": "Bildschirmzeit",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Downtime",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=DOWNTIME",
     "keywords": [
       "downtime",
-      "screen time"
+      "bildschirmzeit",
+      "einstellungen"
     ]
   },
   {
     "name": "See All Activity",
-    "category": "Screen Time",
-    "iconName": "gearshape.fill",
+    "category": "Bildschirmzeit",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf See All Activity",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY",
     "keywords": [
       "see all activity",
-      "screen time"
+      "bildschirmzeit",
+      "einstellungen"
     ]
   },
   {
     "name": "Turn On Screen Time",
-    "category": "Screen Time",
-    "iconName": "gearshape.fill",
+    "category": "Bildschirmzeit",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Turn On Screen Time",
     "urlScheme": "App-prefs:root=SCREEN_TIME&path=Turn%20On%20Screen%20Time",
     "keywords": [
       "turn on screen time",
-      "screen time"
+      "bildschirmzeit",
+      "einstellungen"
     ]
   },
   {
     "name": "Settings For App…",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Settings For App…",
     "urlScheme": "App-prefs:root=[App Bundle ID]",
     "keywords": [
       "settings for app…",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Shortcuts",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=SHORTCUTS",
     "keywords": [
       "(root)",
-      "shortcuts"
+      "shortcuts",
+      "einstellungen"
     ]
   },
   {
     "name": "Legal Notices",
     "category": "Shortcuts",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Legal Notices",
     "urlScheme": "App-prefs:root=SHORTCUTS&path=Legal%20Notices",
     "keywords": [
       "legal notices",
-      "shortcuts"
+      "shortcuts",
+      "einstellungen"
     ]
   },
   {
     "name": "[App Name]",
     "category": "Siri",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf [App Name]",
     "urlScheme": "App-prefs:root=SIRI&path=[App Bundle ID]",
     "keywords": [
       "[app name]",
-      "siri"
+      "siri",
+      "einstellungen"
     ]
   },
   {
     "name": "Language",
     "category": "Siri",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Language",
     "urlScheme": "App-prefs:root=SIRI&path=LANGUAGE_ID",
     "keywords": [
       "language",
-      "siri"
+      "siri",
+      "einstellungen"
     ]
   },
   {
     "name": "Siri & Dictation History",
     "category": "Siri",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Siri & Dictation History",
     "urlScheme": "App-prefs:root=SIRI&path=HISTORY",
     "keywords": [
       "siri & dictation history",
-      "siri"
+      "siri",
+      "einstellungen"
     ]
   },
   {
     "name": "Siri Responses",
     "category": "Siri",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Siri Responses",
     "urlScheme": "App-prefs:root=SIRI&path=VOICE_FEEDBACK_ID",
     "keywords": [
       "siri responses",
-      "siri"
+      "siri",
+      "einstellungen"
     ]
   },
   {
     "name": "Voice",
     "category": "Siri",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Voice",
     "urlScheme": "App-prefs:root=SIRI&path=VOICE_ID",
     "keywords": [
       "voice",
-      "siri"
+      "siri",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=Sounds",
     "keywords": [
       "(root)",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "Haptics",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Haptics",
     "urlScheme": "App-prefs:root=Sounds&path=HAPTICS",
     "keywords": [
       "haptics",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "AirDrop",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf AirDrop",
     "urlScheme": "App-prefs:root=Sounds&path=AIRDROP",
     "keywords": [
       "airdrop",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "Calendar Alerts",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Calendar Alerts",
     "urlScheme": "App-prefs:root=Sounds&path=Calendar%20Alarm",
     "keywords": [
       "calendar alerts",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "New Mail",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf New Mail",
     "urlScheme": "App-prefs:root=Sounds&path=NEW_MAIL",
     "keywords": [
       "new mail",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "New Voicemail",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf New Voicemail",
     "urlScheme": "App-prefs:root=Sounds&path=Voicemail",
     "keywords": [
       "new voicemail",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "Reminder Alerts",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Reminder Alerts",
     "urlScheme": "App-prefs:root=Sounds&path=Reminder%20Alerts",
     "keywords": [
       "reminder alerts",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "Ringtone",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Ringtone",
     "urlScheme": "App-prefs:root=Sounds&path=Ringtone",
     "keywords": [
       "ringtone",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "Sent Mail",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Sent Mail",
     "urlScheme": "App-prefs:root=Sounds&path=SENT_MAIL",
     "keywords": [
       "sent mail",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "Text Tone",
     "category": "Sounds",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Text Tone",
     "urlScheme": "App-prefs:root=Sounds&path=Text_Messages",
     "keywords": [
       "text tone",
-      "sounds"
+      "sounds",
+      "einstellungen"
     ]
   },
   {
     "name": "Translate",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Translate",
     "urlScheme": "App-prefs:root=TRANSLATE",
     "keywords": [
       "translate",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "TV",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=TVAPP",
     "keywords": [
       "(root)",
-      "tv"
+      "tv",
+      "einstellungen"
     ]
   },
   {
     "name": "Cellular",
     "category": "TV",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Cellular",
     "urlScheme": "App-prefs:root=TVAPP&path=com.apple.videos%3AVideosPlaybackQualityCellularSetting",
     "keywords": [
       "cellular",
-      "tv"
+      "tv",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "TV",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=TVAPP&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "tv"
+      "siri & suche",
+      "tv",
+      "einstellungen"
     ]
   },
   {
     "name": "Video Definition",
     "category": "TV",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Video Definition",
     "urlScheme": "App-prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution",
     "keywords": [
       "video definition",
-      "tv"
+      "tv",
+      "einstellungen"
     ]
   },
   {
     "name": "Wi-Fi",
     "category": "TV",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Wi-Fi",
     "urlScheme": "App-prefs:root=TVAPP&path=com.apple.videos%3AVideosPlaybackQualitySetting",
     "keywords": [
       "wi-fi",
-      "tv"
+      "tv",
+      "einstellungen"
     ]
   },
   {
     "name": "TV Provider",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf TV Provider",
     "urlScheme": "App-prefs:root=VIDEO_SUBSCRIBER",
     "keywords": [
       "tv provider",
-      "system"
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Voice Memos",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=VOICE_MEMOS",
     "keywords": [
       "(root)",
-      "voice memos"
+      "voice memos",
+      "einstellungen"
     ]
   },
   {
     "name": "Audio Quality",
     "category": "Voice Memos",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Audio Quality",
     "urlScheme": "App-prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey",
     "keywords": [
       "audio quality",
-      "voice memos"
+      "voice memos",
+      "einstellungen"
     ]
   },
   {
     "name": "Clear Deleted",
     "category": "Voice Memos",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Clear Deleted",
     "urlScheme": "App-prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey",
     "keywords": [
       "clear deleted",
-      "voice memos"
+      "voice memos",
+      "einstellungen"
     ]
   },
   {
-    "name": "Siri & Search",
+    "name": "Siri & Suche",
     "category": "Voice Memos",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Siri & Search",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Siri & Suche",
     "urlScheme": "App-prefs:root=VOICE_MEMOS&path=SIRI_AND_SEARCH",
     "keywords": [
-      "siri & search",
-      "voice memos"
+      "siri & suche",
+      "voice memos",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "VPN",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=VPN",
     "keywords": [
       "(root)",
-      "vpn"
+      "vpn",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "[VPN configuration]",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=VPN&path=[URL-encoded VPN Configuration Name]",
     "keywords": [
       "(root)",
-      "[vpn configuration]"
+      "[vpn configuration]",
+      "einstellungen"
     ]
   },
   {
     "name": "Delete VPN",
     "category": "[VPN configuration]",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Delete VPN",
     "urlScheme": "App-prefs:root=VPN&path=[URL-encoded VPN Configuration Name]/Delete%20VPN",
     "keywords": [
       "delete vpn",
-      "[vpn configuration]"
+      "[vpn configuration]",
+      "einstellungen"
     ]
   },
   {
     "name": "Add VPN Configuration…",
     "category": "VPN",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add VPN Configuration…",
     "urlScheme": "App-prefs:root=VPN&path=Add%20VPN%20Configuration%E2%80%A6",
     "keywords": [
       "add vpn configuration…",
-      "vpn"
+      "vpn",
+      "einstellungen"
     ]
   },
   {
     "name": "(root)",
     "category": "Wallet",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf (root)",
     "urlScheme": "App-prefs:root=PASSBOOK",
     "keywords": [
       "(root)",
-      "wallet"
+      "wallet",
+      "einstellungen"
     ]
   },
   {
     "name": "Add Card",
     "category": "Wallet",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Add Card",
     "urlScheme": "App-prefs:root=PASSBOOK&path=Add%20Card",
     "keywords": [
       "add card",
-      "wallet"
+      "wallet",
+      "einstellungen"
     ]
   },
   {
-    "name": "Wallpaper",
+    "name": "Hintergrundbild",
     "category": "System",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Wallpaper",
+    "iconName": "gearshape",
+    "description": "Direktzugriff auf Hintergrundbild",
     "urlScheme": "App-prefs:root=Wallpaper",
     "keywords": [
-      "wallpaper",
-      "system"
+      "hintergrundbild",
+      "system",
+      "einstellungen"
     ]
   },
   {
     "name": "Wi-Fi",
     "category": "System",
-    "iconName": "gearshape.fill",
+    "iconName": "gearshape",
     "description": "Direktzugriff auf Wi-Fi",
     "urlScheme": "App-prefs:root=WIFI",
     "keywords": [
       "wi-fi",
-      "system"
+      "system",
+      "einstellungen"
     ]
   }
 ]
