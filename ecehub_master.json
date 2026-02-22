@@ -1,181 +1,241 @@
 [
   {
     "name": "Hintergrundgeräusche",
-    "category": "Bedienungshilfen",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Hintergrundgeräusche",
+    "category": "Accessibility",
+    "iconName": "accessibility",
+    "description": "Öffnet Hintergrundgeräusche",
     "urlScheme": "App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds",
     "keywords": [
       "hintergrundgeräusche",
-      "bedienungshilfen",
+      "accessibility",
       "ios"
     ]
   },
   {
     "name": "Hörhilfen",
-    "category": "Bedienungshilfen",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Hörhilfen",
+    "category": "Accessibility",
+    "iconName": "accessibility",
+    "description": "Öffnet Hörhilfen",
     "urlScheme": "App-prefs:root=Accessibility&path=HEARING_AID_TITLE",
     "keywords": [
       "hörhilfen",
-      "bedienungshilfen",
+      "accessibility",
       "ios"
     ]
   },
   {
-    "name": "Untertitel",
-    "category": "Bedienungshilfen",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Untertitel",
-    "urlScheme": "App-prefs:root=Accessibility&path=SUBTITLES_CAPTIONING",
+    "name": "Geräuscherkennung",
+    "category": "Accessibility",
+    "iconName": "accessibility",
+    "description": "Öffnet Geräuscherkennung",
+    "urlScheme": "App-prefs:root=Accessibility&path=SOUND_RECOGNITION_TITLE",
     "keywords": [
-      "untertitel",
-      "bedienungshilfen",
+      "geräuscherkennung",
+      "accessibility",
+      "ios"
+    ]
+  },
+  {
+    "name": "Live-Untertitel",
+    "category": "Accessibility",
+    "iconName": "accessibility",
+    "description": "Öffnet Live-Untertitel",
+    "urlScheme": "App-prefs:root=Accessibility&path=LIVE_CAPTIONS_TITLE",
+    "keywords": [
+      "live-untertitel",
+      "accessibility",
       "ios"
     ]
   },
   {
     "name": "Lupe",
-    "category": "Bedienungshilfen",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Lupe",
+    "category": "Accessibility",
+    "iconName": "accessibility",
+    "description": "Öffnet Lupe",
     "urlScheme": "App-prefs:root=Magnifier",
     "keywords": [
       "lupe",
-      "bedienungshilfen",
+      "accessibility",
+      "ios"
+    ]
+  },
+  {
+    "name": "AssistiveTouch",
+    "category": "Accessibility",
+    "iconName": "accessibility",
+    "description": "Öffnet AssistiveTouch",
+    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_TITLE/ASSISTIVE_TOUCH_TITLE",
+    "keywords": [
+      "assistivetouch",
+      "accessibility",
+      "ios"
+    ]
+  },
+  {
+    "name": "Einhandmodus",
+    "category": "Accessibility",
+    "iconName": "accessibility",
+    "description": "Öffnet Einhandmodus",
+    "urlScheme": "App-prefs:root=Accessibility&path=TOUCH_TITLE/REACHABILITY",
+    "keywords": [
+      "einhandmodus",
+      "accessibility",
+      "ios"
+    ]
+  },
+  {
+    "name": "VoiceOver",
+    "category": "Accessibility",
+    "iconName": "accessibility",
+    "description": "Öffnet VoiceOver",
+    "urlScheme": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE",
+    "keywords": [
+      "voiceover",
+      "accessibility",
       "ios"
     ]
   },
   {
     "name": "Batteriezustand",
-    "category": "Batterie",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Batteriezustand",
+    "category": "Battery",
+    "iconName": "battery.100",
+    "description": "Öffnet Batteriezustand",
     "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
     "keywords": [
       "batteriezustand",
-      "batterie",
+      "battery",
       "ios"
     ]
   },
   {
     "name": "Stromsparmodus",
-    "category": "Batterie",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Stromsparmodus",
+    "category": "Battery",
+    "iconName": "battery.100",
+    "description": "Öffnet Stromsparmodus",
     "urlScheme": "App-prefs:root=BATTERY_USAGE",
     "keywords": [
       "stromsparmodus",
-      "batterie",
-      "ios"
-    ]
-  },
-  {
-    "name": "Helligkeit",
-    "category": "Anzeige",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Helligkeit",
-    "urlScheme": "App-prefs:root=DISPLAY",
-    "keywords": [
-      "helligkeit",
-      "anzeige",
-      "ios"
-    ]
-  },
-  {
-    "name": "Auto-Sperre",
-    "category": "Anzeige",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Auto-Sperre",
-    "urlScheme": "App-prefs:root=DISPLAY&path=AUTOLOCK",
-    "keywords": [
-      "auto-sperre",
-      "anzeige",
-      "ios"
-    ]
-  },
-  {
-    "name": "Textgröße",
-    "category": "Anzeige",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Textgröße",
-    "urlScheme": "App-prefs:root=DISPLAY&path=TEXT_SIZE",
-    "keywords": [
-      "textgröße",
-      "anzeige",
-      "ios"
-    ]
-  },
-  {
-    "name": "Softwareupdate",
-    "category": "System",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Softwareupdate",
-    "urlScheme": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
-    "keywords": [
-      "softwareupdate",
-      "system",
-      "ios"
-    ]
-  },
-  {
-    "name": "Speicher",
-    "category": "System",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Speicher",
-    "urlScheme": "App-prefs:root=General&path=STORAGE_MGMT",
-    "keywords": [
-      "speicher",
-      "system",
-      "ios"
-    ]
-  },
-  {
-    "name": "Info",
-    "category": "System",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Info",
-    "urlScheme": "App-prefs:root=General&path=About",
-    "keywords": [
-      "info",
-      "system",
-      "ios"
-    ]
-  },
-  {
-    "name": "VPN",
-    "category": "System",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf VPN",
-    "urlScheme": "App-prefs:root=General&path=VPN",
-    "keywords": [
-      "vpn",
-      "system",
+      "battery",
       "ios"
     ]
   },
   {
     "name": "WLAN",
-    "category": "System",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf WLAN",
+    "category": "Network",
+    "iconName": "wifi",
+    "description": "Öffnet WLAN",
     "urlScheme": "App-prefs:root=WIFI",
     "keywords": [
       "wlan",
-      "system",
+      "network",
       "ios"
     ]
   },
   {
     "name": "Bluetooth",
-    "category": "System",
-    "iconName": "gearshape.fill",
-    "description": "Direktzugriff auf Bluetooth",
+    "category": "Network",
+    "iconName": "wifi",
+    "description": "Öffnet Bluetooth",
     "urlScheme": "App-prefs:root=Bluetooth",
     "keywords": [
       "bluetooth",
-      "system",
+      "network",
+      "ios"
+    ]
+  },
+  {
+    "name": "Persönlicher Hotspot",
+    "category": "Network",
+    "iconName": "wifi",
+    "description": "Öffnet Persönlicher Hotspot",
+    "urlScheme": "App-prefs:root=INTERNET_TETHERING",
+    "keywords": [
+      "persönlicher hotspot",
+      "network",
+      "ios"
+    ]
+  },
+  {
+    "name": "VPN",
+    "category": "Network",
+    "iconName": "wifi",
+    "description": "Öffnet VPN",
+    "urlScheme": "App-prefs:root=General&path=VPN",
+    "keywords": [
+      "vpn",
+      "network",
+      "ios"
+    ]
+  },
+  {
+    "name": "Softwareupdate",
+    "category": "General",
+    "iconName": "gearshape.fill",
+    "description": "Öffnet Softwareupdate",
+    "urlScheme": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "keywords": [
+      "softwareupdate",
+      "general",
+      "ios"
+    ]
+  },
+  {
+    "name": "iPhone-Speicher",
+    "category": "General",
+    "iconName": "gearshape.fill",
+    "description": "Öffnet iPhone-Speicher",
+    "urlScheme": "App-prefs:root=General&path=STORAGE_MGMT",
+    "keywords": [
+      "iphone-speicher",
+      "general",
+      "ios"
+    ]
+  },
+  {
+    "name": "FaceID & Code",
+    "category": "Privacy",
+    "iconName": "hand.raised.fill",
+    "description": "Öffnet FaceID & Code",
+    "urlScheme": "App-prefs:root=TOUCHID_PASSCODE",
+    "keywords": [
+      "faceid & code",
+      "privacy",
+      "ios"
+    ]
+  },
+  {
+    "name": "Ortungsdienste",
+    "category": "Privacy",
+    "iconName": "hand.raised.fill",
+    "description": "Öffnet Ortungsdienste",
+    "urlScheme": "App-prefs:root=Privacy&path=LOCATION",
+    "keywords": [
+      "ortungsdienste",
+      "privacy",
+      "ios"
+    ]
+  },
+  {
+    "name": "Anzeige & Helligkeit",
+    "category": "Display",
+    "iconName": "sun.max.fill",
+    "description": "Öffnet Anzeige & Helligkeit",
+    "urlScheme": "App-prefs:root=DISPLAY",
+    "keywords": [
+      "anzeige & helligkeit",
+      "display",
+      "ios"
+    ]
+  },
+  {
+    "name": "Auto-Sperre",
+    "category": "Display",
+    "iconName": "sun.max.fill",
+    "description": "Öffnet Auto-Sperre",
+    "urlScheme": "App-prefs:root=DISPLAY&path=AUTOLOCK",
+    "keywords": [
+      "auto-sperre",
+      "display",
       "ios"
     ]
   }
