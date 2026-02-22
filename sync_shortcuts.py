@@ -1,55 +1,46 @@
 import json
-
-# DIE MASTER-DATENBANK (Direkt eingebettet, um GitHub-Sperren zu umgehen)
-# Enthält ~140 verifizierte Pfade für iOS 18+
-FIFI_DATA_CLEANED = [
-    {"n": "Hintergrundgeräusche", "u": "App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds", "c": "Accessibility"},
-    {"n": "Hörhilfen", "u": "App-prefs:root=Accessibility&path=HEARING_AID_TITLE", "c": "Accessibility"},
-    {"n": "Geräuscherkennung", "u": "App-prefs:root=Accessibility&path=SOUND_RECOGNITION_TITLE", "c": "Accessibility"},
-    {"n": "Live-Untertitel", "u": "App-prefs:root=Accessibility&path=LIVE_CAPTIONS_TITLE", "c": "Accessibility"},
-    {"n": "Lupe", "u": "App-prefs:root=Magnifier", "c": "Accessibility"},
-    {"n": "AssistiveTouch", "u": "App-prefs:root=Accessibility&path=TOUCH_TITLE/ASSISTIVE_TOUCH_TITLE", "c": "Accessibility"},
-    {"n": "Einhandmodus", "u": "App-prefs:root=Accessibility&path=TOUCH_TITLE/REACHABILITY", "c": "Accessibility"},
-    {"n": "VoiceOver", "u": "App-prefs:root=Accessibility&path=VOICEOVER_TITLE", "c": "Accessibility"},
-    {"n": "Batteriezustand", "u": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH", "c": "Battery"},
-    {"n": "Stromsparmodus", "u": "App-prefs:root=BATTERY_USAGE", "c": "Battery"},
-    {"n": "WLAN", "u": "App-prefs:root=WIFI", "c": "Network"},
-    {"n": "Bluetooth", "u": "App-prefs:root=Bluetooth", "c": "Network"},
-    {"n": "Persönlicher Hotspot", "u": "App-prefs:root=INTERNET_TETHERING", "c": "Network"},
-    {"n": "VPN", "u": "App-prefs:root=General&path=VPN", "c": "Network"},
-    {"n": "Softwareupdate", "u": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK", "c": "General"},
-    {"n": "iPhone-Speicher", "u": "App-prefs:root=General&path=STORAGE_MGMT", "c": "General"},
-    {"n": "FaceID & Code", "u": "App-prefs:root=TOUCHID_PASSCODE", "c": "Privacy"},
-    {"n": "Ortungsdienste", "u": "App-prefs:root=Privacy&path=LOCATION", "c": "Privacy"},
-    {"n": "Anzeige & Helligkeit", "u": "App-prefs:root=DISPLAY", "c": "Display"},
-    {"n": "Auto-Sperre", "u": "App-prefs:root=DISPLAY&path=AUTOLOCK", "c": "Display"}
-    # ... (Der Bot wird diese Liste als Basis nutzen und erweitern)
-]
+import os
+import sys
 
 def transform():
-    transformed = []
+    # Pfad zur Datei im "ausgeliehenen" Ordner
+    path = "fifi_repo/settings-urls-sorted.json"
     
-    # SF Symbols Mapping
-    icons = {
-        "Accessibility": "accessibility", "Battery": "battery.100", 
-        "Network": "wifi", "General": "gearshape.fill", 
-        "Privacy": "hand.raised.fill", "Display": "sun.max.fill"
-    }
+    if not os.path.exists(path):
+        print(f"Fehler: Datei {path} nicht gefunden!")
+        sys.exit(1)
 
-    # Wir nutzen hier die stabilen Daten
-    for item in FIFI_DATA_CLEANED:
-        transformed.append({
-            "name": item["n"],
-            "category": item["c"],
-            "iconName": icons.get(item["c"], "gearshape"),
-            "description": f"Öffnet {item['n']}",
-            "urlScheme": item["u"],
-            "keywords": [item["n"].lower(), item["c"].lower(), "ios"]
-        })
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            raw_data = json.load(f)
+        print("Fifi-Daten erfolgreich von lokal geladen.")
+    except Exception as e:
+        print(f"Fehler beim Lesen: {e}")
+        sys.exit(1)
+
+    transformed = []
+
+    def walk(data, category="System"):
+        if isinstance(data, dict):
+            for key, value in data.items():
+                if isinstance(value, str) and "prefs:" in value:
+                    transformed.append({
+                        "name": key,
+                        "category": category,
+                        "iconName": "gearshape.fill",
+                        "description": f"Direktzugriff auf {key}",
+                        "urlScheme": value.replace("prefs:", "App-prefs:"),
+                        "keywords": [key.lower(), category.lower()]
+                    })
+                else:
+                    walk(value, category=key)
+
+    walk(raw_data)
 
     with open('ecehub_master.json', 'w', encoding='utf-8') as f:
         json.dump(transformed, f, indent=2, ensure_ascii=False)
-    print(f"ERFOLG: {len(transformed)} Shortcuts lokal generiert.")
+    
+    print(f"ERFOLG: {len(transformed)} Shortcuts extrahiert.")
 
 if __name__ == "__main__":
     transform()
