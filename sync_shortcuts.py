@@ -9,7 +9,7 @@ def transform():
     # 1. MANUELLE ÜBERSETZUNG & IOS 18 PFAD-FIXES
     # Wir definieren hier die "Helden-Shortcuts", die JEDER braucht
     priority_items = [
-        {"n": "Hintergrundgeräusche", "u": "App-prefs:root=ACCESSIBILITY&path=AudioVisual/BackgroundSounds", "c": "Audio"},
+        {"n": "Hintergrundgeräusche", "u": "App-prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/BackgroundSounds", "c": "Audio"},
         {"n": "Batteriezustand", "u": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH", "c": "Energie"},
         {"n": "Softwareupdate", "u": "App-prefs:root=General&path=SOFTWARE_UPDATE_LINK", "c": "System"},
         {"n": "WLAN", "u": "App-prefs:root=WIFI", "c": "Netzwerk"},
