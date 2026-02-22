@@ -1204,7 +1204,7 @@
     "category": "Batterie",
     "iconName": "gearshape.fill",
     "description": "Öffnet Battery Health",
-    "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
+    "urlScheme": "App-prefs:root=Battery&path=BATTERY_HEALTH",
     "keywords": [
       "battery health"
     ]
