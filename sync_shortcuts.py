@@ -5,66 +5,51 @@ import sys
 def transform():
     path = "fifi_repo/settings-urls-sorted.json"
     
-    # 1. VERIFIZIERTE IOS 18 PFADE (Harte Korrekturen)
-    # Diese Strings sind der "Master-Key", um direkt ins Menü zu springen
+    # 1. HARTE IOS 18 FIXES
     ios18_fixes = {
         "Background Sounds": "ACCESSIBILITY&path=AudioVisual/BackgroundSounds",
-        "Audio/Visual": "ACCESSIBILITY&path=AudioVisual",
         "Keyboards": "General&path=Keyboard",
         "Battery Health": "BATTERY_USAGE&path=BATTERY_HEALTH",
-        "VoiceOver": "ACCESSIBILITY&path=VOICEOVER_TITLE",
-        "Touch": "ACCESSIBILITY&path=TOUCH_TITLE",
-        "Face ID & Passcode": "TOUCHID_PASSCODE",
-        "Guided Access": "ACCESSIBILITY&path=GUIDED_ACCESS_TITLE",
+        "Software Update": "General&path=SOFTWARE_UPDATE_LINK",
         "Siri": "SIRI"
     }
 
-    # 2. ÜBERSETZUNGEN
-    translations = {
-        "Accessibility": "Bedienungshilfen",
-        "Battery": "Batterie",
-        "Display & Brightness": "Anzeige & Helligkeit",
-        "General": "Allgemein",
-        "Privacy": "Datenschutz & Sicherheit",
-        "Background Sounds": "Hintergrundgeräusche",
-        "Audio/Visual": "Audio & Visuell",
-        "Guided Access": "Geführter Zugriff"
-    }
-
     if not os.path.exists(path): sys.exit(1)
-
     with open(path, 'r', encoding='utf-8') as f:
         raw_data = json.load(f)
 
     transformed = []
+    seen_urls = set() # Zum Entfernen von Dubletten
 
     def walk(data, category="System"):
         if isinstance(data, dict):
             for key, value in data.items():
-                current_cat = translations.get(category, category)
                 if isinstance(value, str) and "prefs:" in value:
-                    display_name = f"{current_cat} Übersicht" if key == "(root)" else translations.get(key, key)
+                    # 1. URL bereinigen (Sonderzeichen am Ende weg)
+                    clean_url = value.split('?')[0].replace("prefs:", "App-prefs:").strip()
                     
-                    # IOS 18 PFAD-KORREKTUR
+                    # 2. Dubletten-Check
+                    if clean_url in seen_urls: continue
+                    seen_urls.add(clean_url)
+                    
+                    # 3. Pfad-Korrektur
                     if key in ios18_fixes:
                         clean_url = f"App-prefs:root={ios18_fixes[key]}"
-                    else:
-                        # Standard: Kleinschreibung forcieren, da iOS 18 das lieber mag
-                        clean_url = value.replace("prefs:", "App-prefs:")
                     
+                    name = key if key != "(root)" else category
                     transformed.append({
-                        "name": display_name,
-                        "category": current_cat,
+                        "name": name,
+                        "category": category,
                         "iconName": "gearshape.fill",
-                        "description": f"Öffnet {display_name}",
+                        "description": f"Öffnet {name}",
                         "urlScheme": clean_url,
-                        "keywords": [display_name.lower(), current_cat.lower()]
+                        "keywords": [name.lower()]
                     })
-                else: walk(value, category=key)
+                else: walk(value, key)
 
     walk(raw_data)
     with open('ecehub_master.json', 'w', encoding='utf-8') as f:
         json.dump(transformed, f, indent=2, ensure_ascii=False)
-    print(f"ERFOLG: {len(transformed)} Shortcuts mit iOS 18 Fixes gespeichert.")
+    print(f"ERFOLG: {len(transformed)} saubere Shortcuts gespeichert.")
 
 if __name__ == "__main__": transform()
