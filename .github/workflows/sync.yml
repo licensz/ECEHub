@@ -2,7 +2,7 @@ name: Auto-Sync iOS Database
 on:
   schedule:
     - cron: '0 0 * * 0' # Jeden Sonntag um Mitternacht
-  workflow_dispatch: # Manueller Start möglich
+  workflow_dispatch: # Das aktiviert den "Run workflow" Button!
 
 jobs:
   build:
