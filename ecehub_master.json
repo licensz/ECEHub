@@ -1,18 +1,46 @@
 [
   {
     "name": "Hintergrundgeräusche",
-    "category": "Audio",
-    "iconName": "ear.and.waveform",
-    "description": "Regen oder Rauschen zur Konzentration",
-    "urlScheme": "App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds",
-    "keywords": ["Lärm", "Fokus", "Schlafen"]
+    "category": "Allgemein",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Hintergrundgeräusche",
+    "urlScheme": "App-App-prefs:root=Accessibility&path=AUDIO_VISUAL_TITLE/BackgroundSounds",
+    "keywords": [
+      "hintergrundgeräusche",
+      "allgemein"
+    ]
   },
   {
     "name": "Batteriezustand",
-    "category": "System",
-    "iconName": "battery.100",
-    "description": "Akku-Kapazität prüfen",
-    "urlScheme": "App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
-    "keywords": ["Akku", "Strom", "Laden"]
+    "category": "Allgemein",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Batteriezustand",
+    "urlScheme": "App-App-prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH",
+    "keywords": [
+      "batteriezustand",
+      "allgemein"
+    ]
+  },
+  {
+    "name": "WLAN",
+    "category": "Allgemein",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf WLAN",
+    "urlScheme": "App-App-prefs:root=WIFI",
+    "keywords": [
+      "wlan",
+      "allgemein"
+    ]
+  },
+  {
+    "name": "Softwareupdate",
+    "category": "Allgemein",
+    "iconName": "gearshape.fill",
+    "description": "Direktzugriff auf Softwareupdate",
+    "urlScheme": "App-App-prefs:root=General&path=SOFTWARE_UPDATE_LINK",
+    "keywords": [
+      "softwareupdate",
+      "allgemein"
+    ]
   }
 ]
